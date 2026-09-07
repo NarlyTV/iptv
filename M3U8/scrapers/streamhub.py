@@ -61,7 +61,7 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     if not (
         html_data := await network.request(
             BASE_URL,
-            params={"date": f"{now:%Y-%m-%d}"},
+            params={"date": now.date()},
             log=log,
         )
     ):
