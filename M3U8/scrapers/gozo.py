@@ -87,9 +87,9 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     ):
         return nones
 
-    dd_ptrn = re.compile(r'_dd\s?=\s?"(.*)";', re.I)
-    dk_ptrn = re.compile(r"_dk\s?=\s?(\d*);", re.I)
-    dri_ptrn = re.compile(r"_dri\s?=\s?(.*);", re.I)
+    dd_ptrn = re.compile(r'_dd\s?=\s?"(.*)"(;|,)', re.I)
+    dk_ptrn = re.compile(r"_dk\s?=\s?(\d*)(;|,)", re.I)
+    dri_ptrn = re.compile(r"_dri\s?=\s?(\[.*\]);fu", re.I)
 
     if not (
         (dd_mtch := dd_ptrn.search(iframe_src_data.text))
