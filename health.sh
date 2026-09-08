@@ -138,8 +138,8 @@ write_readme() {
     local combined="https://s.id/d9M3U8"
     local kodi="https://s.id/d9Kod"
     local epg="https://s.id/d9sEPG"
+
     local commits="https://github.com/doms9/iptv/commits/default"
-    local license="https://github.com/doms9/iptv/blob/default/LICENSE"
 
     local datefmt="%Y-%m-%d %H:%M %Z"
     local TZ IFS url channel error failed passed
@@ -153,7 +153,7 @@ write_readme() {
 
         printf "[![update freq.](%s)](%s)\n" "https://img.shields.io/badge/updates-hourly-ac99e0" "$base"
         printf "[![commits](%s)](%s)\n" "https://img.shields.io/github/commit-activity/w/doms9/iptv" "$commits"
-        printf "[![license](%s)](%s)\n" "https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c" "$license"
+        printf "[![license](%s)](LICENSE)\n" "https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c"
         printf "![python](%s)\n" "https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff"
 
         TZ="UTC" printf "\n## [Base](M3U8/base.m3u8) Log @ %($datefmt)T\n" -1
