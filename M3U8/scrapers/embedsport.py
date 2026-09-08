@@ -114,7 +114,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[EMBDEvent]:
 
         HTML_FILE.write(events)
 
-    start_ts = now.delta(hours=-3).timestamp()
+    start_ts = now.delta(minutes=-30).timestamp()
     end_ts = now.delta(minutes=30).timestamp()
 
     return [
@@ -141,6 +141,8 @@ async def scrape() -> None:
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
+        now = Time.rn()
+
         for i, ev in enumerate(events, start=1):
             handler = partial(
                 process_event,
@@ -163,7 +165,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": BASE_URL,
-                "timestamp": ev.event_ts,
+                "timestamp": now.timestamp(),
                 "tvg-id": tvg_id or "Live.Event.us",
             }
 
