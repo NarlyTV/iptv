@@ -6,127 +6,134 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-13 08:15 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-13 14:15 UTC
 
-<h3>✅ Working Streams: 154<br>❌ Dead Streams: 116</h3>
+<h3>✅ Working Streams: 147<br>❌ Dead Streams: 123</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/73c17d1e8d6691abf40a22614aa50353/1789295419/premium766/index.m3u8'>ABC</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/50b7b8a156c333789db59d5860f3e71c/1789295430/premium923/index.m3u8'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3ODkyOTkwMTAxMjQ6Y2RubGl2ZXR2LnR2OjI1ZDMyMGFjMTAyMmY2ODYuODQ4YTcwYzk2NDVhMjc4YWMwZWUyYWI3ZGFjNWMyZDNiYzE0NzE5NTE5YjU3YzViODIzMDNkMzhkZDAxZTFmMA'>Altitude Sports (Alt)</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/c0044450077aee9a900144057d920a86/1789295423/premium116/index.m3u8'>beIN Sports 1 France</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/4dbe45a5faab8b722fbfa8b8e30cd0ab/1789295422/premium372/index.m3u8'>beIN Sports en Español</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce5d6/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNWQ2OjE3ODkyOTkwMzgwNzk6Y2RubGl2ZXR2LnR2OjU2OTFmMGY4ZGRhYTg3MTcuMTg2YTk0ODRmYjIyZDc2ZWY5YjRkZGJlZWM0MWE3ODUyZGIxYzg4YjgxYTQ3MTdlMDE5MGIwYTI5ZjIwNDIxNA'>beIN Sports en Español (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/d29aff0a7291bb56bfbd21c373faed3a/1789295412/premium425/index.m3u8'>beIN Sports USA</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3ODkyOTkwMzYwMzI6Y2RubGl2ZXR2LnR2OmU1ZDY1MzUwM2U1ZWZmYjEuZTM2NzgwYzU4YzFlZWE0MGFmODVkMWI0YjVhNDQyMDhiMjQ1NmZkZTE1NjA5ZjViNjM2NDJjYmIwZGQ5NDAyOQ'>beIN Sports USA (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/e57aa4fd9b69754f5541ee47fbed26bb/1789295426/premium306/index.m3u8'>BET</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/7e7d58ef39aa48526d8ed5ba1c01ba61/1789295417/premium767/index.m3u8'>CBS</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/d34638877f99d1f4d05c39d2365f92ac/1789295424/premium308/index.m3u8'>CBS Sports Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/3eb14cae08983d645766f140c2e4d88f/1789295419/premium776/index.m3u8'>Chicago Sports Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/2cff351f8f6c1dd8857f12ce83655f3d/1789295412/premium310/index.m3u8'>Comedy Central</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/064e08021588b753486e1eaee218e096/1789295416/premium748/index.m3u8'>Cozi TV</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/c7041463ab506726df2763fd4e008170/1789295424/premium280/index.m3u8'>CW (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/731d25ea75a46bbffdcd60bca92742f4/1789295438/premium426/index.m3u8'>DAZN 1 Germany</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EwOjE3ODkyOTkwMTg4Mjk6Y2RubGl2ZXR2LnR2OmE4NzY1OGVjNjFjOWIzM2EuNzhhYTExN2I0MjdkOGRhOGE5N2NjODY3MzFlOWZlZjRiMGM2ZmEwZmI4MTI5MzU0NjgwYjQ3OGYyOGNmMjg0Zg'>DAZN 1 Germany (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/e381c6023d41140123bd903d921185da/1789295417/premium427/index.m3u8'>DAZN 2 Germany</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/491f092b9ee800107086015017412770/1789295412/premium313/index.m3u8'>Discovery Channel</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/ab8982893aabb5b6ea157a28d50307ac/1789295420/premium657/index.m3u8'>Discovery Family Channel</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/15b75f3165e38bcc63f1f0fd03c561fd/1789295432/premium311/index.m3u8'>Discovery Life</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/fc07417fd10eaa99c9d758b2e40fd558/1789295438/premium45/index.m3u8'>ESPN2</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/b0f42ce4042ae702266694dcc1f4879c/1789295419/premium751/index.m3u8'>FETV</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/99a2ec3541795270ebb4bb8753ba5d92/1789295419/premium768/index.m3u8'>Fox</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/f74df30356ce7e14de08291cbe8eb876/1789295432/premium297/index.m3u8'>Fox Business</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/f09a261f6cc1664e963db7c127203693/1789295427/premium756/index.m3u8'>Fox Soccer Plus</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/dd32d10eec81e99a9d31eb0be00724bd/1789295438/premium317/index.m3u8'>FX</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/ff6c9c5c68e8193452b13430fb2ae1f7/1789295409/premium298/index.m3u8'>FXX</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/0972e55a95290853ace5d938e74bf0e7/1789295422/premium381/index.m3u8'>FX Movie Channel</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/9d9ab2ba0cc3152ea33514d9e4832315/1789295418/premium665/index.m3u8'>FYI TV</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/f8864ebdca1f1e19e3690c7092963b3f/1789295437/premium752/index.m3u8'>Grit TV</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/7c743df418dbaf7268e7b8c446291a4c/1789295419/premium320/index.m3u8'>Hallmark Channel</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/97a165e06891ab8ae52c4e569a7fbddf/1789295417/premium296/index.m3u8'>Hallmark Mystery</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/3e220acebcb5182cdfff74c7ceeada95/1789295429/premium321/index.m3u8'>HBO</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/58c10c9b4f5c72fba37bbd0f6cb4f3a4/1789295428/premium690/index.m3u8'>HBO Comedy</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/89b073275b7142bdb2bd4089b9326502/1789295424/premium324/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/b0af184fb27d52eca48a0b974ad601a1/1789295428/premium350/index.m3u8'>ITV1</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/810cb854d02c72d34a1454ab508ab741/1789295416/premium389/index.m3u8'>Lifetime Movie Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/e20de16c80759081bd261ffcf3436478/1789295436/premium770/index.m3u8'>Marquee Sports Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3ODkyOTkwMTQ1MzQ6Y2RubGl2ZXR2LnR2OjEyYTk4ZGMwZjhmZjc5NjEuMTgyYTY3OGU3MTgwYzNmZTFmNGI4ZjRmNTU0ZjYwNzBiYzMzZmRjZTliMWE2M2ZjNjkyYjc2NGEwM2E4YmU2Nw'>Marquee Sports Network (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/e9050599eddbbc6fd55e6f0d1d2f1332/1789295432/premium662/index.m3u8'>MeTV</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/8faa2f5e7e468dbd9d50e00d3e72e7d1/1789295420/premium791/index.m3u8'>MGM+</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/0fd2c1e75b917f740e506002233e8403/1789295436/premium399/index.m3u8'>MLB Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/76b71e651da67468de4e259fa13830a2/1789295419/premium769/index.m3u8'>NBC</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/aacd3409605c0d5e55381d5e6e58ca34/1789295416/premium753/index.m3u8'>NBC Sports Bay Area</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/c1a55a82016a5f1e8b15283cb0fdb554/1789295429/premium754/index.m3u8'>NBC Sports Boston</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/3937a7c81c06d3e3391645303d1d8ffb/1789295424/premium755/index.m3u8'>NBC Sports California</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/fe3c49e692186064d2a3c4d8b657c371/1789295437/premium777/index.m3u8'>NBC Sports Philadelphia</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/a5e701c7d7d66139b3129357da7c37dd/1789295435/premium762/index.m3u8'>NESN</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3ODkyOTkwMTMzMDI6Y2RubGl2ZXR2LnR2OjM4NGU5NDFlYTY0MDFkYWQuZWYyYTIzOTRhM2E5ODY4YzViOTVmZTFkZTJkZjAzYzk2ZjE2MjM0NzA5Njk1MGMzMDEyMzkwMThmNWY1NGM0Yg'>NESN (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/d00fbc58bf36091b9ac6ab1a4b46940f/1789295414/premium292/index.m3u8'>NewsNation</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/ab311f4654e5cba5c02fa8d09f5212de/1789295427/premium405/index.m3u8'>NFL Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/ea97c2fdacf1e4dbfe336b8aab55fb84/1789295435/premium663/index.m3u8'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/9958a1f8747ec3294eeb4984773b924d/1789295430/premium330/index.m3u8'>Nickelodeon</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/8b0e9c98f1359555895ecfc1c347c744/1789295412/premium332/index.m3u8'>Oxygen True Crime</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/b8804aaf013f34fe6b7a5fa0d6dad150/1789295418/premium653/index.m3u8'>Pop TV</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/0a8f9a2c83ac4382713e1359dbfbd78c/1789295421/premium771/index.m3u8'>Premier Sports 1</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/8115540a24c50cca5331ff94eb2e0ef5/1789295416/premium799/index.m3u8'>Premier Sports 2</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3ODkyOTkwMTM5MjY6Y2RubGl2ZXR2LnR2OjFkNGU5YjRjMzZjNzM5OTkuMDQ2Zjg4NTNiMzg5ZWJhMjFlNjg2MzBiMDJjYTlmMzBjNzQzNzNlNDJlYzgwODkyMWQ0ZWM2MTY3MzY3NTBjMA'>Premier Sports 2 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/b9fb3ca82a0db4218c9474eeda1f2469/1789295415/premium294/index.m3u8'>Science Channel</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/e77811cfb0f35b5bec0c590d9d2976f9/1789295423/premium333/index.m3u8'>Showtime</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/df68437020f08cd4edac75e0f15ed0fb/1789295421/premium792/index.m3u8'>Showtime 2</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/67503d488fa2291fa3c72e16870f3f48/1789295421/premium37/index.m3u8'>Sky Sports Action</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/e3a3dfb8db8e81822a133aec6fd24df9/1789295437/premium65/index.m3u8'>Sky Sports Cricket</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3ODkyOTkwMjg1NjI6Y2RubGl2ZXR2LnR2OjBiN2VhODI0M2RhNmM3NTguZGRmNWVmMmJiNGU2OTRjOTU4NGM1OWI0NDI2YzMyOTM3ZTRlMmM5MDU3ZDdlNWY1YjdiYzhkZGVmYzhmMmU1OQ'>Sky Sports Cricket (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/2b2ca01523b41e5eab6d89191c377f91/1789295435/premium60/index.m3u8'>Sky Sports F1</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/0f943f09877c316a773b3ee29dc9bcd6/1789295424/premium35/index.m3u8'>Sky Sports Football</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/3e741493f29adb1e643b7afc3104f607/1789295410/premium70/index.m3u8'>Sky Sports Golf</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/2642b7688658b8fa9e7f524b234d9841/1789295438/premium38/index.m3u8'>Sky Sports Main Event</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/7fdc1642cfa92b5c20e49203c24efc3a/1789295420/premium449/index.m3u8'>Sky Sports Mix</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/6ee3a84e280b2500228958f342a08585/1789295431/premium366/index.m3u8'>Sky Sports News</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/35438b83c3be5116e28b998d20d20ceb/1789295420/premium671/index.m3u8'>Sky Sports Premier League</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/c2efe5c97deb8e2893210e9dace1e9da/1789295425/premium554/index.m3u8'>Sky Sports Racing</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3ODkyOTkwMjI2MjI6Y2RubGl2ZXR2LnR2OjZmNmU4ZjExYWI1ZGJhNjguYjA1OTcyZTViOWEzZTlkMDJmM2I4ZGRiYmY5YzU3M2E2YTFjZTVlODQ0NjU2NzY2MDAzYTBlMWVmZmMwZWMxYQ'>Sky Sports Racing (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/eb745872bb44d0ed11e85bbe3303b820/1789295431/premium46/index.m3u8'>Sky Sports Tennis</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/dad3ed8fa744a715ab6ec9be4e2b316f/1789295430/premium603/index.m3u8'>Smithsonian Channel</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/c06493b16955a6da4c28e5326f37636b/1789295429/premium921/index.m3u8'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/7e27466f4839410145f6a849ce75e4b5/1789295420/premium982/index.m3u8'>Spectrum SportsNet Lakers</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/55354ea95303e101f449954f374ac1d3/1789295427/premium764/index.m3u8'>Spectrum SportsNet LA Dodgers</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/c24353958e99fa31528d97b03be501a2/1789295409/premium409/index.m3u8'>Sportsnet 360</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3ODkyOTkwMzcxNTc6Y2RubGl2ZXR2LnR2OjBhNTkxZDI5ZmY1Y2UwZmUuMjU3NmU3ZWEyMzhlMzBhMDQzMjk5NTg2NzExZDYyY2QyMjI1ZTE2MzhjM2Y1NTMzNzY3MDkwNGFjZTA4OThiNQ'>Sportsnet 360 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/a56199b4bcac93f7a236b50d7f8bcfe2/1789295411/premium408/index.m3u8'>Sportsnet East</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/2103d2aee79b2d7d42913e7a16272c65/1789295430/premium759/index.m3u8'>SportsNet New York</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJlOjE3ODkyOTkwMTA3Mzg6Y2RubGl2ZXR2LnR2OmNlMmU4MzY0NjUxMzY0Y2EuZWM0ZDU0MTFmZDI4YTJmMWQ0NjYwMGJmZjI4MjJmNGEyMWFiOTE3YWU4NmQ3YmViZDlhNWU4NjUzOWViZGMxNA'>SportsNet New York (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/ee93d39a0050f25f1dfc5f43b0a2fa6c/1789295422/premium411/index.m3u8'>Sportsnet One</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/f8400d09dcdfc8ed08f2731a59f5a0a1/1789295421/premium922/index.m3u8'>SportsNet Pittsburgh</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/e3487938803af784b86e3c9e9a6b23bf/1789295437/premium335/index.m3u8'>Starz</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/0dd7f2359a50541f7e743cad1677ea15/1789295410/premium972/index.m3u8'>Starz Edge</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/9c72a25c227ed3061da0c3be9610df3e/1789295437/premium975/index.m3u8'>Starz Encore</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/9154fdd7d60a65634e78ba9d6629dde2/1789295422/premium976/index.m3u8'>Starz Encore Action</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/4768e19e22300b1bc1a0e47a74facc09/1789295414/premium977/index.m3u8'>Starz Encore Black</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/dc92c86bcae63895573f7d134f2c709b/1789295426/premium978/index.m3u8'>Starz Encore Classic</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/5beb8bbbdc098b7e4a0968b4789b5223/1789295416/premium979/index.m3u8'>Starz Encore Family</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/da17f6d231f1a061adc45c677f5d790b/1789295435/premium980/index.m3u8'>Starz Encore Suspense</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/f34222e3790cc40067e9d4ca532aa09f/1789295433/premium981/index.m3u8'>Starz Encore Westerns</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/a36cc97f3205e488907a852fec7334dd/1789295434/premium973/index.m3u8'>Starz In Black</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/f76c523b278d429f41cf2248df3222b4/1789295427/premium658/index.m3u8'>Sundance</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='http://186.33.0.57:8000/play/a020/index.m3u8'>Telemundo</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/two/secure/83088ee27f547e0dc70f36b2762bf0b7/1789295433/premium337/index.m3u8'>TLC</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/1c53a06219d28f77862cbeaaac6ecdd0/1789295433/premium31/index.m3u8'>TNT Sports 1</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc344/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ0OjE3ODkyOTkwMTEzNjA6Y2RubGl2ZXR2LnR2OmEzMjlhMjk0YmMxYjU3OWEuZGVlYjFmODI4NGIxNDI0ZjA3ZjEyNzQzNDViMjQ1MTY4YjZhOTY5ZWM1N2I4M2IxNjZlMWUyYTQ3MTBiMjg1MQ'>TNT Sports 1 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/76732be4dc50081481a29f4683ebf1b0/1789295431/premium32/index.m3u8'>TNT Sports 2</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/5a408e3645a9a5562f532aa31512e3d8/1789295411/premium33/index.m3u8'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/7daa6e8f79aece7ba34ec1a42a6623eb/1789295424/premium34/index.m3u8'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3ODkyOTkwMTExNTI6Y2RubGl2ZXR2LnR2OmI2MTBhNDY3OGY5ZmZhZmEuNDk3ZTdiNTYyN2Q2Zjk5MzExMWQ0Y2I5ZmVjYjgxMDUwODYyNTFhODI1M2RiMzVkNGIzYzU0OWE0ZTAyMjAwOQ'>TNT Sports 4 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/29554acd16d7ae0b5527c51333d833bb/1789295436/premium111/index.m3u8'>TSN 1</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/ebd7491f49331e0358a2ad7936266572/1789295425/premium112/index.m3u8'>TSN 2</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/98ddb306fe2011e5db717c70ae5ef280/1789295414/premium113/index.m3u8'>TSN 3</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc175/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc1OjE3ODkyOTkwMTc2NDg6Y2RubGl2ZXR2LnR2OmE3Mjk1ZjE2Mjc2ZGFmYTkuOGE0NDcwNTc3NTE4MWZlMDhjZWJhMzZlMmJjZGI1NzM4ZDQ4OGI4ODI1MGNhNGMwNGQxNDVmZjQ0MzVmMWRiZg'>TSN 3 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/af9c62c21b83f15acef97e09ee1d663e/1789295432/premium114/index.m3u8'>TSN 4</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc170/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcwOjE3ODkyOTkwMzQ1MTA6Y2RubGl2ZXR2LnR2OmI0NDI1YWI2NDczYTAwMGEuNmY5MmY3OGM5YzAwZGIxNDkyNzBkYTViYzM3MzFiODJmNGJhMGY4ZWIzZTBjMTk5NzVlODhmZWI3ZjlhZmZkYw'>TSN 4 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/three/secure/2b97f4ab04374658ac2046fb3420a591/1789295428/premium115/index.m3u8'>TSN 5</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc16d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTZkOjE3ODkyOTkwMjY3MjY6Y2RubGl2ZXR2LnR2OjM5NWYyZmFjZjMyMDdkNmEuM2I5OGE1MzVhY2QyYWM4NDBmYmJmMjMyZjkyMWYyODVmMmFjNTVmZjYwYzVkZDM1MTY0ZGJmZTU5ZjZkOThjZA'>TSN 5 (Alt)</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/five/secure/121f8af3c2d3daa5794df089737f486c/1789295412/premium342/index.m3u8'>TV Land</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/four/secure/bcab64ecfc9eb132df1df670218a88f5/1789295413/premium660/index.m3u8'>TV One</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://xameleon.phantemlis.top/one/secure/55e85d8e246e6a0489a588c96013a4fd/1789295431/premium343/index.m3u8'>USA Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/34bf123b5366c63407d6f6212213608e/1789313410/premium766/index.m3u8'>ABC</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/70e49ad0f1f9668e610266b9854601b8/1789313431/premium923/index.m3u8'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3ODkzMTcwMTUxNjY6Y2RubGl2ZXR2LnR2OjY3MGNmMTBlMzE1MTk1NDQuMGM2YTEwZTE0NGViYzllOTZhOGVkYzY0NTIwNTgwYTcyZDFkMzAwYTBlZjQzNDVlM2Y5ODg3YmRiMDUyMzkyYw'>Altitude Sports (Alt)</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/e52ff597084173bc83aa0b0a51487046/1789313417/premium116/index.m3u8'>beIN Sports 1 France</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/60715fd0713c05489b26c0b2d467541d/1789313413/premium372/index.m3u8'>beIN Sports en Español</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce5d6/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNWQ2OjE3ODkzMTcwMjU2MDA6Y2RubGl2ZXR2LnR2OjNkMGUxZWJjNmZiMGY0NTcuNmE2ZTI5NmY2Yjc5NDc2Mjk5ZWEwMDcwMzFjMTgzNmQzZjdkZjdjZjMyZjkzZDhiMWU0MTQ3YTlkYjJiMDljMQ'>beIN Sports en Español (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/2e3704e9ccc4f30b45d57c233e185c77/1789313436/premium425/index.m3u8'>beIN Sports USA</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3ODkzMTcwMzIxNTA6Y2RubGl2ZXR2LnR2OjMzZTIyMjE4MTExYjNhMjEuZTc5ZDlhODg0NWZlZTUyODAwYjMzZmViNzBlMjc5ZDlkMTA3YTFjZGJiNGY5MjdiMDY3MTFlYjQ1ZTE4ZDY0ZA'>beIN Sports USA (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/56e9c806a1b1486c8894dbb4b652543b/1789313410/premium306/index.m3u8'>BET</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/f4822c5216a16b89242f5fd4a0b64b2f/1789313409/premium767/index.m3u8'>CBS</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/3741594b09f22de0433614a7a65c9c9b/1789313428/premium308/index.m3u8'>CBS Sports Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/c2abab1a1d1b9795a8023448e24ea27e/1789313417/premium776/index.m3u8'>Chicago Sports Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb311/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzExOjE3ODkzMTcwMTQzNTc6Y2RubGl2ZXR2LnR2OmE5NTA2ODU1YTBjMTU2YzIuYmI1ZDc3OWE2NWU3N2Q5ZmRkYTVkZmRlM2JkN2NhOGY4YjBiZmIzMTI3NGI1ZDU0N2UyYzJhZGZjZDI4ZTBmNA'>Chicago Sports Network (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/562b4cc9f0cf7584ffac26f57e5cde5e/1789313424/premium310/index.m3u8'>Comedy Central</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/a6783e0953cb96108890b03925d6b09f/1789313423/premium748/index.m3u8'>Cozi TV</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/cd72867c9a9ed5535e0580c5ec9c40ef/1789313427/premium280/index.m3u8'>CW (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/93bd2a23e2b6cebb101017315f8aef15/1789313433/premium426/index.m3u8'>DAZN 1 Germany</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/064555f122197207271ea0ec7a482131/1789313410/premium427/index.m3u8'>DAZN 2 Germany</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/567972209563b1fd2183c1cad7be9900/1789313431/premium313/index.m3u8'>Discovery Channel</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/c72d862553fef91e8cc9b0144d217c6b/1789313411/premium657/index.m3u8'>Discovery Family Channel</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/7e1922fa59938090157dbed53e9e90e0/1789313413/premium311/index.m3u8'>Discovery Life</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='http://stream.bottledesk.net/6500/index.m3u8'>ESPN</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/b4b4da62b894afbba6feff66e9d0754d/1789313418/premium45/index.m3u8'>ESPN2</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/abe6ac611e33c26f8f2949eee288f6ea/1789313421/premium751/index.m3u8'>FETV</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/1b442e2000162b9fb4f4e0eedab69da7/1789313423/premium768/index.m3u8'>Fox</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/436e7c67e607e2755f7fe1822fac1cfe/1789313420/premium297/index.m3u8'>Fox Business</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/aa93c603466983cf96a770522914bc52/1789313421/premium756/index.m3u8'>Fox Soccer Plus</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3ODkzMTcwMTI5MDE6Y2RubGl2ZXR2LnR2Ojk2NmY5NGU3Y2Q0ZjcwNDQuNTIwNzA0MDhjOGRlNDczZDM3NTJjZjc4OTE5ZDAyZGNhYWE3M2M1YjQ2NjRiZmMxNWJiNGQ3OTNmNjNmOGNhYg'>Fox Soccer Plus (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/321bd70a4a79575ccb87cab3891ac08e/1789313433/premium317/index.m3u8'>FX</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/30b3ef5aa2e185faa7c0003aba01aeb1/1789313432/premium298/index.m3u8'>FXX</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/29542448a41b715b0f6d8e2a6c2afa30/1789313425/premium381/index.m3u8'>FX Movie Channel</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/a008f59a6502156cf337809ec9c2c0f3/1789313413/premium665/index.m3u8'>FYI TV</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/877d238f5dae44edad68ef5e02a2f8ec/1789313434/premium752/index.m3u8'>Grit TV</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/5eb4b4f3776d93315f67012513ec7cb6/1789313414/premium320/index.m3u8'>Hallmark Channel</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/f9cf7092aa5e04ca2e6e9665fe03e0bc/1789313416/premium296/index.m3u8'>Hallmark Mystery</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/dc7a78633099444d1a87fc7061a5138b/1789313426/premium321/index.m3u8'>HBO</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/b38a3d531c507ddd9ab576ff9b01b18b/1789313435/premium690/index.m3u8'>HBO Comedy</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/220297c42877c26a047baf8e43c59622/1789313427/premium324/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/bec235b1fec1ede978b97a5b597e14f9/1789313425/premium350/index.m3u8'>ITV1</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/0d0274f915a85c2824ff9c6e3f1db817/1789313427/premium389/index.m3u8'>Lifetime Movie Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/1afba55258daf2a60e9503ee6e51b402/1789313420/premium770/index.m3u8'>Marquee Sports Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3ODkzMTcwMTk2NTQ6Y2RubGl2ZXR2LnR2OjVlY2RmN2RiN2Q4MmZkNjguNDFiZjhkYWM3MTcwMjVjMDk1MmQ2YmU4MGVhZGYxYWE0ZGVlOWVmOTVmMDRjMTFmODMyNTE1MDk4ZjE0N2IyNQ'>Marquee Sports Network (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/8d31af67dd8866238b3c4832ce58cb97/1789313429/premium662/index.m3u8'>MeTV</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/5d31d2f1da8394b6878a889b431de0d2/1789313426/premium791/index.m3u8'>MGM+</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/3c9fdf84bd2964cafc6fd4a1b265d708/1789313426/premium399/index.m3u8'>MLB Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/01a4040254bbeb8072d7aa8d7a8c063a/1789313425/premium769/index.m3u8'>NBC</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/418e4a01e017ed0726167b9d37c6be4a/1789313436/premium753/index.m3u8'>NBC Sports Bay Area</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/21562aa81faf7cf273d898744559d081/1789313410/premium754/index.m3u8'>NBC Sports Boston</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/ac063f7fc5087a53afc549c8f2c2f97e/1789313431/premium755/index.m3u8'>NBC Sports California</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/ba9fc341f4f296c9e2ee7a2cbd9b2030/1789313415/premium777/index.m3u8'>NBC Sports Philadelphia</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/9a2d6a54981a10096a7a814cff0f71ac/1789313429/premium762/index.m3u8'>NESN</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3ODkzMTcwMjE2MTA6Y2RubGl2ZXR2LnR2OmIzNDIxYTFmZTM0NDU3YzIuYjUwNGFkNjRlY2JlMTI0YTExMmQ0YTE4NWMxZGMyYWU3YTM1NDEwZTFkYjZlZmRlZTU4NjBlZWJlMmVlMjE5MQ'>NESN (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/a14b1397676fa18d1c5b0d33986b8c38/1789313431/premium292/index.m3u8'>NewsNation</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/d19ef9e4f0905db73a753cda4a24b1ca/1789313433/premium405/index.m3u8'>NFL Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/2da7458a55073e2daae1b8d8e9ed4703/1789313428/premium663/index.m3u8'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/fd5c1326a84294ac8a922775897b83ea/1789313436/premium330/index.m3u8'>Nickelodeon</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/8a116d4ed5febca95ac500c75c3a4252/1789313417/premium332/index.m3u8'>Oxygen True Crime</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/effaf59d214049f82483761d1b5922f4/1789313420/premium653/index.m3u8'>Pop TV</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/5156943b7b880acbf31495befd8c5e87/1789313433/premium771/index.m3u8'>Premier Sports 1</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/4b25d6dd56f75325e95f0453b6ce9ae1/1789313421/premium799/index.m3u8'>Premier Sports 2</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3ODkzMTcwMTg2NDM6Y2RubGl2ZXR2LnR2OjQ2N2QxM2MzNzc2ODhlMmMuZDk4ZjkwZTgxMTY1MDQ0MmVlZmJiYTBjYmE3ZWJhNjQyY2YwN2IwZDliYzJmMTc0MzBiYWI1NTM1ODMxNWM1OQ'>Premier Sports 2 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/9079098cd314de0a3ffa9c6cda79a078/1789313430/premium294/index.m3u8'>Science Channel</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/376012b951a39d3da2a1b01c0574f6b6/1789313432/premium333/index.m3u8'>Showtime</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/5d1876b5e5071766874d622474aaf95a/1789313424/premium792/index.m3u8'>Showtime 2</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/787df9cccaaeb7cf844187b6c8f5908d/1789313411/premium37/index.m3u8'>Sky Sports Action</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/4083e9103ae9d9c0e9f27fb9cf11d85e/1789313435/premium65/index.m3u8'>Sky Sports Cricket</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/a2fb0bbdd8b8408c8473814df36e26cd/1789313419/premium60/index.m3u8'>Sky Sports F1</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/ca8ff3b3c4432821822d286f91a221d0/1789313418/premium35/index.m3u8'>Sky Sports Football</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/c87082a9d58b770849de6f11a7d351a4/1789313423/premium70/index.m3u8'>Sky Sports Golf</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/77c530e5719e9df2d6bfc29cc4b2a93f/1789313426/premium38/index.m3u8'>Sky Sports Main Event</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3ODkzMTcwMDk4Mjc6Y2RubGl2ZXR2LnR2OjZiODM4MWJiNzViZTAyMDguNDljNjk0ZTc1NDZjMGY0YWNkMTMwZjE1ZjI3NmZkMzgwZjc2N2Q2YTFmYjUzMTRjZGRlM2UyYzM3MmQ3Njg5Ng'>Sky Sports Main Event (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/736e7cb9f5f649f51502e088b26ec2b2/1789313416/premium449/index.m3u8'>Sky Sports Mix</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3ODkzMTcwMjU4MDU6Y2RubGl2ZXR2LnR2OmYyYzNkOTIzMzE0ODNlM2MuNTBkZjllM2JlMGI4ODY0ZGQ5MDdmMWY2NjA2ZDViYzVhZDY4YTQ3ZDM1ZDg1OGQ1NWNkOGU3NDI3NzBmYjc1NQ'>Sky Sports Mix (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/ac9e240e7c1506d6a5738ea63f2e42be/1789313419/premium366/index.m3u8'>Sky Sports News</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/656b2ee159fee903311ef8c716579599/1789313437/premium671/index.m3u8'>Sky Sports Premier League</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/4d27bef99aa31e3b0009d1436b7167dd/1789313412/premium554/index.m3u8'>Sky Sports Racing</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3ODkzMTcwMTE1Njg6Y2RubGl2ZXR2LnR2OmVlNDg5NmM1YzlmY2QzZDIuNWJkZTJkZTczM2ExYTMxYTQ2OTYxYzYxMjE5MDlkYTIyOGIyOGU4OTdmNWMyMWI4ZTE1MWFlMWY5MTRlNjBlNw'>Sky Sports Racing (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/441433038a9f3936500dc42bb8ffe3f5/1789313434/premium46/index.m3u8'>Sky Sports Tennis</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3ODkzMTcwMTY1OTQ6Y2RubGl2ZXR2LnR2OmYyZTAxNDYwODc5NzU0M2UuNjhlNTgwN2Y3YjIxMWZlOTUzMDZhY2NmNzI5MTdkZjBkYTA3YThkZmI4ZWRlYTQ1M2JmNjJkMzhiYTI1ZjViYw'>Sky Sports Tennis (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/aff798b181f6897a9548e36650bbdf1c/1789313415/premium603/index.m3u8'>Smithsonian Channel</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/3debcc9be21da2c070971dd5663adc1c/1789313437/premium921/index.m3u8'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJjOjE3ODkzMTcwMTk4NjE6Y2RubGl2ZXR2LnR2OjlkYjk0NjhiYzI1ZjVlZWUuMTA2YmE2NTRhNDhkNmI2MTIwZmU5ZjY2N2U3MWI2YjU0ZjMzYzM0MWIwZWUyYjg0ZjUwZmQ2MDdkZGI4ZDA2NA'>Space City Home Network (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/09d2909dfe0473b2090914e3fd4c4e19/1789313420/premium982/index.m3u8'>Spectrum SportsNet Lakers</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/ce0ff303d85d38b0222d261cdcfe2696/1789313427/premium764/index.m3u8'>Spectrum SportsNet LA Dodgers</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/3b970e6d615f26732c37d504134ed850/1789313430/premium409/index.m3u8'>Sportsnet 360</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3ODkzMTcwMzA4MjU6Y2RubGl2ZXR2LnR2OmM3NTAxZTQ5ZGM3NDQ5MzMuOTUwOGUxMDM4OWIwYzA0Njg5YjI3Nzk4NGI3OWI2ODg2ODUwMzhlOWJjNDc1NzZjZjc4NjRjZDk5NmZlMjAxMw'>Sportsnet 360 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/2a431d31e7c8b0ad8242cce80da6e27b/1789313413/premium408/index.m3u8'>Sportsnet East</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3ODkzMTcwMDg4OTE6Y2RubGl2ZXR2LnR2OmYwNDdlOGM1N2Q4MWUzZDEuNzYyNmNiY2M3OGVhYzhjMmUxZTJmZDFhMjdmYWU4YjFmYTk2MGYzYjgwOTgwMWY3YWU2OWI2NmUyYzA1ZTEwNg'>Sportsnet East (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/8da2db92863085a801e6b6b430fb58bc/1789313428/premium759/index.m3u8'>SportsNet New York</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJlOjE3ODkzMTcwMjIzNjA6Y2RubGl2ZXR2LnR2OjVmNWRkOTI4Yzk0M2I1NTMuNjE1ZDFhN2I1NWE5YTMzYmFmNGQ0YTFkMzEwNTE0ODU5ODg3YmIxMDRjM2JjMzc0NzVlMGM5ZmE1Y2Q1ZDVjYg'>SportsNet New York (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/a46a6e17d98f24a6f9093b12641863ec/1789313414/premium411/index.m3u8'>Sportsnet One</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3ODkzMTcwMjg0NjY6Y2RubGl2ZXR2LnR2OmVlYzRhNDg5ZmQ4MmE3NGQuYmZhNGU1NDk3ODA0ZmNmODUzNTk3M2RlYTUxYzE5NjU4NmExODc5NzJiY2UyNGQ1NzJmODYyZTc0M2M0NmQzOA'>Sportsnet One (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/7482419c853db468783fc67c4e976c85/1789313438/premium922/index.m3u8'>SportsNet Pittsburgh</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/5111944195a0403bd1caa997e70737bf/1789313413/premium335/index.m3u8'>Starz</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/7c9c4fa62bd2011baa0757cbba1fff7d/1789313434/premium972/index.m3u8'>Starz Edge</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/8939cf83cf2dfbe67ddc7bdf3574d48e/1789313421/premium975/index.m3u8'>Starz Encore</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/ebdc0c027882b9f307ed0e09ffcc837b/1789313427/premium976/index.m3u8'>Starz Encore Action</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/0f123c4e34ac2aad01cc4a180ca3a03c/1789313431/premium977/index.m3u8'>Starz Encore Black</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/e46a9cee9ba4f5fa77dde9e8765ed057/1789313413/premium978/index.m3u8'>Starz Encore Classic</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/2fb899a75a8890976425ffcf8e0a9c65/1789313416/premium979/index.m3u8'>Starz Encore Family</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/234b24b7a6dcb4a8d7786ed6157cc1bf/1789313412/premium980/index.m3u8'>Starz Encore Suspense</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/53d372f74ccc69d99e737f130143ade2/1789313430/premium981/index.m3u8'>Starz Encore Westerns</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/35625a9799d6eb282418070a11135c57/1789313409/premium973/index.m3u8'>Starz In Black</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/eb24bdb69f7ef0db947b556b47911b02/1789313411/premium658/index.m3u8'>Sundance</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/two/secure/28b9c8610b22679b6f513c0934626465/1789313436/premium337/index.m3u8'>TLC</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/d48162ea739829e80033a85396ed1dbe/1789313437/premium31/index.m3u8'>TNT Sports 1</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/71afb2438697c7a62b1ff61a2e4d6f80/1789313428/premium32/index.m3u8'>TNT Sports 2</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/80f91290a5a01758ad3b8e102161fbac/1789313433/premium33/index.m3u8'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRhOjE3ODkzMTcwMjQ4ODY6Y2RubGl2ZXR2LnR2Ojc0ODY1YWVhZmRmNzJjYzcuMzgzYWEwMjI3ZDhjMDA0OWMxYWFjYTBiYTc0NGY2ZDg3ZDU5OGU1MTM2MzMxY2NiMTM5ZmJiOTJiNzRjZjRiOQ'>TNT Sports 3 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/63a79cd6d635be05b326270160c040f5/1789313434/premium34/index.m3u8'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3ODkzMTcwMTU4NzE6Y2RubGl2ZXR2LnR2OjhiZmRlNDZmNGJkYWIyYWMuNjlmMzg0OTE5NmM0ZmYxZjVmY2U2OGY2MGIzYzJlOGRjN2FlOTJkNWRhNzc1YzA3MzVmOWRmNWRjZjU5YTY4OQ'>TNT Sports 4 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/78497670007a123b61829bf74ebf8ab6/1789313432/premium111/index.m3u8'>TSN 1</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/8fad98d883622a63965854d30663ac0f/1789313412/premium112/index.m3u8'>TSN 2</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc171/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcxOjE3ODkzMTcwMTczMzc6Y2RubGl2ZXR2LnR2OmFiOWE0NTcyZmZhYjliNWEuMzVhODQ4YTQ0OTNmOTYwNWRlZWEwODE0ZjlhYWI2YmQ5MzhjNTUzOGFiZGE4ZThmNWJiNjI5NDBjZTIxMmRjYg'>TSN 2 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/4219198ceae40ef025471483adee2c50/1789313422/premium113/index.m3u8'>TSN 3</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc175/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc1OjE3ODkzMTcwMjQwMTU6Y2RubGl2ZXR2LnR2OjZmZGYxMzdjN2NhMzU5ZGQuZmYxNTMyZDVmYTVhYzQyNDU3YjZhMmM3ZjAwMzIxMDNkYjVlMjEzOGRiNzhkYzgxNDkwNjlkNWU0M2E1ZWRjNw'>TSN 3 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/ef9ef6ce06589b7dd8f5ea5a1c993726/1789313436/premium114/index.m3u8'>TSN 4</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc170/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcwOjE3ODkzMTcwMTkyNDk6Y2RubGl2ZXR2LnR2OjQ3OGMxMDJiZGQ4Y2I3MWYuNjkzNDc3MDQ3MTFiMGI0MTlkMzM1ZjEzODJjNzFiYWYzM2U1NGQxZjRjMDc2MTA1ZDUzZTJmNzRlMTk1NDRiZQ'>TSN 4 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/three/secure/6b1bd23c42175a18473a54bcb476d8bd/1789313430/premium115/index.m3u8'>TSN 5</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc16d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTZkOjE3ODkzMTcwMTgwMjc6Y2RubGl2ZXR2LnR2OjdmZDQ5YjRjMTM4Y2MzNzAuNzIyYzNlZTkzZGViZmY5MmUwNjE2OTI1NmM4ZTY1YTU2MDJmOGUzZThkYWRkM2U5OTdlZGY1NzRiMTA5MmQ1MQ'>TSN 5 (Alt)</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/five/secure/4ec92f951e6fd0d8a643de74e197f02a/1789313428/premium342/index.m3u8'>TV Land</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/four/secure/93d38e50b6650b33f638955484c1d422/1789313424/premium660/index.m3u8'>TV One</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://xameleon.phantemlis.top/one/secure/4f4568d8171c0e083398a16c8e64783e/1789313435/premium343/index.m3u8'>USA Network</a></td><td>HTTP Error (503)</td></tr>
 </table>
 </div>
 
