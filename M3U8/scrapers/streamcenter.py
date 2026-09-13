@@ -2,6 +2,7 @@ from collections.abc import KeysView
 from functools import partial
 from urllib.parse import parse_qsl, urljoin, urlsplit
 
+import httpx
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
@@ -34,7 +35,14 @@ def fix_sport(s: str) -> str:
 
 
 async def process_event(url: str, url_num: int) -> str | None:
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        html_data := await network.request(
+            url,
+            url_num,
+            params={"timeout": httpx.Timeout(25)},
+            log=log,
+        )
+    ):
         return
 
     soup = HTMLParser(html_data.content)
@@ -128,7 +136,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
         HTML_FILE.write(events)
 
-    start_ts = now.delta(minutes=-30).timestamp()
+    start_ts = now.delta(hours=-1).timestamp()
     end_ts = now.delta(minutes=30).timestamp()
 
     return [
