@@ -64,7 +64,10 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
             event_name = fix_name(game.text(strip=True))
 
-            if f"[{sport}] {event_name} ({TAG})" in cached_keys:
+            if event_name.isdigit():
+                continue
+
+            elif f"[{sport}] {event_name} ({TAG})" in cached_keys:
                 continue
 
             events.append(

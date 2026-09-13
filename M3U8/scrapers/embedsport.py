@@ -28,7 +28,9 @@ class EMBDEvent(Event):
     event_id: str
 
 
-async def process_event(url_num: int, event_id: str) -> str | None:
+async def process_event(url_num: int, event_id: str) -> tuple[str | None, str | None]:
+    nones = None, None
+
     if not (
         event_data := await network.request(
             "https://embedfootball.site/ppv/",
@@ -38,17 +40,17 @@ async def process_event(url_num: int, event_id: str) -> str | None:
             log=log,
         )
     ):
-        return
+        return nones
 
     pattern = re.compile(r'const\s+stream\s+=\s+"([^"]*)"', re.I)
 
     if not (match := pattern.search(event_data.text)):
         log.warning(f"URL {url_num}) No source found.")
-        return
+        return nones
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return match[1]
+    return match[1], f"{event_data.url}"
 
 
 async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
@@ -150,7 +152,7 @@ async def scrape() -> None:
                 event_id=ev.event_id,
             )
 
-            source = await network.safe_process(
+            source, refer = await network.safe_process(
                 handler,
                 url_num=i,
                 semaphore=network.HTTP_S,
@@ -164,7 +166,7 @@ async def scrape() -> None:
             entry = {
                 "source": source,
                 "logo": logo,
-                "refer": BASE_URL,
+                "refer": refer,
                 "timestamp": now.timestamp(),
                 "tvg-id": tvg_id or "Live.Event.us",
             }

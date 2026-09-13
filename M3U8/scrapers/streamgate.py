@@ -74,11 +74,14 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         ifr_src_data_text = ifr_src_data.text
 
     valid_m3u8 = re.compile(
-        r"(file|source|streamUrl)\s*(:|=)\s+(\'|\")([^\"]*)(\'|\")",
+        r"(file|source|streamurls?)\s*(:|=)\s+(\'|\")([^\"]*)(\'|\")",
         re.I,
     )
 
-    valid_m3u8_2 = re.compile(r"0x31c4?\s?=\s?\[\s*[\"']([^\"']+)[\"']", re.I)
+    valid_m3u8_2 = re.compile(
+        r"(streamurls|0x31c4)\s?=\s?\[\s*[\"']([^\"']+)[\"']",
+        re.I,
+    )
 
     if match := valid_m3u8.search(ifr_src_data_text):
         log.info(f"URL {url_num}) Captured M3U8")
@@ -86,7 +89,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     elif match := valid_m3u8_2.search(ifr_src_data_text):
         log.info(f"URL {url_num}) Captured M3U8")
-        return json.loads(f'"{match[1]}"'), ifr_src
+        return json.loads(f'"{match[2]}"'), ifr_src
 
     log.warning(f"URL {url_num}) No source found.")
     return nones
@@ -138,6 +141,9 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
             continue
 
         date, sport, t1, t2 = values
+
+        if date < 0:
+            continue
 
         event_dt = Time.from_ts(date)
 
