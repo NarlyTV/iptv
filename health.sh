@@ -75,6 +75,7 @@ get_status() {
             application/octet-stream* | \
             video/mpeg* | \
             video/mp2t* | \
+            audio/x-mpegurl | \
             text/plain*)
 
             printf "[%${index_width}d/%d]\t%b\t%s" \
