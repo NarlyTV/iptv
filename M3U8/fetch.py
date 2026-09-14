@@ -119,7 +119,7 @@ async def main() -> None:
                 asyncio.create_task(embedhd.scrape(hdl_brwsr)),
                 asyncio.create_task(playfast.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(xtrnl_brwsr)),
-                asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
+                # asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
             ]
 
             httpx_tasks = [
