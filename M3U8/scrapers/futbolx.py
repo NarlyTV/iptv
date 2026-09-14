@@ -14,7 +14,7 @@ TAG = "FUTBOLX"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://futbol-x.xyz"
+BASE_URL = "https://www.futbol-x.top"
 
 SPORT_URLS = [
     urljoin(BASE_URL, f"api/{sport}.json")
