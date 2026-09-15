@@ -28,7 +28,6 @@ from scrapers import (
     watchfooty,
     webcast,
     xyzstreams,
-    xyztoo,
 )
 from scrapers.utils import get_logger, network
 
@@ -141,7 +140,6 @@ async def main() -> None:
                 asyncio.create_task(timstreams.scrape()),
                 asyncio.create_task(webcast.scrape()),
                 asyncio.create_task(xyzstreams.scrape()),
-                # asyncio.create_task(xyztoo.scrape()),
             ]
 
             await asyncio.gather(*(pw_tasks + httpx_tasks))
@@ -176,7 +174,6 @@ async def main() -> None:
         | watchfooty.urls
         | webcast.urls
         | xyzstreams.urls
-        | xyztoo.urls
     )
 
     live_events: list[str] = []
