@@ -478,10 +478,9 @@ https://4169it.7odxv0l067ka.net:8443/hls/5sctq58kb9vq1.m3u8?s=CXxF1QRpKW_cftt_F6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3ODk1MDA2OTA5NjY6Y2RubGl2ZXR2LnR2OmJmY2RjY2I2OTBmNGFmNTIuMmI2OTY0ZGEzMjg1OTRkYjFkNTNiNmQyZDVmNmVlYTI0ZDYwNmFhMTg4OWVlZjg4YTdiYTAyMmFlN2ZlN2JmZA
 
-#EXTINF:-1 tvg-chno="125" tvg-id="MeTV.Plus.us2" tvg-name="MeTV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70436_dark_360w_270h.png" group-title="TV",MeTV
-#EXTVLCOPT:http-referrer=https://tiestep.top/e/r471lvb6oe82c
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://4169it.7odxv0l067ka.net:8443/hls/mbfrw96j0lph6.m3u8?s=8gvZOnfDY7LRrrdIdiTLhA&e=1789507865
+#EXTINF:-1 tvg-chno="125" tvg-id="Me.TV.Network.us2" tvg-name="MeTV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70436_dark_360w_270h.png" group-title="TV",MeTV
+#EXTVLCOPT:http-referrer=https://iplayer.is/premiumtv/daddy3.php?id=662
+https://premium.hls.st/playlist/premium662.m3u8
 
 #EXTINF:-1 tvg-chno="126" tvg-id="MGM+.HD.us2" tvg-name="MGM+" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65669_dark_360w_270h.png" group-title="TV",MGM+
 #EXTVLCOPT:http-referrer=https://tiestep.top/e/4yinl20rkc01u
