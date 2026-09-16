@@ -17,7 +17,7 @@ from scrapers import (
     mainportal,
     pelotalibre,
     playfast,
-    sportspass,
+    reedstreams,
     streamcenter,
     streamfree,
     streamgate,
@@ -117,13 +117,13 @@ async def main() -> None:
             pw_tasks = [
                 asyncio.create_task(embedhd.scrape(hdl_brwsr)),
                 asyncio.create_task(playfast.scrape(hdl_brwsr)),
-                # asyncio.create_task(sportspass.scrape(xtrnl_brwsr)),
+                asyncio.create_task(reedstreams.scrape(hdl_brwsr)),
                 asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
             ]
 
             httpx_tasks = [
                 asyncio.create_task(dami.scrape()),
-                asyncio.create_task(embedsport.scrape()),
+                # asyncio.create_task(embedsport.scrape()),
                 asyncio.create_task(fawa.scrape()),
                 asyncio.create_task(flyembed.scrape()),
                 asyncio.create_task(futbolx.scrape()),
@@ -163,7 +163,7 @@ async def main() -> None:
         | mainportal.urls
         | pelotalibre.urls
         | playfast.urls
-        | sportspass.urls
+        | reedstreams.urls
         | streamcenter.urls
         | streamfree.urls
         | streamgate.urls

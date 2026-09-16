@@ -52,7 +52,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     num_list = (int(n.strip()) for n in num_list_mtch[-1][-1].split(","))
 
     if len(index_mtch) > 2:
-        index_mtch.pop()
+        del index_mtch[-1]
 
     x, y = (int(i[-1].strip()) for i in index_mtch)
 
@@ -127,13 +127,13 @@ async def get_events(cached_keys: KeysView[str]) -> list[TIMEvent]:
 
         sport = sport_genres.get(genre, {}).get(sub_genre, "Live Event")
 
-        if f"[{sport}] {name} ({TAG})" in cached_keys:
-            continue
-
-        elif not start_dt <= event_dt <= end_dt:
+        if not start_dt <= event_dt <= end_dt:
             continue
 
         elif not (stream_url := streams[0].get("url")):
+            continue
+
+        elif f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
 
         events.append(

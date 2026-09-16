@@ -175,7 +175,6 @@ class Network:
         self,
         browser: Browser,
         stealth: bool = True,
-        ignore_https: bool = False,
     ) -> AsyncGenerator[BrowserContext]:
 
         context: BrowserContext | None = None
@@ -184,7 +183,6 @@ class Network:
             if stealth:
                 context = await browser.new_context(
                     user_agent=self.UA,
-                    ignore_https_errors=ignore_https,
                     viewport={"width": 1366, "height": 768},
                     device_scale_factor=1,
                     locale="en-US",

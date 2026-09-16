@@ -1,11 +1,10 @@
-import asyncio
 import json
 from collections.abc import KeysView
 from functools import partial
 from typing import Any
 from urllib.parse import urlencode, urljoin
 
-from playwright.async_api import Browser, Page
+from playwright.async_api import Browser
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -108,69 +107,6 @@ async def pre_process(url: str, url_num: int) -> str | None:
     return f"https://sportsembed.su/embed/{'/'.join(embed_path)}?player=clappr&autoplay=true"
 
 
-async def process_event(
-    url: str,
-    url_num: int,
-    page: Page,
-) -> tuple[str | None, str | None]:
-
-    nones = None, None
-
-    captured: list[str] = []
-
-    got_one = asyncio.Event()
-
-    handler = partial(
-        network.capture_req,
-        captured=captured,
-        got_one=got_one,
-    )
-
-    page.on("request", handler)
-
-    if not (iframe_url := await pre_process(url, url_num)):
-        return nones
-
-    try:
-        resp = await page.goto(
-            iframe_url,
-            wait_until="domcontentloaded",
-            timeout=6_000,
-        )
-
-        if not resp or resp.status != 200:
-            log.error(f"URL {url_num}) Status Code: {resp.status if resp else 'None'}")
-            return nones
-
-        wait_task = asyncio.create_task(got_one.wait())
-
-        try:
-            await asyncio.wait_for(wait_task, timeout=6)
-        except TimeoutError:
-            log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
-            return nones
-
-        finally:
-            if not wait_task.done():
-                wait_task.cancel()
-
-                try:
-                    await wait_task
-                except asyncio.CancelledError:
-                    pass
-
-        if captured:
-            log.info(f"URL {url_num}) Captured M3U8")
-            return captured[0], iframe_url
-
-    except Exception as e:
-        log.warning(f"URL {url_num}) {e}")
-        return nones
-
-    finally:
-        page.remove_listener("request", handler)
-
-
 async def get_events(cached_keys: KeysView[str]) -> list[Event]:
     events: list[Event] = []
 
@@ -228,22 +164,25 @@ async def scrape(browser: Browser) -> None:
 
         async with network.event_context(browser, stealth=False) as context:
             for i, ev in enumerate(events, start=1):
-                async with network.event_page(context) as page:
-                    handler = partial(
-                        process_event,
-                        url=ev.link,
-                        url_num=i,
-                        page=page,
-                    )
+                source, event_link = None, None
 
-                    source, iframe = await network.safe_process(
-                        handler,
-                        url_num=i,
-                        timeout_return=(None, None),
-                        semaphore=network.PW_S,
-                        log=log,
-                        timeout=20,
-                    )
+                async with network.event_page(context) as page:
+                    if event_link := await pre_process(ev.link, i):
+                        handler = partial(
+                            network.process_event,
+                            url=event_link,
+                            url_num=i,
+                            page=page,
+                            log=log,
+                        )
+
+                        source = await network.safe_process(
+                            handler,
+                            url_num=i,
+                            semaphore=network.PW_S,
+                            timeout=20,
+                            log=log,
+                        )
 
                     key = f"[{ev.sport}] {ev.name} ({TAG})"
 
@@ -252,7 +191,7 @@ async def scrape(browser: Browser) -> None:
                     entry = {
                         "source": source,
                         "logo": logo,
-                        "refer": iframe,
+                        "refer": event_link,
                         "timestamp": now.timestamp(),
                         "tvg-id": tvg_id or "Live.Event.us",
                         "link": ev.link,

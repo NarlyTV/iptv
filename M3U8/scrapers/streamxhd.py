@@ -56,11 +56,11 @@ async def process_event(url: str, url_num: int) -> str | None:
         for _, v in sorted(embed_list, key=lambda i: i[0])
     )
 
-    log.info(f"URL {url_num}) Captured M3U8")
-
     splits = urlsplit(m3u8)
 
     params = [(k, v) for k, v in parse_qsl(splits.query) if k.lower() != "ip"]
+
+    log.info(f"URL {url_num}) Captured M3U8")
 
     return urlunsplit(splits._replace(query=urlencode(params)))
 
@@ -101,7 +101,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
                 if event_dt.date() != now.date():
                     continue
 
-                if not (event_servers := event_info.get("servers")):
+                elif not (event_servers := event_info.get("servers")):
                     continue
 
                 event_links = {

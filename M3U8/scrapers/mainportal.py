@@ -121,7 +121,10 @@ async def get_events(cached_keys: KeysView[str]) -> list[MPEvent]:
             away = team_identifier.get(game["away_team_id"])
             home = team_identifier.get(game["home_team_id"])
 
-            if f"[{sport}] {(event_name:=f"{away} vs {home}")} ({TAG})" in cached_keys:
+            if (
+                f"[{sport}] {(event_name := f"{away} vs {home}")} ({TAG})"
+                in cached_keys
+            ):
                 continue
 
             media_id = parsed_media_events.get(game_id, 0)

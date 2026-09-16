@@ -27,13 +27,13 @@ async def process_event(url: str, url_num: int) -> str | None:
         log.warning(f"URL {url_num}) No M3U8 found")
         return
 
-    log.info(f"URL {url_num}) Captured M3U8")
-
     m3u8: str = json.loads(f'"{match[1]}"')
 
     splits = urlsplit(m3u8)
 
     params = [(k, v) for k, v in parse_qsl(splits.query) if k.lower() != "ip"]
+
+    log.info(f"URL {url_num}) Captured M3U8")
 
     return urlunsplit(splits._replace(query=urlencode(params)))
 

@@ -94,12 +94,12 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
         elif stream_id.startswith("247") or sport.startswith("24/7"):
             continue
 
-        event_dt = Time.from_ts(int(f"{start_ts}"[:-3]))
+        event_dt = Time.from_ts(event_ts := int(f"{start_ts}"[:-3]))
 
-        if f"[{sport}] {name} ({TAG})" in cached_keys:
+        if not start_dt <= event_dt <= end_dt:
             continue
 
-        elif not start_dt <= event_dt <= end_dt:
+        elif f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
 
         events.append(
@@ -108,7 +108,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
                 name=name,
                 logo=event.get("poster"),
                 stream_id=stream_id,
-                timestamp=event_dt.timestamp(),
+                timestamp=event_ts,
             )
         )
 

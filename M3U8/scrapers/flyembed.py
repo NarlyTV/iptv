@@ -73,7 +73,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     num_list = (int(n.strip()) for n in num_list_mtch[-1][-1].split(","))
 
     if len(index_mtch) > 2:
-        index_mtch.pop()
+        del index_mtch[-1]
 
     x, y = (int(i[-1].strip()) for i in index_mtch)
 
