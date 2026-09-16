@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-16 08:15 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-16 14:15 UTC
 
-<h3>✅ Working Streams: 117<br>❌ Dead Streams: 98</h3>
+<h3>✅ Working Streams: 113<br>❌ Dead Streams: 102</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium766.m3u8'>ABC</a></td><td>HTTP Error (404)</td></tr>
@@ -20,6 +20,7 @@
 <tr><td><a href='https://premium.hls.st/playlist/premium767.m3u8'>CBS</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium308.m3u8'>CBS Sports Network</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium776.m3u8'>Chicago Sports Network</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://p8.usnlive.com/stream/cnn.m3u8'>CNN</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium310.m3u8'>Comedy Central</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium748.m3u8'>Cozi TV</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium280.m3u8'>CW</a></td><td>HTTP Error (404)</td></tr>
@@ -32,6 +33,7 @@
 <tr><td><a href='https://premium.hls.st/playlist/premium751.m3u8'>FETV</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium768.m3u8'>Fox</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium297.m3u8'>Fox Business</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://p8.usnlive.com/stream/foxnews.m3u8'>Fox News</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium756.m3u8'>Fox Soccer Plus</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium758.m3u8'>Fox Sports 2</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium317.m3u8'>FX</a></td><td>HTTP Error (404)</td></tr>
@@ -46,11 +48,13 @@
 <tr><td><a href='https://premium.hls.st/playlist/premium690.m3u8'>HBO Comedy</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium324.m3u8'>Investigation Discovery</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium350.m3u8'>ITV1</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='http://41.205.93.154/LIFETIME/index.m3u8'>Lifetime</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium389.m3u8'>Lifetime Movie Network</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium770.m3u8'>Marquee Sports Network</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium662.m3u8'>MeTV</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium791.m3u8'>MGM+</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium399.m3u8'>MLB Network</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://p8.usnlive.com/stream/msnbc.m3u8'>MS NOW</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium769.m3u8'>NBC</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium753.m3u8'>NBC Sports Bay Area</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://premium.hls.st/playlist/premium754.m3u8'>NBC Sports Boston</a></td><td>HTTP Error (404)</td></tr>
