@@ -68,7 +68,12 @@
       {
         "CRICKET": {
           "logo": "https://files.catbox.moe/rwd8mv.png",
-          "aliases": ["CRICKET CPL", "CRICKET CPL T20", "CRICKET TEST SERIES"]
+          "aliases": [
+            "CRICKET CPL",
+            "CRICKET CPL T20",
+            "CRICKET ETPL",
+            "CRICKET TEST SERIES"
+          ]
         }
       },
       {
@@ -125,6 +130,28 @@
       }
     ],
     "Ice.Hockey.Dummy.us": [
+      {
+        "CZECH REPUBLIC EXTRALIGA": {
+          "logo": "https://static.wikia.nocookie.net/logopedia/images/6/67/ELH19932005.png/revision/latest",
+          "aliases": ["CZECH EXTRALIGA"]
+        }
+      },
+      {
+        "FINLAND MESTIS": {
+          "logo": "https://1000logos.net/wp-content/uploads/2018/12/Mestis-Finland-Logo-2000.png",
+          "aliases": [
+            "FINLAND CHAMPIONSHIP SERIES",
+            "FINLAND MEST1S",
+            "FINLAND MESTARUUSSARJA",
+            "FINNISH CHAMPIONSHIP SERIES",
+            "FINNISH MEST1S",
+            "FINNISH MESTARUUSSARJA",
+            "FINNISH MESTIS",
+            "MEST1S",
+            "MESTARUUSSARJA"
+          ]
+        }
+      },
       {
         "HOCKEY": {
           "logo": "https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png",
@@ -708,7 +735,7 @@
       {
         "CAMPEÓN DE CAMPEONES": {
           "logo": "https://cdn-img.staticzz.com/img/logos/edicoes/87927_imgbank_.png",
-          "aliases": ["CAMPEON DE CAMPEONES"]
+          "aliases": ["CAMPEON DE CAMPEONES", "CAMPEONES CUP"]
         }
       },
       {
@@ -1000,6 +1027,16 @@
         }
       },
       {
+        "CROATIA CUP": {
+          "logo": "https://i.namu.wiki/i/Q2gFvFO95Ha6BKa4rforqTUPD3-ZZD67-VUclDb108PIg5B4qGecDqAchIj9QxU3N1PyyidqEu5zcb2rdJ75Ww.webp",
+          "aliases": [
+            "CROATIA FOOTBALL CUP",
+            "CROATIAN CUP",
+            "CROATIAN FOOTBALL CUP"
+          ]
+        }
+      },
+      {
         "CROATIAN FOOTBALL LEAGUE": {
           "logo": "https://1000logos.net/wp-content/uploads/2022/01/Prva-Hrvatska-Nogometna-Liga-logo-1992.png",
           "aliases": [
@@ -1026,6 +1063,12 @@
             "CZECH REPUBLIC - 1. LIGA",
             "CZECH REPUBLIC 1. LIGA"
           ]
+        }
+      },
+      {
+        "CZECH MOL CUP": {
+          "logo": "https://www.stes.cz/files/web_article/117-53yk7397b2g40-piag0o.png",
+          "aliases": ["CZECH CUP", "MOL CUP"]
         }
       },
       {
@@ -2093,9 +2136,22 @@
         }
       },
       {
+        "SLOVAKIA CUP": {
+          "logo": "https://files.catbox.moe/kmvzql.png",
+          "aliases": ["SLOVAK CUP", "SLOVNAFT CUP"]
+        }
+      },
+      {
         "SLOVAKIA NIKE LIGA": {
           "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Nik%C3%A9_Liga_logo.jpg/960px-Nik%C3%A9_Liga_logo.jpg",
-          "aliases": ["NIKE LIGA", "NIKÉ LIGA", "SLOVAK FIRST FOOTBALL LEAGUE"]
+          "aliases": [
+            "NIKE LIGA",
+            "NIKÉ LIGA",
+            "SLOVAK FIRST FOOTBALL LEAGUE",
+            "SLOVAK NIKE LIGA",
+            "SLOVAK NIKÉ LIGA",
+            "SLOVAKIA FIRST FOOTBALL LEAGUE"
+          ]
         }
       },
       {
@@ -2149,7 +2205,8 @@
             "UEFA YOUTH LEAGUE",
             "UEFA YOUTH LEAGUE SUB-19",
             "WORLD CLUB FRIENDLY",
-            "WORLD CUP QUALIFIERS"
+            "WORLD CUP QUALIFIERS",
+            "WORLD CUP WOMEN U20"
           ]
         }
       },
