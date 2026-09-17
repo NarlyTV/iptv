@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-16 17:51 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-17 00:43 UTC
 
 <h3>✅ Working Streams: 214<br>❌ Dead Streams: 1</h3>
 <table>
