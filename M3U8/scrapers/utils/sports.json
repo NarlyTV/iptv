@@ -72,6 +72,7 @@
             "CRICKET CPL",
             "CRICKET CPL T20",
             "CRICKET ETPL",
+            "CRICKET T20",
             "CRICKET TEST SERIES"
           ]
         }
@@ -414,7 +415,12 @@
       {
         "RUGBY": {
           "logo": null,
-          "aliases": ["RUGBY FRIENDLY", "RUGBY NZ NPC", "RUGBY UNION FRIENDLY"]
+          "aliases": [
+            "FRANCE RUGBY PRO D2",
+            "RUGBY FRIENDLY",
+            "RUGBY NZ NPC",
+            "RUGBY UNION FRIENDLY"
+          ]
         }
       },
       {
@@ -1142,7 +1148,7 @@
       },
       {
         "EFL": {
-          "logo": "https://www.substance.net/wp-content/uploads/2023/10/EFL_LOGO_REG_H_POS_RGB.png",
+          "logo": "https://files.catbox.moe/85fh3s.png",
           "aliases": [
             "CARABAO CUP",
             "EFL CUP",
@@ -2372,6 +2378,12 @@
             "TURKEY LIG 1",
             "TURKISH 1. LIG"
           ]
+        }
+      },
+      {
+        "TURKEY CUP": {
+          "logo": "https://assets.football-logos.cc/logos/turkey/1500x1500/turkish-cup.42a3a6ff.png",
+          "aliases": ["TURKISH CUP"]
         }
       },
       {

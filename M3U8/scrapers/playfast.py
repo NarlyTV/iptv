@@ -17,7 +17,7 @@ CACHE_FILE = Cache(TAG, exp=5_400)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL = "https://playfa.st"
+BASE_URL, IFRAME_URL = "https://playfa.st", "https://s1.kora.st"
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[Event]:
@@ -69,7 +69,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
             Event(
                 sport=sport,
                 name=f"{event_name} | {lang}",
-                link=f"https://s1.kora.st/ch.php?id={event_num}",
+                link=urljoin(IFRAME_URL, f"ch.php?id={event_num}"),
                 timestamp=now.timestamp(),
             )
             for event_num, lang in event_urls.items()
