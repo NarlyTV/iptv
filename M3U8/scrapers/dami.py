@@ -94,6 +94,12 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
         elif stream_id.startswith("247") or sport.startswith("24/7"):
             continue
 
+        sport = (
+            " ".join(i.capitalize().strip() for i in sport.split("-"))
+            if sport.islower()
+            else sport
+        )
+
         event_dt = Time.from_ts(event_ts := int(f"{start_ts}"[:-3]))
 
         if not start_dt <= event_dt <= end_dt:

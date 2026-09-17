@@ -1,7 +1,7 @@
 import asyncio
 import re
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 from .utils import Cache, Time, get_logger, leagues, network
 
@@ -15,7 +15,7 @@ CACHE_FILE = Cache(TAG, exp=28_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL = "https://xyzstreams.st/"
+BASE_URL, TOKEN_API = "https://xyzstreams.st/", "https://dlhd.net"
 
 SPORT_URLS = {
     sport: urljoin(BASE_URL, endpoint)
@@ -24,7 +24,7 @@ SPORT_URLS = {
         # "WNBA": "wnba",
         # "NBA",
         # "NHL",
-        # "NFL": "nflembed",
+        "NFL": "nflembed",
     }.items()
 }
 
@@ -34,10 +34,24 @@ API_URLS = [
         "baseball/mlb",
         # "basketball/nba",
         # "basketball/wnba",
-        # "football/nfl",
+        "football/nfl",
         # "hockey/nhl",
     ]
 ]
+
+
+def tokenize(s: str, token: str) -> str:
+    p = urlsplit(TOKEN_API)
+
+    splits = urlsplit(s)
+
+    new = splits._replace(
+        scheme=p.scheme,
+        netloc=p.netloc,
+        query=f"token={token}",
+    )
+
+    return urlunsplit(new)
 
 
 async def refresh_api_cache(now: Time) -> list[dict[str, Any]]:
@@ -99,9 +113,9 @@ async def get_sports_map() -> dict[str, dict[str, dict[str, str]]]:
         #     "PDX": "POR",
         #     "WAS": "WSH",
         # },
-        # "NFL": {
-        #     "WAS": "WSH",
-        # },
+        "NFL": {
+            "WAS": "WSH",
+        },
     }
 
     ptrn = re.compile(r"M3U8_CHANNELS_MAP\s*=\s*\{(.*?)\};", re.S)
@@ -132,6 +146,19 @@ async def get_events() -> dict[str, dict[str, str | float]]:
 
     events: dict[str, dict[str, str | float]] = {}
 
+    if not (
+        token_data := await network.request(
+            urljoin(TOKEN_API, "/api/token"),
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
+        return events
+
+    elif not (token := token_data.json().get("token")):
+        log.warning("No token found")
+        return events
+
     if not (api_data := API_FILE.load(per_entry=False, ts_index=-1)):
         log.info("Refreshing API cache")
 
@@ -157,13 +184,16 @@ async def get_events() -> dict[str, dict[str, str | float]]:
 
         sport, name, short_name = values
 
+        tvg_id, logo = leagues.get_tvg_info(sport, name)
+
         for abbr in re.sub(r"(@|VS)", "", short_name, flags=re.I).split():
             key = f"[{sport}] {name} | {abbr} Feed ({TAG})"
 
-            tvg_id, logo = leagues.get_tvg_info(sport, name)
+            if source := sports_map.get(sport, {}).get(abbr):
+                source = tokenize(source, token)
 
             events[key] = {
-                "source": sports_map.get(sport, {}).get(abbr),
+                "source": source,
                 "logo": logo,
                 "refer": BASE_URL,
                 "timestamp": now.timestamp(),

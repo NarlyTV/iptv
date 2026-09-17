@@ -7,7 +7,6 @@ from urllib.parse import quote
 from playwright.async_api import async_playwright
 from scrapers import (
     dami,
-    embedhd,
     embedsport,
     fawa,
     flyembed,
@@ -115,9 +114,8 @@ async def main() -> None:
             xtrnl_brwsr = await network.browser(p, external=True)
 
             pw_tasks = [
-                asyncio.create_task(embedhd.scrape(hdl_brwsr)),
                 asyncio.create_task(playfast.scrape(hdl_brwsr)),
-                asyncio.create_task(reedstreams.scrape(hdl_brwsr)),
+                # asyncio.create_task(reedstreams.scrape(hdl_brwsr)),
                 asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
             ]
 
@@ -153,7 +151,6 @@ async def main() -> None:
 
     additions = (
         dami.urls
-        | embedhd.urls
         | embedsport.urls
         | fawa.urls
         | flyembed.urls
