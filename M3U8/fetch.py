@@ -17,6 +17,7 @@ from scrapers import (
     pelotalibre,
     playfast,
     reedstreams,
+    sportspass,
     streamcenter,
     streamfree,
     streamgate,
@@ -115,7 +116,7 @@ async def main() -> None:
 
             pw_tasks = [
                 asyncio.create_task(playfast.scrape(hdl_brwsr)),
-                # asyncio.create_task(reedstreams.scrape(hdl_brwsr)),
+                asyncio.create_task(sportspass.scrape(hdl_brwsr)),
                 asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
             ]
 
@@ -129,6 +130,7 @@ async def main() -> None:
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
+                asyncio.create_task(reedstreams.scrape()),
                 asyncio.create_task(streamcenter.scrape()),
                 asyncio.create_task(streamfree.scrape()),
                 asyncio.create_task(streamgate.scrape()),
@@ -161,6 +163,7 @@ async def main() -> None:
         | pelotalibre.urls
         | playfast.urls
         | reedstreams.urls
+        | sportspass.urls
         | streamcenter.urls
         | streamfree.urls
         | streamgate.urls
