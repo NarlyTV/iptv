@@ -128,8 +128,6 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
 async def scrape() -> None:
     cached_urls = CACHE_FILE.load()
 
-    cached_links = {entry["link"] for entry in cached_urls.values()}
-
     valid_urls = {k: v for k, v in cached_urls.items() if v["source"]}
 
     valid_count = cached_count = len(valid_urls)
@@ -142,7 +140,7 @@ async def scrape() -> None:
 
     log.info(f'Scraping from "{base_url}"')
 
-    if events := await get_events(cached_links):
+    if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
         for i, ev in enumerate(events, start=1):
