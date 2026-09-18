@@ -1,3 +1,4 @@
+import asyncio
 from collections.abc import KeysView
 from functools import partial
 from urllib.parse import parse_qsl, urljoin, urlsplit
@@ -58,54 +59,58 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     events = {}
 
-    if not (
-        html_data := await network.request(
+    tasks = [
+        network.request(
             BASE_URL,
-            params={"date": now.date()},
+            params={"date": d.date()},
             log=log,
         )
-    ):
+        for d in (now, now.delta(days=1))
+    ]
+
+    results = await asyncio.gather(*tasks)
+
+    if not (soups := [HTMLParser(html.content) for html in results if html]):
         return events
 
-    soup = HTMLParser(html_data.content)
-
-    for card in soup.css(".league-block"):
-        if not (sport_elem := card.css_first(".league-name")):
-            continue
-
-        sport = sport_elem.text(strip=True)
-
-        for match in card.css(".match-row"):
-            if not (time_elem := match.css_first(".time > span.countdown")):
+    for soup in soups:
+        for card in soup.css(".league-block"):
+            if not (sport_elem := card.css_first(".league-name")):
                 continue
 
-            elif not (event_ts := time_elem.attributes.get("data-start")):
-                continue
+            sport = sport_elem.text(strip=True)
 
-            if not (watch_btn := match.css_first("a.watch-live")):
-                continue
+            for match in card.css(".match-row"):
+                if not (time_elem := match.css_first(".time > span.countdown")):
+                    continue
 
-            elif not (href := watch_btn.attributes.get("href")):
-                continue
+                elif not (event_ts := time_elem.attributes.get("data-start")):
+                    continue
 
-            if not (team_elem := match.css(".team")):
-                continue
+                if not (watch_btn := match.css_first("a.watch-live")):
+                    continue
 
-            if match.css_first(".score").text(strip=True).lower() == "scheduled":
-                event_name = team_elem[0].text(strip=True)
+                elif not (href := watch_btn.attributes.get("href")):
+                    continue
 
-            else:
-                event_name = " vs ".join(i.text(strip=True) for i in team_elem)
+                if not (team_elem := match.css(".team")):
+                    continue
 
-            key = f"[{sport}] {event_name} ({TAG})"
+                if match.css_first(".score").text(strip=True).lower() == "scheduled":
+                    event_name = team_elem[0].text(strip=True)
 
-            events[key] = {
-                "sport": sport,
-                "name": event_name,
-                "link": urljoin(BASE_URL, href),
-                "event_ts": int(event_ts),
-                "timestamp": now.timestamp(),
-            }
+                else:
+                    event_name = " vs ".join(i.text(strip=True) for i in team_elem)
+
+                key = f"[{sport}] {event_name} ({TAG})"
+
+                events[key] = {
+                    "sport": sport,
+                    "name": event_name,
+                    "link": urljoin(BASE_URL, href),
+                    "event_ts": int(event_ts),
+                    "timestamp": now.timestamp(),
+                }
 
     return events
 
