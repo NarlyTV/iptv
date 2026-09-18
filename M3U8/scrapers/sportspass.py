@@ -191,7 +191,7 @@ async def scrape(browser: Browser) -> None:
     if events := await get_events(cached_links):
         log.info(f"Processing {len(events)} URL(s)")
 
-        async with network.event_context(browser, stealth=False) as context:
+        async with network.event_context(browser) as context:
             for i, ev in enumerate(events, start=1):
                 async with network.event_page(context) as page:
                     handler = partial(
