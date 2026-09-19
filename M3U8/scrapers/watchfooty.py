@@ -162,7 +162,7 @@ async def scrape(browser: Browser) -> None:
 
         now = Time.rn()
 
-        async with network.event_context(browser, stealth=False) as context:
+        async with network.event_context(browser) as context:
             for i, ev in enumerate(events, start=1):
                 source, event_link = None, None
 
