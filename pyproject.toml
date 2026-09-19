@@ -5,7 +5,7 @@ requires-python = ">=3.13"
 dependencies = [
     "adblock>=0.6.0",
     "httpx[http2]>=0.28.1",
-    "playwright>=1.62.0",
-    "selectolax>=0.4.11",
-    "tzdata>=2026.3",
+    "playwright>=1.63.0",
+    "selectolax>=0.4.12",
+    "tzdata>=2026.4",
 ]
