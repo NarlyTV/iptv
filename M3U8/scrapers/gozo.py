@@ -15,7 +15,7 @@ TAG = "GOZO"
 
 CACHE_FILE = Cache(TAG, exp=28_800)
 
-BASE_URL = "https://gozowatch.top/updates"
+BASE_URL = "https://monperson.shop/updates"
 
 
 def fix_name(n: str) -> str:
