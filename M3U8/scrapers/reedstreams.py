@@ -167,6 +167,7 @@ async def scrape() -> None:
                 "refer": base_url,
                 "timestamp": ev.timestamp,
                 "tvg-id": tvg_id or "Live.Event.us",
+                "link": ev.link,
             }
 
             cached_urls[key] = entry

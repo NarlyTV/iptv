@@ -15,7 +15,6 @@ from scrapers import (
     istreameast,
     mainportal,
     pelotalibre,
-    playfast,
     reedstreams,
     sportspass,
     streamcenter,
@@ -115,7 +114,6 @@ async def main() -> None:
             xtrnl_brwsr = await network.browser(p, external=True)
 
             pw_tasks = [
-                asyncio.create_task(playfast.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
                 asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
             ]
@@ -161,7 +159,6 @@ async def main() -> None:
         | istreameast.urls
         | mainportal.urls
         | pelotalibre.urls
-        | playfast.urls
         | reedstreams.urls
         | sportspass.urls
         | streamcenter.urls
