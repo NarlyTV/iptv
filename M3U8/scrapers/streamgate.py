@@ -7,6 +7,7 @@ from itertools import chain
 from typing import Any
 from urllib.parse import urljoin
 
+import httpx
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
@@ -21,7 +22,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
-BASE_URL = "https://streamsgates.io"
+BASE_URL = "https://embedme.st"
 
 SPORT_ENDPOINTS = {
     # "cfb",
@@ -46,6 +47,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
             url,
             url_num,
             headers={"Referer": BASE_URL},
+            timeout=httpx.Timeout(25.0),
             log=log,
         )
     ):
@@ -96,7 +98,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 async def refresh_api_cache(now: Time) -> list[dict[str, Any]]:
     tasks = [
         network.request(
-            urljoin(BASE_URL, "api.php"),
+            urljoin(BASE_URL, "api/v1/games.php"),
             params={"sport": sport, "limit": 100},
             log=log,
         )
@@ -221,7 +223,7 @@ async def scrape() -> None:
                 "refer": iframe,
                 "timestamp": ev.timestamp,
                 "tvg-id": tvg_id or "Live.Event.us",
-                "link": ev.link.replace("player.php", "watch.php"),
+                "link": ev.link,
             }
 
             cached_urls[key] = entry
