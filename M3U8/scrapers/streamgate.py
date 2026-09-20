@@ -100,6 +100,7 @@ async def refresh_api_cache(now: Time) -> list[dict[str, Any]]:
         network.request(
             urljoin(BASE_URL, "api/v1/games.php"),
             params={"sport": sport, "limit": 100},
+            timeout=httpx.Timeout(25.0),
             log=log,
         )
         for sport in SPORT_ENDPOINTS
