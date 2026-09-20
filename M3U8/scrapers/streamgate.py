@@ -19,22 +19,19 @@ TAG = "STRMGATE"
 
 CACHE_FILE = Cache(TAG, exp=10_800)
 
-API_FILE = Cache(f"{TAG}-api", exp=19_800)
+API_FILE = Cache(f"{TAG}-api", exp=28_800)
 
 BASE_URL = "https://streamsgates.io"
 
-API_URLS = [
-    urljoin(BASE_URL, f"data/{sport}.json")
-    for sport in [
-        "cfb",
-        "mlb",
-        "nba",
-        "nfl",
-        # "nhl",
-        "soccer",
-        "ufc",
-    ]
-]
+SPORT_ENDPOINTS = {
+    # "cfb",
+    "mlb",
+    # "nba",
+    "nfl",
+    "nhl",
+    "soccer",
+    "ufc",
+}
 
 
 def clean_m3u(s: str) -> str:
@@ -44,34 +41,35 @@ def clean_m3u(s: str) -> str:
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     nones = None, None
 
-    if not (event_data := await network.request(url, url_num, log=log)):
+    if not (
+        event_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return nones
 
-    if re.search(r"^https?://instreams?", url.lower()):
-        ifr_src, ifr_src_data_text = url, event_data.text
+    soup = HTMLParser(event_data.content)
 
-    else:
-        soup = HTMLParser(event_data.content)
+    ifr = soup.css_first("iframe")
 
-        ifr = soup.css_first("iframe")
+    if not ifr or not (src := ifr.attributes.get("src")):
+        log.warning(f"URL {url_num}) No iframe element found.")
+        return nones
 
-        if not ifr or not (src := ifr.attributes.get("src")):
-            log.warning(f"URL {url_num}) No iframe element found.")
-            return nones
+    ifr_src = network.ensure_https(src)
 
-        ifr_src = network.ensure_https(src)
-
-        if not (
-            ifr_src_data := await network.request(
-                ifr_src,
-                url_num,
-                headers={"Referer": url},
-                log=log,
-            )
-        ):
-            return nones
-
-        ifr_src_data_text = ifr_src_data.text
+    if not (
+        ifr_src_data := await network.request(
+            ifr_src,
+            url_num,
+            headers={"Referer": url},
+            log=log,
+        )
+    ):
+        return nones
 
     valid_m3u8 = re.compile(
         r"(file|source|streamurls?)\s*(:|=)\s+(\'|\")([^\"]*)(\'|\")",
@@ -83,11 +81,11 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         re.I,
     )
 
-    if match := valid_m3u8.search(ifr_src_data_text):
+    if match := valid_m3u8.search(ifr_src_data.text):
         log.info(f"URL {url_num}) Captured M3U8")
         return json.loads(f'"{match[4]}"'), ifr_src
 
-    elif match := valid_m3u8_2.search(ifr_src_data_text):
+    elif match := valid_m3u8_2.search(ifr_src_data.text):
         log.info(f"URL {url_num}) Captured M3U8")
         return json.loads(f'"{match[2]}"'), ifr_src
 
@@ -96,15 +94,21 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
 
 async def refresh_api_cache(now: Time) -> list[dict[str, Any]]:
-    tasks = [network.request(url, log=log) for url in API_URLS]
+    tasks = [
+        network.request(
+            urljoin(BASE_URL, "api.php"),
+            params={"sport": sport, "limit": 100},
+            log=log,
+        )
+        for sport in SPORT_ENDPOINTS
+    ]
 
     results = await asyncio.gather(*tasks)
 
-    if not (api_data := [*chain.from_iterable(r.json() for r in results if r)]):
+    if not (
+        api_data := [*chain.from_iterable(r.json().get("data") for r in results if r)]
+    ):
         return [{"timestamp": now.timestamp()}]
-
-    for ev in api_data:
-        ev["ts"] = ev.pop("timestamp")
 
     api_data[-1]["timestamp"] = now.timestamp()
 
@@ -131,44 +135,41 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
             values := [
                 stream_group.get(x)
                 for x in (
-                    "ts",
                     "league",
+                    "start_at",
                     "away",
                     "home",
+                    "streams",
                 )
             ]
         ):
             continue
 
-        date, sport, t1, t2 = values
+        sport, event_time, away, home, streams = values
 
-        if date < 0:
-            continue
-
-        event_dt = Time.from_ts(date)
+        event_dt = Time.fromisoformat(event_time).to_tz("EST")
 
         if not start_dt <= event_dt <= end_dt:
             continue
 
-        elif not (iframes := stream_group.get("streams")):
+        elif not (home_team := home.get("name")):
             continue
 
-        if len(sport_splits := sport.split(":", 1)) > 1:
-            sport = sport_splits[0].strip()
-
-        name = f"{t1.strip()} vs {t2.strip()}"
+        name = (
+            f"{away_team} vs {home_team}"
+            if (away_team := away.get("name")) and away_team != home_team
+            else home_team
+        )
 
         stream_urls: dict[str, str | None] = {
-            stream.get("lang") or "EN": stream.get("url")
-            for stream in iframes
-            if "auto_source" not in stream
+            stream.get("label") or "English": stream.get("url") for stream in streams
         }
 
         events.extend(
             Event(
                 sport=sport,
                 name=f"{name} | {lang}",
-                link=url,
+                link=urljoin(BASE_URL, url),
                 timestamp=now.timestamp(),
             )
             for lang, url in stream_urls.items()
@@ -220,7 +221,7 @@ async def scrape() -> None:
                 "refer": iframe,
                 "timestamp": ev.timestamp,
                 "tvg-id": tvg_id or "Live.Event.us",
-                "link": ev.link,
+                "link": ev.link.replace("player.php", "watch.php"),
             }
 
             cached_urls[key] = entry
