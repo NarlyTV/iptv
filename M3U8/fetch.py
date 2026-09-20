@@ -201,7 +201,6 @@ async def main() -> None:
 
         vlc_block: list[str] = [
             f"#EXTVLCOPT:http-referrer={refer}",
-            f"#EXTVLCOPT:http-origin={refer}",
             f"#EXTVLCOPT:http-user-agent={ua}",
             source,
         ]
