@@ -6,12 +6,14 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-21 08:15 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-21 14:15 UTC
 
-<h3>✅ Working Streams: 266<br>❌ Dead Streams: 1</h3>
+<h3>✅ Working Streams: 264<br>❌ Dead Streams: 3</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='http://41.205.93.154/BBCONE/index.m3u8'>BBC One</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8'>Sky Sports Action</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8'>Sky Sports F1</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8'>Sky Sports Premier League</a></td><td>HTTP Error (404)</td></tr>
 </table>
 </div>
 
