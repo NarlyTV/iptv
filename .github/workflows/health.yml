@@ -1,8 +1,6 @@
 name: health check
 
 on:
-  schedule:
-    - cron: "30 2,8,14,20 * * *"
   workflow_dispatch:
 
 jobs:
