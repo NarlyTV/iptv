@@ -17,13 +17,7 @@ CACHE_FILE = Cache(TAG, exp=7_200)
 
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
-
-def clean_name(s: str) -> str:
-    return re.sub(r"(\r|\n)", "", s).strip()
-
-
-# def clean_m3u(s: str) -> str:
-#     return re.sub(r"\.live\n", ".pro", s)
+API_URL = "https://ovogoal.cyou/api/v2/flyembed2.json"
 
 
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
@@ -100,10 +94,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
         api_data = [{"timestamp": now.timestamp()}]
 
-        if r := await network.request(
-            "https://ovogoal.cyou/api/v2/flyembed.json",
-            log=log,
-        ):
+        if r := await network.request(API_URL, log=log):
             api_data: list[dict[str, str]] = r.json()
 
             api_data[-1]["timestamp"] = now.timestamp()
@@ -119,11 +110,11 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
                 event_group.get(x)
                 for x in (
                     "League",
-                    "Team 1 ",
+                    "Team1",
                     "Team2",
-                    "Date",
-                    "Time",
-                    "iframeURL",
+                    "MatchDate",
+                    "MatchStartTime",
+                    "IframeURL",
                 )
             ]
         ):
@@ -131,12 +122,12 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
         sport, away, home, date, time, link = values
 
-        event_dt = Time.from_str(f"{date.replace(' ','')} {time}", tz_name="GMT")
+        event_dt = Time.from_str(f"{date} {time}", tz_name="ALMT")
 
         if not start_dt <= event_dt <= end_dt:
             continue
 
-        sport, name = clean_name(sport), clean_name(f"{away} vs {home}")
+        name = f"{away} vs {home}"
 
         if f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
