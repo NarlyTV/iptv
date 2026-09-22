@@ -10,9 +10,9 @@ from scrapers import (
     fawa,
     flyembed,
     futbolx,
-    gozo,
     istreameast,
     mainportal,
+    ovostream,
     pelotalibre,
     reedstreams,
     sportspass,
@@ -121,9 +121,9 @@ async def main() -> None:
                 asyncio.create_task(fawa.scrape()),
                 asyncio.create_task(flyembed.scrape()),
                 asyncio.create_task(futbolx.scrape()),
-                asyncio.create_task(gozo.scrape()),
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
+                asyncio.create_task(ovostream.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
                 asyncio.create_task(reedstreams.scrape()),
                 asyncio.create_task(streamcenter.scrape()),
@@ -150,9 +150,9 @@ async def main() -> None:
         | fawa.urls
         | flyembed.urls
         | futbolx.urls
-        | gozo.urls
         | istreameast.urls
         | mainportal.urls
+        | ovostream.urls
         | pelotalibre.urls
         | reedstreams.urls
         | sportspass.urls
