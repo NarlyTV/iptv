@@ -7,6 +7,7 @@ from urllib.parse import quote
 from playwright.async_api import async_playwright
 from scrapers import (
     dami,
+    embedsport,
     fawa,
     flyembed,
     futbolx,
@@ -24,7 +25,6 @@ from scrapers import (
     timstreams,
     watchfooty,
     webcast,
-    xyzstreams,
 )
 from scrapers.utils import get_logger, network
 
@@ -118,6 +118,7 @@ async def main() -> None:
 
             httpx_tasks = [
                 asyncio.create_task(dami.scrape()),
+                asyncio.create_task(embedsport.scrape()),
                 asyncio.create_task(fawa.scrape()),
                 asyncio.create_task(flyembed.scrape()),
                 asyncio.create_task(futbolx.scrape()),
@@ -133,7 +134,6 @@ async def main() -> None:
                 asyncio.create_task(streamxhd.scrape()),
                 asyncio.create_task(timstreams.scrape()),
                 asyncio.create_task(webcast.scrape()),
-                # asyncio.create_task(xyzstreams.scrape()),
             ]
 
             await asyncio.gather(*(pw_tasks + httpx_tasks))
@@ -147,6 +147,7 @@ async def main() -> None:
 
     additions = (
         dami.urls
+        | embedsport.urls
         | fawa.urls
         | flyembed.urls
         | futbolx.urls
@@ -164,7 +165,6 @@ async def main() -> None:
         | timstreams.urls
         | watchfooty.urls
         | webcast.urls
-        | xyzstreams.urls
     )
 
     live_events: list[str] = []
