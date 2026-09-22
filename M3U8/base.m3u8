@@ -327,8 +327,7 @@ http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
 https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="96" tvg-id="History.HD.us2" tvg-name="History Channel" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87679_dark_360w_270h.png" group-title="TV",History Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cad59/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNhZDU5OjE3OTAwNjIyMDk4NzA6Y2RubGl2ZXR2LnR2OjA0NTk1MmEwZmYxYzQwNWEuMTE0OGRiMWYzODhhZjk1ZTc5Y2I2MjQ1NDlkNzdkOTU3ZmI1NDE0ZDhjMzBmMmZlNTdhOGMxYzVmMjI5NWRjOA
+http://212.5.144.156:8080/history/index.m3u8
 
 #EXTINF:-1 tvg-chno="97" tvg-id="HLN.HD.us2" tvg-name="HLN TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10145_dark_360w_270h.png" group-title="TV",HLN TV
 http://23.237.104.106:8080/USA_HLN/index.m3u8
@@ -455,8 +454,9 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb30a/playlist.m3u8?token=
 http://212.5.144.156:8080/nickjr/index.m3u8
 
 #EXTINF:-1 tvg-chno="132" tvg-id="Nickelodeon.HD.us2" tvg-name="Nickelodeon" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" group-title="TV",Nickelodeon
+#EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb413/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDEzOjE3OTAwNDc1OTMyNDc6Y2RubGl2ZXR2LnR2OmUxYjQzYjU2ZjM3Nzc0N2YuZjg2N2YwNDJhYjRjOGFmYWFmNTMwNzkzODAwYjNhMzk5ZWFjMWZiYjA5MDQ2YzRkNWMyZDZkYzkzNGNlNTdhYQ
+https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
 
 #EXTINF:-1 tvg-chno="133" tvg-id="Nicktoons.us2" tvg-name="Nicktoons" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30420_dark_360w_270h.png" group-title="TV",Nicktoons
 http://41.205.93.154/NICKTOONS/index.m3u8
