@@ -510,162 +510,197 @@ http://193.47.62.59/hls/diiiAAAA.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/diiiAAAA.m3u8
 
-#EXTINF:-1 tvg-chno="103" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Linkoping vs Brynas (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Linkoping vs Brynas (FAWA)
+#EXTINF:-1 tvg-chno="103" tvg-id="Live.Event.us" tvg-name="[Scottish KDM Trophy] East Kilbride v Celtic B (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Scottish KDM Trophy] East Kilbride v Celtic B (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/i555AAA.m3u8
+
+#EXTINF:-1 tvg-chno="104" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Linkoping vs Brynas (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Linkoping vs Brynas (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/dvvvA.m3u8
 
-#EXTINF:-1 tvg-chno="104" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Rogle vs Djurgarden (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Rogle vs Djurgarden (FAWA)
+#EXTINF:-1 tvg-chno="105" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Rogle vs Djurgarden (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Rogle vs Djurgarden (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/dvvvAAAA.m3u8
 
-#EXTINF:-1 tvg-chno="105" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Timra vs Orebro (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Timra vs Orebro (FAWA)
+#EXTINF:-1 tvg-chno="106" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Timra vs Orebro (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Timra vs Orebro (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/dvvvAA.m3u8
 
-#EXTINF:-1 tvg-chno="106" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Vaxjo vs Malmo (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Vaxjo vs Malmo (FAWA)
+#EXTINF:-1 tvg-chno="107" tvg-id="Ice.Hockey.Dummy.us" tvg-name="[Sweden Hockey SHL] Vaxjo vs Malmo (FAWA)" tvg-logo="https://liquipedia.net/commons/images/thumb/2/2e/Swedish_Hockey_League_lightmode.png/600px-Swedish_Hockey_League_lightmode.png" group-title="Live Events",[Sweden Hockey SHL] Vaxjo vs Malmo (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/dvvvAAA.m3u8
 
-#EXTINF:-1 tvg-chno="107" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis WTA] Tennis Billie Jean King Cup (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis WTA] Tennis Billie Jean King Cup (FAWA)
+#EXTINF:-1 tvg-chno="108" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis WTA] Tennis Billie Jean King Cup (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis WTA] Tennis Billie Jean King Cup (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/U555.m3u8
 
-#EXTINF:-1 tvg-chno="108" tvg-id="Live.Event.us" tvg-name="[Torneo de Reserva] San Lorenzo vs Huracán | Español 1 (PLIBRE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Torneo de Reserva] San Lorenzo vs Huracán | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="109" tvg-id="Live.Event.us" tvg-name="[Torneo de Reserva] San Lorenzo vs Huracán | Español 1 (PLIBRE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Torneo de Reserva] San Lorenzo vs Huracán | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=tntsports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://YXdlc29tZQ.fubo18.com:443/tntsports/mono.m3u8?token=81d0ffe7570157ac4d632200e1cec14a57bd57de-b6-1790115311-1790097311
 
-#EXTINF:-1 tvg-chno="109" tvg-id="Live.Event.us" tvg-name="[Turkey Basketball Super Cup] Fenerbahce vs Besiktas (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Turkey Basketball Super Cup] Fenerbahce vs Besiktas (FAWA)
+#EXTINF:-1 tvg-chno="110" tvg-id="Live.Event.us" tvg-name="[Turkey Basketball Super Cup] Fenerbahce vs Besiktas (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Turkey Basketball Super Cup] Fenerbahce vs Besiktas (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/abbbb.m3u8
 
-#EXTINF:-1 tvg-chno="110" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Arsenal vs Køge | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Arsenal vs Køge | Disney + (STRMXHD)
+#EXTINF:-1 tvg-chno="111" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Arsenal vs Køge | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Arsenal vs Køge | Disney + (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=disney3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/disney3/index.m3u8?token=9dc7ec44def309d51e6b8cb636bc6ecdf3846622-ae-1790143212-1790089212
 
-#EXTINF:-1 tvg-chno="111" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Bayern vs Manchester City | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Bayern vs Manchester City | Disney + (STRMXHD)
+#EXTINF:-1 tvg-chno="112" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Bayern vs Manchester City | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Bayern vs Manchester City | Disney + (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=disney1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/disney1/index.m3u8?token=9e8656a1b815fbb6cfad67d39701cb2382699f6d-78-1790143212-1790089212
 
-#EXTINF:-1 tvg-chno="112" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN 2 (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN 2 (STRMXHD)
+#EXTINF:-1 tvg-chno="113" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN 2 (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN 2 (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=espn2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/espn2/index.m3u8?token=ff5738b143250aeea3bca78f0f7fdac995fce88c-e9-1790143212-1790089212
 
-#EXTINF:-1 tvg-chno="113" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN Deportes (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN Deportes (STRMXHD)
+#EXTINF:-1 tvg-chno="114" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN Deportes (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Bayern vs Manchester City | ESPN Deportes (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=espndeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/espndeportes/index.m3u8?token=f99cdabab48931cd23482e91a422a7a9a97509f5-4e-1790143212-1790089212
 
-#EXTINF:-1 tvg-chno="114" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Inter Milano vs Häcken | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Inter Milano vs Häcken | Disney + (STRMXHD)
+#EXTINF:-1 tvg-chno="115" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Inter Milano vs Häcken | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Inter Milano vs Häcken | Disney + (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=disney2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/disney2/index.m3u8?token=652d79b74639dbda76ce7bd49c53011bf11f9bc5-22-1790143212-1790089212
 
-#EXTINF:-1 tvg-chno="115" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Juventus vs SL Benfica | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Juventus vs SL Benfica | Disney + (STRMXHD)
+#EXTINF:-1 tvg-chno="116" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Juventus vs SL Benfica | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Juventus vs SL Benfica | Disney + (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=disney4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/disney4/index.m3u8?token=d07da45e2def2e6abd4e31ee067ccfceb0c6feb6-17-1790143212-1790089212
 
-#EXTINF:-1 tvg-chno="116" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Real Madrid vs PSG | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Real Madrid vs PSG | Disney + (STRMXHD)
+#EXTINF:-1 tvg-chno="117" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Real Madrid vs PSG | Disney + (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Real Madrid vs PSG | Disney + (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=disney5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/disney5/index.m3u8?token=12a7f2f31a1dbf6e71a4b16de4e1c281333a5022-b6-1790143213-1790089213
 
-#EXTINF:-1 tvg-chno="117" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Real Madrid vs PSG | ESPN 2 (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Real Madrid vs PSG | ESPN 2 (STRMXHD)
+#EXTINF:-1 tvg-chno="118" tvg-id="Live.Event.us" tvg-name="[UEFA Champions League Femenina] Real Madrid vs PSG | ESPN 2 (STRMXHD)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA Champions League Femenina] Real Madrid vs PSG | ESPN 2 (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=espn2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/espn2/index.m3u8?token=0567462ee564b8186242d5eeb3222c4ece5779f8-f4-1790143213-1790089213
 
-#EXTINF:-1 tvg-chno="118" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Bayern Munchen W vs Manchester City W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Bayern Munchen W vs Manchester City W (FAWA)
+#EXTINF:-1 tvg-chno="119" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Arsenal W vs Koge W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Arsenal W vs Koge W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/i555AAAA.m3u8
+
+#EXTINF:-1 tvg-chno="120" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Bayern Munchen W vs Manchester City W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Bayern Munchen W vs Manchester City W (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/diiiAAAAQQQQ.m3u8
 
-#EXTINF:-1 tvg-chno="119" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Inter W vs Hacken W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Inter W vs Hacken W (FAWA)
+#EXTINF:-1 tvg-chno="121" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Inter W vs Hacken W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Inter W vs Hacken W (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.59/hls/diiiAAAAQQQQQ.m3u8
 
-#EXTINF:-1 tvg-chno="120" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Arsenal vs Køge | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Arsenal vs Køge | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="122" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Juventus W vs SL Benfica W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Juventus W vs SL Benfica W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/i555.m3u8
+
+#EXTINF:-1 tvg-chno="123" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women Champions League] Real Madrid W vs PSG W (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women Champions League] Real Madrid W vs PSG W (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.59/hls/i555AA.m3u8
+
+#EXTINF:-1 tvg-chno="124" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Arsenal vs Køge | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Arsenal vs Køge | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=disney3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://bmf0aw9u.fubo18.com:443/disney3/mono.m3u8?token=18d93723c61b4d69de190fab8a152b3d6a3a5dce-de-1790115311-1790097311
 
-#EXTINF:-1 tvg-chno="121" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Arsenal vs Køge | Español 2 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Arsenal vs Køge | Español 2 (PLIBRE)
+#EXTINF:-1 tvg-chno="125" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Arsenal vs Køge | Español 2 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Arsenal vs Køge | Español 2 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=espndeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://b2ZmaWNpYWw.fubo18.com:443/espndeportes/mono.m3u8?token=edec2da43c90b26908da663782065adeb739ff3e-76-1790115311-1790097311
 
-#EXTINF:-1 tvg-chno="122" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern München vs Manchester City (WATCHFTY)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern München vs Manchester City (WATCHFTY)
+#EXTINF:-1 tvg-chno="126" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern München vs Manchester City (WATCHFTY)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern München vs Manchester City (WATCHFTY)
 #EXTVLCOPT:http-referrer=https://sportsembed.su/embed/401917018/bayern-munchen-w-manchester-city-w/sigma/3?player=clappr&autoplay=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://lb1.wfty.st/secure/DV9ZfXXXNy3Tojg3THVRbQ/sigma/bayern-munchen-w-manchester-city-w/3/401917018/1790118018/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="123" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern vs Manchester City | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern vs Manchester City | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="127" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern vs Manchester City | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern vs Manchester City | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=espn2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://bmf0aw9u.fubo18.com:443/espn2/mono.m3u8?token=88b5780b3626444214ab475923d098410ef0b7fb-8c-1790115312-1790097312
 
-#EXTINF:-1 tvg-chno="124" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern vs Manchester City | Español 2 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern vs Manchester City | Español 2 (PLIBRE)
+#EXTINF:-1 tvg-chno="128" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern vs Manchester City | Español 2 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern vs Manchester City | Español 2 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=disney1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://c2f2zq.fubo18.com:443/disney1/mono.m3u8?token=b5d40a88aa410a2053762b4fa2c1e94505b95cf7-1a-1790115312-1790097312
 
-#EXTINF:-1 tvg-chno="125" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern vs Manchester City | Español 3 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern vs Manchester City | Español 3 (PLIBRE)
+#EXTINF:-1 tvg-chno="129" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Bayern vs Manchester City | Español 3 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Bayern vs Manchester City | Español 3 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=espndeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://eWVz.fubo18.com:443/espndeportes/mono.m3u8?token=a511a8fcca8896a50428d2a11c9709eeaa23f5c0-1b-1790115312-1790097312
 
-#EXTINF:-1 tvg-chno="126" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Inter Milan (W) vs Hacken (W) (WATCHFTY)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Inter Milan (W) vs Hacken (W) (WATCHFTY)
+#EXTINF:-1 tvg-chno="130" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Inter Milan (W) vs Hacken (W) (WATCHFTY)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Inter Milan (W) vs Hacken (W) (WATCHFTY)
 #EXTVLCOPT:http-referrer=https://sportsembed.su/embed/4847207/inter-milan-w-hacken-w/sigma/3?player=clappr&autoplay=true
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://lb2.wfty.st/secure/pG4uehXs9NDZPv8qkoolKw/sigma/inter-milan-w-hacken-w/3/4847207/1790119816/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="127" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Inter Milano vs Häcken | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Inter Milano vs Häcken | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="131" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Inter Milano vs Häcken | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Inter Milano vs Häcken | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=disney2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://eWVz.fubo18.com:443/disney2/mono.m3u8?token=a8e41086027773f1ec89cd61e0146952afbf6fc7-b4-1790115310-1790097310
 
-#EXTINF:-1 tvg-chno="128" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Juventus vs SL Benfica | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Juventus vs SL Benfica | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="132" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Juventus vs SL Benfica | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Juventus vs SL Benfica | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=disney4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://YXdlc29tZQ.fubo18.com:443/disney4/mono.m3u8?token=7a0fe23e2e7c1f5ddddd48dfcb21514c363314c7-63-1790115310-1790097310
 
-#EXTINF:-1 tvg-chno="129" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Real Madrid vs PSG | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Real Madrid vs PSG | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="133" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Real Madrid vs PSG | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Real Madrid vs PSG | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=espn2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://dglvz29s.fubo18.com:443/espn2/mono.m3u8?token=eaba0a7c5e614d2cf874bafe3248025f5a7e13ef-94-1790115311-1790097311
 
-#EXTINF:-1 tvg-chno="130" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Real Madrid vs PSG | Español 2 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Real Madrid vs PSG | Español 2 (PLIBRE)
+#EXTINF:-1 tvg-chno="134" tvg-id="Soccer.Dummy.us" tvg-name="[UEFA Women's Champions League] Real Madrid vs PSG | Español 2 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2408.png" group-title="Live Events",[UEFA Women's Champions League] Real Madrid vs PSG | Español 2 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=disney5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://a2lja3m.fubo18.com:443/disney5/mono.m3u8?token=54aa335291ebde955554c563667a9347d3500786-9c-1790115311-1790097311
 
-#EXTINF:-1 tvg-chno="131" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] BK Häcken vs Internazionale | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] BK Häcken vs Internazionale | English (STRMGATE)
+#EXTINF:-1 tvg-chno="135" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] BK Häcken vs Internazionale | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] BK Häcken vs Internazionale | English (STRMGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917017
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://instreams.live/live/tv401917017/index.m3u8?st=n2zQx-YtO3hd-iva43nFRg&e=1790107212
 
-#EXTINF:-1 tvg-chno="132" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] Manchester City vs Bayern Munich | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] Manchester City vs Bayern Munich | English (STRMGATE)
+#EXTINF:-1 tvg-chno="136" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] Benfica vs Juventus | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] Benfica vs Juventus | English (STRMGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917015
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://instreams.pro/live/tv401917015/index.m3u8?st=7PNKwpCamnuX_53r7hQshA&e=1790112613
+
+#EXTINF:-1 tvg-chno="137" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] HB Køge vs Arsenal | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] HB Køge vs Arsenal | English (STRMGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917016
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://instreams.pro/live/tv401917016/index.m3u8?st=W4slvKPYbpcaCtDcjbBfJw&e=1790112612
+
+#EXTINF:-1 tvg-chno="138" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] Manchester City vs Bayern Munich | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] Manchester City vs Bayern Munich | English (STRMGATE)
 #EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917018
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://instreams.live/live/tv401917018/index.m3u8?st=37VjjGXa2bt9OJ0d67kUjg&e=1790107211
 
-#EXTINF:-1 tvg-chno="133" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Indiana vs Minnesota | ESPN 2 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Indiana vs Minnesota | ESPN 2 (STRMXHD)
+#EXTINF:-1 tvg-chno="139" tvg-id="Live.Event.us" tvg-name="[UEFA_WCHAMPIONS] Paris Saint-Germain vs Real Madrid | English (STRMGATE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[UEFA_WCHAMPIONS] Paris Saint-Germain vs Real Madrid | English (STRMGATE)
+#EXTVLCOPT:http-referrer=https://instream.click/livetv.php?stream=tv401917014
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://instreams.live/live/tv401917014/index.m3u8?st=3FT5z2-Wq60XhIsTY7LEhA&e=1790112613
+
+#EXTINF:-1 tvg-chno="140" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Indiana vs Minnesota | ESPN 2 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Indiana vs Minnesota | ESPN 2 (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=espn2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/espn2/index.m3u8?token=4adc1d191b2ee32252383c687e65fd3084a1506c-90-1790143211-1790089211
 
-#EXTINF:-1 tvg-chno="134" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Las Vegas vs Los Angeles | ESPN 2 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Las Vegas vs Los Angeles | ESPN 2 (STRMXHD)
+#EXTINF:-1 tvg-chno="141" tvg-id="WNBA.dummy.us" tvg-name="[WNBA] Las Vegas vs Los Angeles | ESPN 2 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/wnba.png" group-title="Live Events",[WNBA] Las Vegas vs Los Angeles | ESPN 2 (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.com/live1.php?stream=espn2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/espn2/index.m3u8?token=9af74ff784745c29035056fd8af2ebd159a05626-ec-1790143211-1790089211
