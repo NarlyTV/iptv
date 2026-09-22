@@ -127,7 +127,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
         if not start_dt <= event_dt <= end_dt:
             continue
 
-        name = f"{away} vs {home}"
+        name = f"{away.strip()} vs {home.strip()}"
 
         if f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
