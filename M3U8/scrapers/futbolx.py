@@ -74,7 +74,7 @@ async def get_events(cached_keys: KeysView[str]) -> dict[str, dict[str, str | fl
 
             name, sport, event_time, event_streams = values
 
-            event_dt = Time.fromisoformat(event_time).to_tz("EST")
+            event_dt = Time.from_str(event_time, tz_name="MSK")
 
             if event_dt.date() != now.date():
                 continue
