@@ -122,7 +122,7 @@ async def main() -> None:
                 asyncio.create_task(fawa.scrape()),
                 asyncio.create_task(flyembed.scrape()),
                 asyncio.create_task(futbolx.scrape()),
-                # asyncio.create_task(istreameast.scrape()),
+                asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
                 # asyncio.create_task(ovostream.scrape()),
                 # asyncio.create_task(pelotalibre.scrape()),
