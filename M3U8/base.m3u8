@@ -421,8 +421,9 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb511/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb514/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTE0OjE3OTAxMzYwMTQ0OTE6Y2RubGl2ZXR2LnR2OmNjYjJkZjY1OWFkMzE2NDAuNjZiMjdiNjRhMGVmNTI0MTU3ZDQ1NDYyMzI3NTBkYmJmNmRjN2FkOWY4NzgwMDZmZjdlMDI1YjdhNGY0MmM2OQ
 
 #EXTINF:-1 tvg-chno="122" tvg-id="NBC.Sports.California.SAT.us2" tvg-name="NBC Sports California" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45540_dark_360w_270h.png" group-title="TV",NBC Sports California
+#EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb515/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTE1OjE3OTAxMzYwMTQ2Nzc6Y2RubGl2ZXR2LnR2OmY4MmVhMjQ1NTc2YmMxZjkuMTIyN2QyYzI3ZDRhYzFjMzg1OWQyMzkwZTQ5NzIwNDZlNjMxYTA1NWYxNDc2NWY2YzY5NDc2MTE0ZWUxNjFjMg
+https://cache0.wonvt.st/live/0iexaqu0xs8ukv01awmpa/master.m3u8
 
 #EXTINF:-1 tvg-chno="123" tvg-id="plex.tv.NBC.Sports.NOW.plex" tvg-name="NBC Sports NOW" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114140_dark_360w_270h.png" group-title="TV",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
