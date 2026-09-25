@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-25 08:04 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-25 14:03 UTC
 
-<h3>✅ Working Streams: 140<br>❌ Dead Streams: 80</h3>
+<h3>✅ Working Streams: 139<br>❌ Dead Streams: 81</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3OTAyMDQ0MDcwNzU6Y2RubGl2ZXR2LnR2OjE4MWE4ZTU0YTU1N2NhYmYuMzRiZjk0ZDdjMjkyYzJhZDkyMWQ0NDBhOGFjMjJiMWM1ZjI5NzdjMTgyODMzZTdjZmQxNjQ4MjNlYjIxNzEzOQ'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -52,6 +52,7 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb269/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjY5OjE3OTAyMDQ0MTQ2NDU6Y2RubGl2ZXR2LnR2OjFhMDRiNDk5Njc2M2I4ZmYuYjcxMjdmZGI0ZDc4Nzc5NjY0NTJhNzYwMWU2YTQyNTg0MGNmYmI0MzdlNTg0YjJiMDNmMmI5MzY2OWU3MWM0OA'>Pop TV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3OTAyMDQ0MTQ4Mzg6Y2RubGl2ZXR2LnR2Ojk3YzQzM2Y3Y2UzN2ExOGYuYjk3ZGE5M2FmMGE4Nzc0NWE3MTRkZDQyOWEyMzQ1YTU3MzQzM2RiYTk5MmRjY2I2MTljNzNjNDY4ODQ3OTYyZg'>Premier Sports 1</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3OTAyMDQ0MTUwNDc6Y2RubGl2ZXR2LnR2OjA1NzlkZDNhMzdmMzIwOTAuZGVhNmU5OTQ5OTk0NmY3ZjcxOTE4NTFhNzEzZDJjNjJkZDQ0MjkxNGFmOWNlYzdhM2E2Nzc0MDdmMjI1NDJhZA'>Premier Sports 2</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0k8zpg50jakid00dp8vqm/master.m3u8'>Reelz Channel</a></td><td>HTTP Error (502)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb275/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjc1OjE3OTAyMDQ0MTU0NjE6Y2RubGl2ZXR2LnR2OjFkNGMwZWI0NDBhZTlmYTMuM2MzMjQ1YjU1YmI2OGFmYjliMTczNDgyZGRlOWIwODc2M2E2M2U0MGNjNGUzMWRiYjkxMTQwNjhmNzVlNTdjMw'>Showtime 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb275/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjc1OjE3OTAyMDQ0MTUyNTQ6Y2RubGl2ZXR2LnR2OjZiN2VlYTQ0YTI3ZDVlYWEuZTZlMTk4ZmE5MDQyNTYyY2U3OTRlYzI1NDJmYmQ4NGMxMzFiNjE2YjZjOTc5NGJiZGM1M2UyNmUxY2IwZTg0Mw'>Showtime Extreme</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3OTAyMDQ0MTU2NTc6Y2RubGl2ZXR2LnR2OmRlMTBlZDcxYmNlNzQ0MDMuMDBlODExNzBmZDlkM2ExYjQ3ODg1ZTdkYTdmNmJlZjU0ZGY3NDhhM2I3YmY0Yzg3NDIxYWRmNDU4MmM1M2JmZQ'>Sky Sports Cricket</a></td><td>HTTP Error (403)</td></tr>
