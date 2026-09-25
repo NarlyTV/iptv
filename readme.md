@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-24 23:18 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-25 08:04 UTC
 
-<h3>✅ Working Streams: 139<br>❌ Dead Streams: 81</h3>
+<h3>✅ Working Streams: 140<br>❌ Dead Streams: 80</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3OTAyMDQ0MDcwNzU6Y2RubGl2ZXR2LnR2OjE4MWE4ZTU0YTU1N2NhYmYuMzRiZjk0ZDdjMjkyYzJhZDkyMWQ0NDBhOGFjMjJiMWM1ZjI5NzdjMTgyODMzZTdjZmQxNjQ4MjNlYjIxNzEzOQ'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -63,7 +63,6 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3OTAyMDQ0MTY4OTI6Y2RubGl2ZXR2LnR2OmE1MTQ0YjYxMmNiODBkNmEuNDQ3NjY0NTI1OTJhMTJiNDg3NDU3YjNkNzJlMTM3Yjg2NGRiYzllOTczMmIxZTM1YjFhMjcyYmVlNDU2OWI3ZA'>Sky Sports Racing</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3OTAyMDQ0MTcxMDA6Y2RubGl2ZXR2LnR2OjJmZWQ1NjUyNTM0YTI5MTkuOTU1NjI3NDk1MTRiYzg0Y2QyODFhN2Q0NjhjNjJkOWUzYWE2YWZjZmM5MTZmNGEyYzIzYmZhZTczYzc2MzAxOQ'>Sky Sports Tennis</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb27d/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjdkOjE3OTAyMDQ0MTczMDE6Y2RubGl2ZXR2LnR2OjM1OTM4OTUyYTM5YTE5YTAuMzEzZTI3ZTZhNjU1YmJhMTQ0YzcxMTVjNTExNDZjYTM4NjRjYzVhMjA1MDZhYTc2N2VlNTM5ZDdhYmRlMGU1Ng'>Smithsonian Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/034yveq0x3b43c1q0ycfa/master.m3u8'>Space City Home Network</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ea/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWVhOjE3OTAyMDQ0MTc1MTI6Y2RubGl2ZXR2LnR2OjU1N2E5ZjUyOTUxYzU3ZjUuZjc2MTI4Zjk5NTJjMjk2ZmRiMWEzZjEwMDZkNGEzMDdiMmNmMzU1ZWE4YmI2OWY3MDkyYzU1NzE2ZWJlYjNhMw'>Spectrum SportsNet LA Dodgers</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3OTAyMDQ0MTc3MDc6Y2RubGl2ZXR2LnR2OmE2OTA4N2MwMjJmZmMzZjQuNWRiOGZiZjhmNTY2NWUzZjVlMzNiOWYyZDMwYmEyM2MzMzgyMDI4MDVkZjcxN2EwMTVlMmY1ZTMxYmI1ZWEzOQ'>Sportsnet 360</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3OTAyMDQ0MTc5Mjc6Y2RubGl2ZXR2LnR2OmE0NzE3MDg4MDc5MTRkMGEuYzNhMDg5NDE2NDJhYWUwNTg4YjQwYjg0YjM0ZTIyN2RiZWI2NWU4ZmNlODlkMmRhMGYxM2Y4NDUxMDVjMTQ0MA'>Sportsnet East</a></td><td>HTTP Error (403)</td></tr>
