@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-09-26 17:54 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-09-26 23:04 UTC
 
-<h3>✅ Working Streams: 138<br>❌ Dead Streams: 82</h3>
+<h3>✅ Working Streams: 139<br>❌ Dead Streams: 81</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3OTAyMDQ0MDcwNzU6Y2RubGl2ZXR2LnR2OjE4MWE4ZTU0YTU1N2NhYmYuMzRiZjk0ZDdjMjkyYzJhZDkyMWQ0NDBhOGFjMjJiMWM1ZjI5NzdjMTgyODMzZTdjZmQxNjQ4MjNlYjIxNzEzOQ'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -39,7 +39,6 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6bb/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmJiOjE3OTAyMDQ0MTE3ODM6Y2RubGl2ZXR2LnR2OmI4ZDZkNjhhNGM2ZjQzNjcuNjM5MTIxYjExZDBmNDZhNDhiMWQxZGQ3OGVkNzgyYzhlNGExMmE4OWVlZDYzY2I0OTQwODMzODdmOWQwMTJmZg'>Investigation Discovery</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb247/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjQ3OjE3OTAyMDQ0MTE5Nzg6Y2RubGl2ZXR2LnR2OjUyNDFmOWM1MmYyZjQwOGQuOWIxMGM3ZThhOTYwNmQ3YWQ1ODlkZTQ2MzhlMWMwOWM1MjMwNWFmOGViMWI0ZWM0NGNlYjcxNTc0MDFmOWUzZg'>Lifetime</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3bf/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2JmOjE3OTAyMDQ0MTIxODE6Y2RubGl2ZXR2LnR2OjA2ZTYzZWJkMjVmMWYzMzQuNmVjYzU5YjhmNWNkYjBhYmY2Y2JiZWQ0M2IwZDg3Njk5OWM5MWY2MDAyYzllYTdkMzA3ZjNkZjUyODA1YjYxMA'>Lifetime Movie Network</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0fw1ltm1y185qp02gtx24/master.m3u8'>Marquee Sports Network</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb24b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjRiOjE3OTAyMDQ0MTIzODY6Y2RubGl2ZXR2LnR2OjQyYjMzYmM4ZDZlMzMyYWUuNWUwOGI1MWYzOWYyOGNmMmM0NTI2YmE1NGYwZjE5ODY4MjFmNDdjYzU4NGE5MjM0MWNhM2JkOWE5M2ZmZDE2ZQ'>MeTV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3ce/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2NlOjE3OTAyMDQ0MTI1OTg6Y2RubGl2ZXR2LnR2OmU1N2Q0MTkxYmFiZDg3MTMuZGE5ZjZjZWEwNjE1MWJlZDRhMzUwYTJmZTc4MWMxMjkyNzkyMWYzZDY3NWM0OGFkMmE4NmRlMjJhMjc2ODMyZA'>MGM+</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3OTAyMDQ0MTI3OTQ6Y2RubGl2ZXR2LnR2OjZhYTdkNGIwZDA4MDU1ZjIuOWUxZjhhNTNkZGQ4MGQwOTliOTgxNmUzOTliY2VlZDMyNmMyM2U1YWE3MWIwZTU5Zjg1NDllYzEwN2JlNjQ2Yw'>MLB Network</a></td><td>HTTP Error (403)</td></tr>
