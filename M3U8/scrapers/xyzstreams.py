@@ -27,9 +27,10 @@ HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
 BASE_URL = "https://xyzstreams.st"
 
 SERVERS = [
-    "https://xyzstreams.blog/1/",
-    # "https://tokenized.b-cdn.net/",
+    # "https://xyzstreams.blog/1/",
+    "https://tokenized.b-cdn.net/",
     "https://xyzstreams.space/",
+    "https://hlss.b-cdn.net/a",
 ]
 
 KEY = "TXlTdXBlclNlY3JldEtleTEyMyE="
