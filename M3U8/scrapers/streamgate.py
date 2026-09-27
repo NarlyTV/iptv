@@ -150,6 +150,8 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
         sport, event_time, away, home, streams = values
 
+        sport = " ".join(i.strip() for i in sport.split("_"))
+
         event_dt = Time.fromisoformat(event_time).to_tz("EST")
 
         if not start_dt <= event_dt <= end_dt:

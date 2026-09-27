@@ -30,7 +30,7 @@ SERVERS = [
     # "https://xyzstreams.blog/1/",
     "https://tokenized.b-cdn.net/",
     "https://xyzstreams.space/",
-    "https://hlss.b-cdn.net/a",
+    "https://hlss.b-cdn.net/",
 ]
 
 KEY = "TXlTdXBlclNlY3JldEtleTEyMyE="

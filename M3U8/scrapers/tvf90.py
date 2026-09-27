@@ -23,6 +23,10 @@ API_URL = "https://api.wqxag.com/diaries.json"
 BASE_URL = "https://tvf90.com"
 
 
+def cleanup(s: str) -> str:
+    return re.sub(r"(\r|\n|\t)", "", s).strip()
+
+
 async def process_event(url: str, url_num: int) -> str | None:
     if not (html_data := await network.request(url, url_num, log=log)):
         return
@@ -102,6 +106,8 @@ async def get_events() -> list[Event]:
             )
         except ValueError:
             sport, name = "Live Event", event_name
+
+        sport, name = cleanup(sport), cleanup(name)
 
         for frames in stream_embeds:
             if not (frames_attrs := frames.get("attributes")):
