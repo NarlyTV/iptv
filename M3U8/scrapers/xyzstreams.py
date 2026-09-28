@@ -28,8 +28,9 @@ BASE_URL = "https://xyzstreams.st"
 
 SERVERS = [
     # "https://xyzstreams.blog/1/",
-    "https://tokenized.b-cdn.net/",
+    # "https://tokenized.b-cdn.net/",
     # "https://xyzstreams.space/",
+    "https://eu-hlss.b-cdn.net/",
     "https://hlss.b-cdn.net/",
 ]
 
