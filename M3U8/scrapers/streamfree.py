@@ -90,7 +90,7 @@ async def process_event(
         stream_data := await network.request(
             urljoin(BASE_URL, f"embed/{category}/{stream_key}{num}"),
             url_num,
-            headers={"Referer": BASE_URL},
+            # headers={"Referer": BASE_URL},
             params={"quality": qual, "category": category},
             timeout=httpx.Timeout(25.0),
             log=log,
