@@ -50,6 +50,9 @@ async def process_event(url: str, url_num: int) -> str | None:
     splits = urlsplit(stream_url)
 
     if not (m3u := dict(parse_qsl(splits.query)).get("src")):
+        m3u = dict(parse_qsl(splits.query)).get("url")
+
+    if not m3u:
         log.warning(f"URL {url_num}) Failed to parse url")
         return
 
