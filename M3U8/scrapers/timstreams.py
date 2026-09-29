@@ -27,7 +27,14 @@ class TIMEvent(Event):
 
 
 async def process_event(url: str, url_num: int) -> str | None:
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        html_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return
 
     num_list_ptrn = re.compile(r"var\s+_(\w+)=\[([^\]]*)\],", re.S)

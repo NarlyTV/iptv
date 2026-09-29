@@ -31,6 +31,7 @@ async def process_event(stream_id: str, url_num: int) -> str | None:
         event_data := await network.request(
             urljoin(BASE_URL, f"papi/extract-url/{stream_id}"),
             url_num,
+            headers={"Referer": BASE_URL},
             log=log,
         )
     ):

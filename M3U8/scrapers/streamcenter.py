@@ -36,6 +36,7 @@ async def process_event(url: str, url_num: int) -> str | None:
         html_data := await network.request(
             url,
             url_num,
+            headers={"Referer": BASE_URL},
             timeout=httpx.Timeout(25.0),
             log=log,
         )

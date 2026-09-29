@@ -24,7 +24,14 @@ def fix_sport(s: str) -> str:
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     nones = None, None
 
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        html_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return nones
 
     soup = HTMLParser(html_data.content)

@@ -20,7 +20,14 @@ BASE_URL = "https://streameast.cool"
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     nones = None, None
 
-    if not (event_data := await network.request(url, url_num, log=log)):
+    if not (
+        event_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return nones
 
     soup = HTMLParser(event_data.content)

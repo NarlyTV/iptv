@@ -18,7 +18,14 @@ BASE_URL = "http://www.fawanews.sc/"
 
 
 async def process_event(url: str, url_num: int) -> str | None:
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        html_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return
 
     valid_m3u8 = re.compile(

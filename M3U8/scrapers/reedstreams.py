@@ -47,16 +47,15 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     stream_url = stream_urls[0]
 
-    if not (source := dict(parse_qsl(urlsplit(stream_url).query)).get("url")):
-        source = stream_url.rsplit("stream=", 1)[-1]
+    splits = urlsplit(stream_url)
+
+    if not (m3u := dict(parse_qsl(splits.query)).get("src")):
+        log.warning(f"URL {url_num}) Failed to parse url")
+        return
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return (
-        unquote(source)
-        if source.startswith("http")
-        else network.ensure_https(f"//{source}")
-    )
+    return unquote(m3u)
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:

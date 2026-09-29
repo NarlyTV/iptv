@@ -33,7 +33,16 @@ async def process_event(
     sport: str,
 ) -> str | None:
 
-    if not (event_data := await network.request(url, url_num, log=log)):
+    base_url, base_api = BASE_URLS[sport].values()
+
+    if not (
+        event_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": base_url},
+            log=log,
+        )
+    ):
         return
 
     soup = HTMLParser(event_data.content)
@@ -75,7 +84,7 @@ async def process_event(
 
     if not (
         api_data := await network.request(
-            urljoin(BASE_URLS[sport]["base"], BASE_URLS[sport]["api"]),
+            urljoin(base_url, base_api),
             url_num,
             headers={"Referer": iframe_src},
             params=params,

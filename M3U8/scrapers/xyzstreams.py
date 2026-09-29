@@ -32,6 +32,7 @@ SERVERS = [
     # "https://xyzstreams.space/",
     "https://eu-hlss.b-cdn.net/",
     "https://hlss.b-cdn.net/",
+    "https://us2-hlss2.b-cdn.net/",
 ]
 
 KEY = "TXlTdXBlclNlY3JldEtleTEyMyE="
@@ -66,7 +67,14 @@ def decrypt_token(
 async def process_event(url: str, url_num: int) -> str | None:
     server = random.choice(SERVERS)
 
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        html_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return
 
     elif not (

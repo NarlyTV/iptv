@@ -41,6 +41,7 @@ async def process_event(
         quality_data := await network.request(
             urljoin(BASE_URL, f"api/stream-status/{stream_key}"),
             url_num,
+            headers={"Referer": BASE_URL},
             log=log,
         )
     ):
@@ -80,6 +81,7 @@ async def process_event(
     if server_info := await network.request(
         urljoin(BASE_URL, f"get-stream-key/{stream_key}"),
         url_num,
+        headers={"Referer": BASE_URL},
         log=log,
     ):
         server_name = server_info.json().get("server_name", "cdn")
@@ -88,6 +90,7 @@ async def process_event(
         stream_data := await network.request(
             urljoin(BASE_URL, f"embed/{category}/{stream_key}{num}"),
             url_num,
+            headers={"Referer": BASE_URL},
             params={"quality": qual, "category": category},
             timeout=httpx.Timeout(25.0),
             log=log,

@@ -17,6 +17,8 @@ CACHE_FILE = Cache(TAG, exp=7_200)
 
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
+BASE_URL = "https://flyembed.click/"
+
 API_URL = "https://ovogoal.cyou/api/v2/flyembed2.json"
 
 
@@ -27,7 +29,14 @@ def cleanup(s: str) -> str:
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     nones = None, None
 
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        html_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return nones
 
     soup = HTMLParser(html_data.content)
@@ -161,7 +170,7 @@ async def scrape() -> None:
 
     log.info(f"Loaded {cached_count} event(s) from cache")
 
-    log.info('Scraping from "https://flyembed.xyz"')
+    log.info(f'Scraping from "{BASE_URL}"')
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
