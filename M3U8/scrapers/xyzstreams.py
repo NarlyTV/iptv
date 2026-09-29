@@ -30,8 +30,8 @@ SERVERS = [
     # "https://xyzstreams.blog/1/",
     # "https://tokenized.b-cdn.net/",
     # "https://xyzstreams.space/",
-    "https://eu-hlss.b-cdn.net/",
-    "https://hlss.b-cdn.net/",
+    "https://eu-hlss2.b-cdn.net/",
+    "https://hlss2.b-cdn.net/",
     "https://us2-hlss2.b-cdn.net/",
 ]
 
