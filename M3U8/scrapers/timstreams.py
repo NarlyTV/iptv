@@ -104,7 +104,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[TIMEvent]:
     if genres := api_data.get("genres", []):
         sport_genres = {
             genre["id"]: {
-                **{0: genre["name"]},
+                0: genre["name"],
                 **{sub["id"]: sub["name"] for sub in genre.get("sub_categories", [])},
             }
             for genre in genres
