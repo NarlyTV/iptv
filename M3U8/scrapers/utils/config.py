@@ -18,7 +18,7 @@ class Event:
 class Time(datetime):
     __slots__ = ()
 
-    ZONES: dict[str, ZoneInfo] = {
+    ZONES: dict[str, ZoneInfo] = {  # noqa: RUF012
         "ALMT": ZoneInfo("Indian/Maldives"),
         # "CET": ZoneInfo("Europe/Berlin"),
         "ET": ZoneInfo("America/New_York"),
@@ -37,7 +37,7 @@ class Time(datetime):
         return cls.now(tz=cls.TZ).replace(second=0, microsecond=0)
 
     @classmethod
-    def from_ts(cls, ts: int | float) -> "Time":
+    def from_ts(cls, ts: float) -> "Time":
         return cls.fromtimestamp(ts, tz=cls.TZ)
 
     @classmethod
@@ -99,7 +99,7 @@ class Time(datetime):
 
             for frmt in formats:
                 try:
-                    dt = datetime.strptime(s, frmt)
+                    dt = datetime.strptime(s, frmt)  # noqa: DTZ007
                     break
                 except ValueError:
                     continue
@@ -202,4 +202,4 @@ class Leagues:
 
 leagues = Leagues()
 
-__all__ = ["leagues", "Event", "Time"]
+__all__ = ["Event", "Time", "leagues"]
