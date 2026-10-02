@@ -92,7 +92,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     token, token_iv = token_data.get("token"), token_data.get("iv")
 
     if not (token and token_iv):
-        log.warning(f"URL {url_num}) Failed to get token information")
+        log.warning(f"URL {url_num}) Unable to get token information")
         return
 
     soup = HTMLParser(html_data.content)
@@ -128,7 +128,7 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     )
 
     if not (match := ptrn.search(html_data.text)):
-        log.warning('Failed to find "EVENTS_DATA" var.')
+        log.warning('Unable to find "EVENTS_DATA" var')
         return events
 
     event_data: list[dict[str, str]] = json.loads(match[1])

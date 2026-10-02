@@ -50,7 +50,7 @@ async def process_event(
     )
 
     if not r.is_success:
-        log.warning(f"URL {url_num}) Failed to create post request.")
+        log.warning(f"URL {url_num}) Unable to create post request.")
         return
 
     data: dict[str, str] = r.json()

@@ -77,7 +77,7 @@ async def process_event(
     try:
         ev_id, ev_ts, ev_pt = ast.literal_eval(match[1])
     except ValueError:
-        log.warning(f"URL {url_num}) Failed to parse event info.")
+        log.warning(f"URL {url_num}) Unable to parse event info.")
         return
 
     params: dict[str, int | str] = dict(zip(["id", "ts", "pt"], [ev_id, ev_ts, ev_pt]))
@@ -94,7 +94,7 @@ async def process_event(
         return
 
     elif (data := api_data.json()).get("error"):
-        log.warning(f"URL {url_num}) Failed to make php request.")
+        log.warning(f"URL {url_num}) Unable to make php request.")
         return
 
     elif not (m3u8 := data.get("url")):

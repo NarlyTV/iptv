@@ -53,7 +53,7 @@ async def process_event(url: str, url_num: int) -> str | None:
         m3u = dict(parse_qsl(splits.query)).get("url")
 
     if not m3u:
-        log.warning(f"URL {url_num}) Failed to parse url")
+        log.warning(f"URL {url_num}) Unable to parse url")
         return
 
     log.info(f"URL {url_num}) Captured M3U8")
