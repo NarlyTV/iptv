@@ -149,8 +149,6 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
 
         sport, name, event_time, href = values
 
-        event_time = event_time.replace("2026-09-31", "2026-10-01")
-
         event_dt = Time.fromisoformat(event_time).to_tz("EST")
 
         if event_dt.date() != now.date():
