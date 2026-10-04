@@ -240,8 +240,9 @@ http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8
 
 #EXTINF:-1 tvg-chno="69" tvg-id="Family.Entertainment.Television.us2" tvg-name="FETV" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73413_dark_360w_270h.png" group-title="TV",FETV
+#EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb38b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzhiOjE3OTExMDk4NDMzNDE6Y2RubGl2ZXR2LnR2OmYwNmE3MDc0ZWRiNWJlM2YuYzExMTVhMzY0YTIxMGJkM2E2OTgwYjI4YjkwM2E3ZDhlNmY3MTk2ZGJmYmZkMTYzZDRhNmYwNmE0ZWRjMGE3YQ
+https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8
 
 #EXTINF:-1 tvg-chno="70" tvg-id="Flo.Events.Dummy.us" tvg-name="FloRacing 24/7" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002D2HJP.png_white_360w_270h.png" group-title="TV",FloRacing 24/7
 https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
@@ -430,8 +431,9 @@ http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 http://198.58.104.90:8989/natgeo/index.m3u8
 
 #EXTINF:-1 tvg-chno="120" tvg-id="National.Geographic.HD.us2" tvg-name="Nat Geo (Alt)" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" group-title="TV",Nat Geo (Alt)
+#EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cabb8/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYmI4OjE3OTExMDk4NDY0MDY6Y2RubGl2ZXR2LnR2OjlhMDc3NTM5MmE1ZmYwYTUuOTRkZjU5YmI5N2U1M2ZmZmI4MjhlMzVhNThkN2UxYjE2ODZlZDIzNWRjYWE5NmE0ODE2ODJhNjJmNGFjYzgzOA
+https://cache0.wonvt.st/live/18r794415ngppi12qwiqy/master.m3u8
 
 #EXTINF:-1 tvg-chno="121" tvg-id="National.Geographic.Wild.HD.us2" tvg-name="Nat Geo Wild" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s86880_dark_360w_270h.png" group-title="TV",Nat Geo Wild
 http://23.237.104.106:8080/USA_NAT_GEO_WILD/index.m3u8
@@ -827,8 +829,6 @@ https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="226" tvg-id="Yes.Network.us2" tvg-name="YES Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" group-title="TV",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
-
-#EXTINF:-1 tvg-chno="227" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[AEW Wrestling] AEW Collision (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[AEW Wrestling] AEW Collision (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/GNNNNa.m3u8
