@@ -1,3 +1,4 @@
+import random
 from functools import partial
 from urllib.parse import parse_qsl, urljoin, urlsplit
 
@@ -61,11 +62,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return (
-        f"https://edgestream3.pro/stream/{stream_id}.m3u8"
-        if stream_id.isdigit()
-        else f"https://edgestream2.pro/hls/{stream_id}.m3u8"
-    )
+    return f"https://edgestream{random.randrange(3,8)}.pro/hls/{stream_id}.m3u8"
 
 
 async def get_events() -> list[Event]:
