@@ -1,6 +1,5 @@
 import base64
 import hashlib
-import json
 import random
 import re
 from collections.abc import KeysView
@@ -8,6 +7,7 @@ from dataclasses import dataclass
 from functools import partial
 from urllib.parse import urljoin, urlsplit
 
+import json5
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
@@ -131,7 +131,7 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
         log.warning('Unable to find "EVENTS_DATA" var')
         return events
 
-    event_data: list[dict[str, str]] = json.loads(match[1])
+    event_data: list[dict[str, str]] = json5.loads(match[1])
 
     for game in event_data:
         if not all(
