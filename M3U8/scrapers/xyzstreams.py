@@ -145,6 +145,8 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
             continue
 
         sport, name, event_time, href = values
+        
+        event_time = event_time.replace("24:00:00", "00:00:00")
 
         event_dt = Time.fromisoformat(event_time).to_tz("EST")
 
