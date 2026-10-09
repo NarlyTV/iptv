@@ -6,35 +6,26 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-09 00:33 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-09 09:26 UTC
 
-<h3>✅ Working Streams: 136<br>❌ Dead Streams: 87</h3>
+<h3>✅ Working Streams: 150<br>❌ Dead Streams: 73</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3OTEyMzk0NTQ5MzM6Y2RubGl2ZXR2LnR2OjNjZDg5YmZjZjc4ZTEyY2YuNzgxODdiNzY3NDJmNDc5NTUwZGM4YjU2MjcyMzliY2ZkY2FjNjZlNWY1NWJmOTBiYjBlZTUyNTYzYmMzZWVmMA'>ABC</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca9a2/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhOWEyOjE3OTEyMzk0NTUxNDE6Y2RubGl2ZXR2LnR2OjI4YjdjOTkxNTE4MjQ5ZDAuYzY5ZGM2M2E4YjUxNzdiMWFlNzQ4ODFhNmFjMjNkZGZmZmFiZWI2ZmZjNTBiZWEzMWNmMjFhMDZhMWUzMjA4MA'>beIN Sports 1 France</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce5d6/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNWQ2OjE3OTEyMzk0NTUzMzQ6Y2RubGl2ZXR2LnR2OmI3N2Q5MzVkM2EzYzU2ZjguYmMxM2RmOGJkZWYxNmM3NmI0OTE0MzcwMTY2OGU0NDA0YWYxZGEzZmE3NWUwYjBiM2ViMjFlZTg5ZWMxZjEyYQ'>beIN Sports en Español</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca97e/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhOTdlOjE3OTEyMzk0NTU1MzY6Y2RubGl2ZXR2LnR2OmJhMmQ1ZTg5OWI0Nzk1ZTcuYjgxNzY1ZmQzYzEyNDA3ZTRmYTkwNjUzOGY2ZTM3ZTk2ZmMyOWVkZmRlYjVkM2E5OTIxZWY4MTRiMTI3M2RmYQ'>beIN Sports USA</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/12ttivn0fhm14f0yr8ber/master.m3u8'>Big Ten Network</a></td><td>HTTP Error (429)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/1ujnn3b0hkqmmi08xuqo1/master.m3u8'>Boomerang</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_CARTOON_NETWORK/index.m3u8'>Cartoon Network</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb205/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjA1OjE3OTEyMzk0NTU3NTA6Y2RubGl2ZXR2LnR2OmIzYTcyYmIxNTkwMGVjMmUuZjc2Yjg5YWIzYjUwOTZjYjhiNTBhNWE0ZTI0YjllZTkyM2Y1NWE5OTA0MDZkNzA3MzcwOTZmYjc3NTViZGI2Nw'>CBS</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb597/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTk3OjE3OTEyMzk0NTU5NTQ6Y2RubGl2ZXR2LnR2OjhhNDQxNmMxNDY0ZGJkMzIuZGViZDRhNjU0NTRkNjk0ZDE2YWNjNmMyN2VlYWRmYmUwNTdiZTk4YzRkMDkyYjdkZDJlNWJkYjFkNTE0ZGE5YQ'>CBS Sports Network</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/1bt9bn80g1n8wl09axhtz/master.m3u8'>Chicago Sports Network</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_CINEMAX/index.m3u8'>Cinemax</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0f06lpb0ljqelj0qrw1ol/master.m3u8'>CNBC</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb213/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjEzOjE3OTEyMzk0NTYxNDc6Y2RubGl2ZXR2LnR2OmNhMjVjNWFiOWE4ZWRjNmQuOTQ1OTBjYmVmMmJhOTIyZDYzODI0ZmZkOGU1M2EyMzFiNmFiOGI4YWRiNjBmNGQ3YzZlNDE5NWViMjE4NzQ1ZQ'>Comedy Central</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb37f/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzdmOjE3OTEyMzk0NTYzNTg6Y2RubGl2ZXR2LnR2OmUyOGVkNGJjMzE3YTdjYTkuODZmNzE5MWVmMzNlOWNhMzQ5N2M3YzNmODg4NTQ3YmNjMjM5M2RjMWI0NWU5YWY2ZTM2MTQ5NWQ1MGFhMGEzYQ'>Cozi TV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EwOjE3OTEyMzk0NTY1NjU6Y2RubGl2ZXR2LnR2OmI2ZjUxMjM5MzYyY2M0MzguMWEwMjk1MGU1ZDQ2NGZjZjI5MzEzNjQ4NWZhNzNiNWZhZGY4M2MyYWIwNjY2YmI3MzA1MmM4ZWQ3NzI2MzRmMQ'>DAZN 1 Germany</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca2/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EyOjE3OTEyMzk0NTY3Njc6Y2RubGl2ZXR2LnR2OjliYzI2MTVjMTU0N2Y5NjcuNjhkNTQyNWViMjc2ODdhYzg0YzM2NDM0YWI5MmI5MjU4MWViZTJmYmNjNWRhMjQ5ZDg3YzU5MGYxNTFmYWRkMQ'>DAZN 2 Germany</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0u3c2ys0rdkozv0955jhy/master.m3u8'>Destination America</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/disney/index.m3u8'>Disney Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0i3hubv0wk47dd1l1o550/master.m3u8'>Disney Channel (Alt)</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8'>Disney XD</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/15a0cd61f3w7um0229g5g/master.m3u8'>E! Entertainment</a></td><td>HTTP Error (429)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8'>FETV</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cae6c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNhZTZjOjE3OTEyMzk0NTY5NzE6Y2RubGl2ZXR2LnR2OjZkM2ZiNzk0Nzc4YTc4OGYuM2NjNjdlZjk5ZDljZTY1ZmY3MWQ3NWNmYjg0NTYxODA1NGQxNjc4OTk3NmFhNTkwN2FjZTFhNGE5YTVmYzNlMQ'>Fox Business</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/13r6cob1fh05tc1261qhx/master.m3u8'>Fox Sports 2</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjJjOjE3OTEyMzk0NTczODI6Y2RubGl2ZXR2LnR2OmEyMDEzZjA5OGMzNTk3ODkuM2Y0N2QyYzU4YzA1MWRhM2MzZTRlZjJhZjczNDM1NTY3ZGUzNTgzYzY2Njg1MmJhN2NkNGIyOGIwNTNlMmZhNw'>FXX</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjJiOjE3OTEyMzk0NTcxODI6Y2RubGl2ZXR2LnR2OmUzZGNiNjVkOGU4NzAzMzUuMWZiMmYwYTYzYWQzYzJiM2Y4ZmE5ZTViNDFmOTU1ZDcxZTE2MTk3ZWZhOGNlYzQxZTMyYzk2YjcyODdkYjFmMQ'>FX Movie Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22d/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjJkOjE3OTEyMzk0NTc1OTA6Y2RubGl2ZXR2LnR2OjhlZTdlOWFhMTRhNWE1ZDUuMTk3ODNlYzlhYzUyZTc2MmFkMzI3NjBhNzljYTJkYjk2OThlOGExZTA2OTA1Y2NiNTNkNWRiYWQxMWE0NzU4Yw'>FYI TV</a></td><td>HTTP Error (403)</td></tr>
@@ -50,15 +41,10 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb24b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjRiOjE3OTEyMzk0NTkyMjE6Y2RubGl2ZXR2LnR2Ojc1NDdjM2EzN2E2ZGQ0ZmMuMzI4Y2I1YWE0MGE2MzY1ZTU2NGE0YzBiNzY5MjE3ZGVjOTUwNmU3MTg3NzM2M2VjNzdiYjZhMTY5ZWFmNGE0MA'>MeTV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3ce/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2NlOjE3OTEyMzk0NTk0MzQ6Y2RubGl2ZXR2LnR2OmQzNmI1MzVjMDVhMjEyZmMuMmVjZTE0OWJlMDY4ZTNiMzc5YTU2YWM5ZDkzZTc4Mjg3ZTliNzdjMGE3NmRiZDVhNTA0MDc2Y2MyODg5ZmM2ZQ'>MGM+</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3OTEyMzk0NTk2Mzc6Y2RubGl2ZXR2LnR2OjE2NjJkNDRkZGVlN2NlZTkuZWE5NjEzN2NjMzgzNGUxNGVkODYxNzBmNjBhZGYxMDEwZmY5MmYwMzg5YzYyYzE0OGY2Y2FkNzdhMTU4NGE5OQ'>MLB Network</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0fpm15a0k4ux2g1tx7fhe/master.m3u8'>NBC Sports Boston</a></td><td>HTTP Error (429)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0iexaqu0xs8ukv01awmpa/master.m3u8'>NBC Sports California</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb25b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjViOjE3OTEyMzk0NTk4NDM6Y2RubGl2ZXR2LnR2OmM2YmRlZGU3NGI3ODdkOWMuZDhjZWU2MGMyNTk1NjkyMmQxZWVjMTBlZmJjYmZmMDhlOTc5ZGFhMzcyMzVhZTI0NzJkMjJiYjY3MzAyMjRlNA'>NESN</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb4c3/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNGMzOjE3OTEyMzk0NjAwNDM6Y2RubGl2ZXR2LnR2OjJjYTRhZTYxMGIwYjgxNGMuNWI2NjMzMjgyZmFhZTUyYjNkZmM2MTZkNzkxYjcyYjRjOGFkZjdhOWEyNDcyNmMzMWIyNjBiZjZkMmNjODJkZQ'>NewsNation</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb306/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzA2OjE3OTEyMzk0NjAyNTE6Y2RubGl2ZXR2LnR2OjlmMzRlNGM5ZDMwZDlhODYuZTg1NDRkMTVmOTY0MmM5MmZlZTAwMzRmNTlhMDVkYTM4MTJiMzlkYjIzNWQyODBhYzc4ZWFhYmVmMWE0ZWNjOA'>NFL Network</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8'>Nickelodeon</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/nickjr/index.m3u8'>Nick Jr</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/1bex0aj18f1l6i1q5egjg/master.m3u8'>Nick Jr (Alt)</a></td><td>HTTP Error (429)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/01s5dub0je1bmd1fhc0or/master.m3u8'>Outdoor Channel</a></td><td>HTTP Error (429)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb266/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjY2OjE3OTEyMzk0NjA0NjE6Y2RubGl2ZXR2LnR2OjQ0MjIxNWZkZWY2YWNjYmQuMjU2ODA1NGRiNzRlMzUxZGZiYWI3OWQ1OThjNmQ5OTE0YTJiY2YxOWM2Yzk0NzY0MjVhYmQzMjQ1OTBhZmU1YQ'>Oxygen True Crime</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb269/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjY5OjE3OTEyMzk0NjA2NjQ6Y2RubGl2ZXR2LnR2OmQyNTgyMmU3MGQ1N2I2ZmIuNTdjNmI1YjM2ZDM5OTEwNTU4M2Y2YzNiY2NkYmU3ZDg0MzYwMGQ0M2JkMjQ1NmE1ZWI4ZjQ5NGI1MjExNGRmNQ'>Pop TV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3OTEyMzk0NjA4NTg6Y2RubGl2ZXR2LnR2OjFjZDgzMjIwYTA5OWE5N2MuYzQxMmU0MWU4ZmU4MWZmYjUyMTAzMjA3N2EzOTA0NmRjMmM5ODM1YTU2MWUwYjBjNTI3ZWVlZWJiZjhiODA5Mg'>Premier Sports 1</a></td><td>HTTP Error (403)</td></tr>
