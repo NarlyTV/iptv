@@ -6,13 +6,12 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-10 18:46 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-10 23:42 UTC
 
-<h3>✅ Working Streams: 151<br>❌ Dead Streams: 72</h3>
+<h3>✅ Working Streams: 153<br>❌ Dead Streams: 70</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3OTEyMzk0NTQ5MzM6Y2RubGl2ZXR2LnR2OjNjZDg5YmZjZjc4ZTEyY2YuNzgxODdiNzY3NDJmNDc5NTUwZGM4YjU2MjcyMzliY2ZkY2FjNjZlNWY1NWJmOTBiYjBlZTUyNTYzYmMzZWVmMA'>ABC</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/0jzj42b0vbut7i12bel3a/master.m3u8'>Altitude Sports</a></td><td>HTTP Error (502)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca9a2/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhOWEyOjE3OTEyMzk0NTUxNDE6Y2RubGl2ZXR2LnR2OjI4YjdjOTkxNTE4MjQ5ZDAuYzY5ZGM2M2E4YjUxNzdiMWFlNzQ4ODFhNmFjMjNkZGZmZmFiZWI2ZmZjNTBiZWEzMWNmMjFhMDZhMWUzMjA4MA'>beIN Sports 1 France</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce5d6/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNWQ2OjE3OTEyMzk0NTUzMzQ6Y2RubGl2ZXR2LnR2OmI3N2Q5MzVkM2EzYzU2ZjguYmMxM2RmOGJkZWYxNmM3NmI0OTE0MzcwMTY2OGU0NDA0YWYxZGEzZmE3NWUwYjBiM2ViMjFlZTg5ZWMxZjEyYQ'>beIN Sports en Español</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca97e/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhOTdlOjE3OTEyMzk0NTU1MzY6Y2RubGl2ZXR2LnR2OmJhMmQ1ZTg5OWI0Nzk1ZTcuYjgxNzY1ZmQzYzEyNDA3ZTRmYTkwNjUzOGY2ZTM3ZTk2ZmMyOWVkZmRlYjVkM2E5OTIxZWY4MTRiMTI3M2RmYQ'>beIN Sports USA</a></td><td>HTTP Error (403)</td></tr>
@@ -25,7 +24,6 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EwOjE3OTEyMzk0NTY1NjU6Y2RubGl2ZXR2LnR2OmI2ZjUxMjM5MzYyY2M0MzguMWEwMjk1MGU1ZDQ2NGZjZjI5MzEzNjQ4NWZhNzNiNWZhZGY4M2MyYWIwNjY2YmI3MzA1MmM4ZWQ3NzI2MzRmMQ'>DAZN 1 Germany</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca2/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EyOjE3OTEyMzk0NTY3Njc6Y2RubGl2ZXR2LnR2OjliYzI2MTVjMTU0N2Y5NjcuNjhkNTQyNWViMjc2ODdhYzg0YzM2NDM0YWI5MmI5MjU4MWViZTJmYmNjNWRhMjQ5ZDg3YzU5MGYxNTFmYWRkMQ'>DAZN 2 Germany</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_DISNEY_XD/index.m3u8'>Disney XD</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/15a0cd61f3w7um0229g5g/master.m3u8'>E! Entertainment</a></td><td>HTTP Error (502)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cae6c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNhZTZjOjE3OTEyMzk0NTY5NzE6Y2RubGl2ZXR2LnR2OjZkM2ZiNzk0Nzc4YTc4OGYuM2NjNjdlZjk5ZDljZTY1ZmY3MWQ3NWNmYjg0NTYxODA1NGQxNjc4OTk3NmFhNTkwN2FjZTFhNGE5YTVmYzNlMQ'>Fox Business</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjJjOjE3OTEyMzk0NTczODI6Y2RubGl2ZXR2LnR2OmEyMDEzZjA5OGMzNTk3ODkuM2Y0N2QyYzU4YzA1MWRhM2MzZTRlZjJhZjczNDM1NTY3ZGUzNTgzYzY2Njg1MmJhN2NkNGIyOGIwNTNlMmZhNw'>FXX</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjJiOjE3OTEyMzk0NTcxODI6Y2RubGl2ZXR2LnR2OmUzZGNiNjVkOGU4NzAzMzUuMWZiMmYwYTYzYWQzYzJiM2Y4ZmE5ZTViNDFmOTU1ZDcxZTE2MTk3ZWZhOGNlYzQxZTMyYzk2YjcyODdkYjFmMQ'>FX Movie Channel</a></td><td>HTTP Error (403)</td></tr>
