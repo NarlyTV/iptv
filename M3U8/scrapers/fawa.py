@@ -1,6 +1,6 @@
 import re
 from functools import partial
-from urllib.parse import quote, urljoin
+from urllib.parse import quote, urljoin, urlsplit
 
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
@@ -34,10 +34,14 @@ async def process_event(url: str, url_num: int) -> str | None:
         log.warning(f"URL {url_num}) Unable to parse event source")
         return
 
-    if source := "".join(
+    source = "".join(
         re.search(rf'var\s*{var}\s*=\s*"(.*)";', html_data.text, re.I)[1]
         for var in (i.strip() for i in match[1].split("+"))
-    ):
+    )
+
+    host = urlsplit(source).netloc.replace(".", "")
+
+    if source and host.isdecimal():
         log.info(f"URL {url_num}) Captured M3U8")
         return source.strip()
 
