@@ -1,7 +1,8 @@
 import re
 from functools import partial
-from urllib.parse import quote, urljoin, urlsplit
+from urllib.parse import quote, urljoin
 
+from playwright.async_api import Browser
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
@@ -15,37 +16,6 @@ TAG = "FAWA"
 CACHE_FILE = Cache(TAG, exp=10_800)
 
 BASE_URL = "http://www.fawanews.sc/"
-
-
-async def process_event(url: str, url_num: int) -> str | None:
-    if not (
-        html_data := await network.request(
-            url,
-            url_num,
-            headers={"Referer": BASE_URL},
-            log=log,
-        )
-    ):
-        return
-
-    valid_m3u8 = re.compile(r"var\s*\w*\s*=\s+\[(.*)];", re.I)
-
-    if not (match := valid_m3u8.search(html_data.text)):
-        log.warning(f"URL {url_num}) Unable to parse event source")
-        return
-
-    source = "".join(
-        re.search(rf'var\s*{var}\s*=\s*"(.*)";', html_data.text, re.I)[1]
-        for var in (i.strip() for i in match[1].split("+"))
-    )
-
-    host = urlsplit(source).netloc.replace(".", "")
-
-    if source and host.isdecimal():
-        log.info(f"URL {url_num}) Captured M3U8")
-        return source.strip()
-
-    log.warning(f"URL {url_num}) No M3U8 found")
 
 
 async def get_events(cached_links: set[str]) -> list[Event]:
@@ -91,7 +61,7 @@ async def get_events(cached_links: set[str]) -> list[Event]:
     return events
 
 
-async def scrape() -> None:
+async def scrape(browser: Browser) -> None:
     cached_sources = CACHE_FILE.load()
 
     cached_links = {entry["link"] for entry in cached_sources.values()}
@@ -111,39 +81,43 @@ async def scrape() -> None:
 
         now = Time.rn()
 
-        for i, ev in enumerate(events, start=1):
-            handler = partial(
-                process_event,
-                url=ev.link,
-                url_num=i,
-            )
+        async with network.event_context(browser) as context:
+            for i, ev in enumerate(events, start=1):
+                async with network.event_page(context) as page:
+                    handler = partial(
+                        network.process_event,
+                        url=ev.link,
+                        url_num=i,
+                        page=page,
+                        log=log,
+                    )
 
-            source = await network.safe_process(
-                handler,
-                url_num=i,
-                semaphore=network.HTTP_S,
-                log=log,
-            )
+                    source = await network.safe_process(
+                        handler,
+                        url_num=i,
+                        semaphore=network.HTTP_S,
+                        log=log,
+                    )
 
-            key = f"[{ev.sport}] {ev.name} ({TAG})"
+                    key = f"[{ev.sport}] {ev.name} ({TAG})"
 
-            tvg_id, logo = leagues.get_tvg_info(ev.sport, ev.name)
+                    tvg_id, logo = leagues.get_tvg_info(ev.sport, ev.name)
 
-            entry = {
-                "source": source,
-                "logo": logo,
-                "refer": BASE_URL,
-                "timestamp": now.timestamp(),
-                "tvg-id": tvg_id or "Live.Event.us",
-                "link": ev.link,
-            }
+                    entry = {
+                        "source": source,
+                        "logo": logo,
+                        "refer": BASE_URL,
+                        "timestamp": now.timestamp(),
+                        "tvg-id": tvg_id or "Live.Event.us",
+                        "link": ev.link,
+                    }
 
-            cached_sources[key] = entry
+                    cached_sources[key] = entry
 
-            if source:
-                valid_count += 1
+                    if source:
+                        valid_count += 1
 
-                urls[key] = entry
+                        urls[key] = entry
 
         log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
 
