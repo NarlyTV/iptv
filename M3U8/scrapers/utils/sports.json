@@ -34,7 +34,9 @@
             "BALONCESTO",
             "BASKETBALL ASIAN GAMES",
             "BASKETBALL EUROBASKET QUALIFICATION",
+            "BASKETBALL EUROCUP",
             "BASKETBALL EUROLEAGUE SUPER CUP",
+            "BASKETBALL EUROPE CUP",
             "BASKETBALL FRIENDLY",
             "BASKETBALL INTERCONTINENTAL CUP",
             "BASKETBALL NBL",
@@ -168,7 +170,11 @@
       {
         "HOCKEY": {
           "logo": "https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png",
-          "aliases": ["CHAMPIONS HOCKEY LEAGUE", "HOCKEY CHL"]
+          "aliases": [
+            "CHAMPIONS HOCKEY LEAGUE",
+            "HOCKEY CHAMPIONS LEAGUE",
+            "HOCKEY CHL"
+          ]
         }
       },
       {
@@ -757,6 +763,7 @@
           "aliases": [
             "BULGARIA - PARVA LIGA",
             "BULGARIA PARVA LIGA",
+            "BULGARIA PRO CUP",
             "BULGARIAN FIRST LEAGUE",
             "PARVA LIGA"
           ]
@@ -1150,6 +1157,18 @@
             "CROATIA PRVA NL",
             "HRVATSKA NOGOMETNA LIGA",
             "SUPERSPORT HNL"
+          ]
+        }
+      },
+      {
+        "CYPRIOT CUP": {
+          "logo": "https://upload.wikimedia.org/wikipedia/en/9/97/Northern_Cyprus_Football_Cup_logo.png",
+          "aliases": [
+            "CYPRIOT COCA-COLA CUP",
+            "CYPRIOT COCA-COLA CUP OF FIRST AND SECOND DIVISION",
+            "CYPRUS COCA-COLA CUP",
+            "CYPRUS COCA-COLA CUP OF FIRST AND SECOND DIVISION",
+            "CYPRUS CUP"
           ]
         }
       },
@@ -1561,6 +1580,21 @@
         }
       },
       {
+        "J1 LEAGUE CUP": {
+          "logo": "https://gbaike-image.cdn.bcebos.com/79f0f736afc379310a55e8e16e8ea04543a98326bbeb/79f0f736afc379310a55e8e16e8ea04543a98326bbeb_url?x-bce-process=image/format,f_auto/resize,m_lfit,w_400,limit_1",
+          "aliases": [
+            "J.LEAGUE CUP",
+            "J.LEAGUE YAMAZAKI BISCUIT CO.LTD",
+            "JAPAN J LEAGUE CUP",
+            "JAPAN J1 LEAGUE CUP",
+            "JAPANESE J.LEAGUE CUP",
+            "LEVAIN CUP",
+            "MEIJI YASUDA J1 LEAGUE CUP",
+            "YBC LEVAIN CUP"
+          ]
+        }
+      },
+      {
         "J2 LEAGUE": {
           "logo": "https://assets.fclogo.top/png/j2-league-v2019.png",
           "aliases": ["JAPAN J2 LEAGUE", "MEIJI YASUDA J2 LEAGUE"]
@@ -1598,6 +1632,17 @@
             "KAZAKH PREMIER LEAGUE",
             "KAZAKHSTAN PREMIER LEAGUE",
             "KAZAKHSTAN PROFESSIONAL FOOTBALL LEAGUE"
+          ]
+        }
+      },
+      {
+        "KENYA PREMIER LEAGUE": {
+          "logo": "https://upload.wikimedia.org/wikipedia/en/9/93/Kenyan_Premier_League_logo.png",
+          "aliases": [
+            "FKF PREMIER LEAGUE",
+            "KENYAN PREMIER LEAGUE",
+            "KPL",
+            "SPORTPESA LEAGUE"
           ]
         }
       },
@@ -2335,6 +2380,7 @@
             "AMISTOSO",
             "AMISTOSO FEMENINO",
             "AMISTOSO INTERNACIONAL",
+            "AMISTOSO INTERNACIONAL FEMENINO",
             "CAMPEONATO CONCACAF SUB20",
             "CAMPEONATO SUB-20",
             "CAMPEONATO SUB-20 DE LA CONCACAF",
