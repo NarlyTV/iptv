@@ -1,8 +1,9 @@
+import asyncio
 import re
 from functools import partial
 from urllib.parse import quote, urljoin
 
-from playwright.async_api import Browser
+from playwright.async_api import Browser, Page
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
@@ -16,6 +17,69 @@ TAG = "FAWA"
 CACHE_FILE = Cache(TAG, exp=10_800)
 
 BASE_URL = "http://www.fawanews.sc/"
+
+
+async def process_event(
+    url: str,
+    url_num: int,
+    page: Page,
+) -> str | None:
+
+    captured: list[str] = []
+
+    got_one = asyncio.Event()
+
+    handler = partial(
+        network.capture_req,
+        captured=captured,
+        got_one=got_one,
+    )
+
+    page.on("request", handler)
+
+    try:
+        resp = await page.goto(
+            url,
+            wait_until="domcontentloaded",
+            timeout=6_000,
+            referer=BASE_URL,
+        )
+
+        if not resp or not resp.ok:
+            log.error(f"URL {url_num}) Status Code: {resp.status if resp else 'None'}")
+            return
+
+        elif resp.url in (BASE_URL, BASE_URL.strip("/")):
+            log.warning(f"URL {url_num}) No event found.")
+            return
+
+        wait_task = asyncio.create_task(got_one.wait())
+
+        try:
+            await asyncio.wait_for(wait_task, timeout=6)
+        except TimeoutError:
+            log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
+            return
+
+        finally:
+            if not wait_task.done():
+                wait_task.cancel()
+
+                try:
+                    await wait_task
+                except asyncio.CancelledError:
+                    pass
+
+        if captured:
+            log.info(f"URL {url_num}) Captured M3U8")
+            return captured[0]
+
+    except Exception as e:
+        log.warning(f"URL {url_num}) {e}")
+        return
+
+    finally:
+        page.remove_listener("request", handler)
 
 
 async def get_events(cached_links: set[str]) -> list[Event]:
@@ -85,17 +149,16 @@ async def scrape(browser: Browser) -> None:
             for i, ev in enumerate(events, start=1):
                 async with network.event_page(context) as page:
                     handler = partial(
-                        network.process_event,
+                        process_event,
                         url=ev.link,
                         url_num=i,
                         page=page,
-                        log=log,
                     )
 
                     source = await network.safe_process(
                         handler,
                         url_num=i,
-                        semaphore=network.HTTP_S,
+                        semaphore=network.PW_S,
                         log=log,
                     )
 
