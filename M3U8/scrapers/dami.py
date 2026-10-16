@@ -109,11 +109,14 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
         elif f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
 
+        if poster := event.get("poster"):
+            poster = poster if poster.startswith("http") else urljoin(BASE_URL, poster)
+
         events.append(
             DAMIEvent(
                 sport=sport,
                 name=name,
-                logo=event.get("poster"),
+                logo=poster,
                 stream_id=stream_id,
                 timestamp=event_ts,
             )
