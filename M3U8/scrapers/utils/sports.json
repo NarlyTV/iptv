@@ -43,6 +43,7 @@
             "BASKETBALL WORLD CUP",
             "BASKETBALL WORLD CUP QUALIFICATION",
             "CEBL",
+            "CYPRUS BASKETBALL",
             "FIBA BASKETBALL WORLD CUP",
             "FIBA WOMEN'S WORLD CUP",
             "FIBA WORLD CUP",
@@ -78,6 +79,7 @@
             "CRICKET CPL",
             "CRICKET CPL T20",
             "CRICKET ETPL",
+            "CRICKET LEGENDS",
             "CRICKET T20",
             "CRICKET TEST SERIES"
           ]
@@ -330,7 +332,8 @@
             "MMA",
             "MMA FIGHTING",
             "MMA ONE",
-            "MMA/PFL/BKFC"
+            "MMA/PFL/BKFC",
+            "MUY THAI"
           ]
         }
       },
@@ -454,6 +457,18 @@
         "ENGLISH RUGBY SUPER LEAGUE": {
           "logo": "https://static.wikia.nocookie.net/rugbyleaguefootball/images/c/c4/SuperLeagueLogoStacked.png/revision/latest/scale-to-width-down/1200",
           "aliases": ["BETFRED SUPER LEAGUE"]
+        }
+      },
+      {
+        "EPCR CHALLENGE CUP": {
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/9/94/European_Rugby_Challenge_Cup.png",
+          "aliases": ["RUGBY CHALLENGE CUP"]
+        }
+      },
+      {
+        "EUROPEAN RUGBY CHAMPIONS CUP": {
+          "logo": "https://upload.wikimedia.org/wikipedia/ru/f/fc/European_Rugby_Champions_Cup_Logo.png",
+          "aliases": ["INVESTEC CHAMPIONS CUP"]
         }
       },
       {
@@ -1082,6 +1097,17 @@
         }
       },
       {
+        "COPA LIBERTADORES FEMENINA": {
+          "logo": "https://upload.wikimedia.org/wikipedia/en/6/69/Conmebol_libertadores_femenina_logo.png",
+          "aliases": [
+            "CONMEBOL LIBERTADORES FEMENINA",
+            "COPA LIBERTADORES FEMININA",
+            "TACA LIBERTADORES FEMININA",
+            "TAÇA LIBERTADORES FEMININA"
+          ]
+        }
+      },
+      {
         "COPA PARAGUAY": {
           "logo": "https://files.tips.gg/static/image/tournaments/football-copa-paraguay-2026.png",
           "aliases": ["PARAGUAY COPA", "PARAGUAY CUP", "PARAGUAYAN CUP"]
@@ -1169,6 +1195,19 @@
             "CYPRUS COCA-COLA CUP",
             "CYPRUS COCA-COLA CUP OF FIRST AND SECOND DIVISION",
             "CYPRUS CUP"
+          ]
+        }
+      },
+      {
+        "CYPRUS 2ND LEAGUE": {
+          "logo": "https://r2.thesportsdb.com/images/media/league/badge/9guxil1615835119.png",
+          "aliases": [
+            "CYPRIOT 2ND DIVISION",
+            "CYPRIOT SECOND DIVISION",
+            "CYPRIOT SECOND LEAGUE",
+            "CYPRIOT SECOND LEAGUE",
+            "CYPRUS 2ND DIVISION",
+            "CYPRUS SECOND DIVISION"
           ]
         }
       },
@@ -1534,6 +1573,17 @@
         }
       },
       {
+        "INDIA SUPER LEAGUE": {
+          "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3a/Indian_Super_League_white_logo_sponsorless.png/revision/latest",
+          "aliases": [
+            "INDIAN SUPER LEAGUE",
+            "ISL",
+            "MG INDIAN SUPER LEAGUE",
+            "MG ISL"
+          ]
+        }
+      },
+      {
         "IRELAND FAI CUP": {
           "logo": "https://r2.thesportsdb.com/images/media/league/badge/ffnp2x1750442568.png",
           "aliases": [
@@ -1548,6 +1598,8 @@
         "IRELAND PREMIER DIVISION": {
           "logo": "https://assets.football-logos.cc/logos/republic-of-ireland/1500x1500/league-of-ireland-premier-division.bbd4823a.png",
           "aliases": [
+            "IRELAND PREMIER LEAGUE",
+            "IRELAND PREMIER PREMIER LEAGUE",
             "IRISH PREMIER DIVISION",
             "IRISH PREMIER DIVISION",
             "LEAGUE OF IRELAND MEN'S PREMIER DIVISION",
@@ -1799,6 +1851,8 @@
             "LIGA PROFESIONAL DE PRIMERA DIVISION",
             "LIGA PROFESIONAL DE PRIMERA DIVISIÓN",
             "LIGA URUGUAY",
+            "PRIMERA DIVISION DE URUGUAY",
+            "PRIMERA DIVISIÓN DE URUGUAY",
             "URUGUAY LIGA AUF",
             "URUGUAY PRIMERA DIVISION",
             "URUGUAY PRIMERA DIVISIÓN"
@@ -2102,6 +2156,16 @@
             "PUCHAR POLSKI W PIŁCE NOŻNEJ",
             "STS POLISH CUP",
             "STS PUCHAR POLSKI"
+          ]
+        }
+      },
+      {
+        "PORTUGAL CUP": {
+          "logo": "https://static.wikia.nocookie.net/logopedia/images/7/7b/Portugal_Cup_logo.svg/revision/latest/scale-to-width-down/500",
+          "aliases": [
+            "COPA DE PORTUGAL",
+            "TACA DE PORTUGAL",
+            "TAÇA DE PORTUGAL"
           ]
         }
       },
