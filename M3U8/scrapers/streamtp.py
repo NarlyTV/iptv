@@ -1,10 +1,9 @@
 import ast
 import base64
-import json
 import re
 from collections import defaultdict
 from functools import partial
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -76,20 +75,19 @@ async def get_events() -> list[Event]:
 
     events: list[Event] = []
 
-    if not (html_data := await network.request(BASE_URL, log=log)):
+    if not (
+        api_req := await network.request(
+            urljoin(BASE_URL, "json/agenda888.json"),
+            log=log,
+        )
+    ):
         return events
-
-    ptrn = re.compile(r"EVENTOS_DATA\s*=\s*(\[.*?^\])", re.S | re.M | re.I)
-
-    if not (match := ptrn.search(html_data.text)):
-        log.warning('Unable to find "EVENTOS_DATA" var')
-        return events
-
-    event_data: list[dict[str, str]] = json.loads(match[1])
 
     counter: dict[str, int] = defaultdict(int)
 
-    for event_info in event_data:
+    api_data: list[dict[str, str]] = api_req.json()
+
+    for event_info in api_data:
         if not all(
             values := [
                 event_info.get(x)

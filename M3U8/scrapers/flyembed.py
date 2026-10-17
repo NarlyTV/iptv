@@ -1,4 +1,3 @@
-import json
 import re
 from collections.abc import KeysView
 from functools import partial
@@ -57,11 +56,12 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     ):
         return nones
 
-    num_list_ptrn = re.compile(r"var\s+_(\w+)=\[([^\]]*)\],", re.S)
+    num_list_ptrn = re.compile(
+        r"var\s+_\w+\s*=\s*\[([\d,\s]+)\]\s*,\s*_\w+\s*=\s*(\d+)\s*,\s*_\w+\s*=\s*(\d+)",
+        re.S,
+    )
 
-    index_ptrn = re.compile(r"(_[a-z]+\d+)=(\d+)")
-
-    m3u_ptrn = re.compile(r'(var\s?signed_)?url\s?=\s?"(.*)";', re.I)
+    m3u_ptrn = re.compile(r'loadStreamUrl\("([^"]*)",', re.I)
 
     # z_ptrn = re.compile(r"\&(\d+)")
 
@@ -69,24 +69,17 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     #     log.warning(f"URL {url_num}) Unable to decipher m3u encryption.")
     #     return nones
 
-    if not (num_list_mtch := num_list_ptrn.findall(iframe_src_data.text)):
+    if not (num_list_mtch := num_list_ptrn.search(iframe_src_data.text)):
         log.warning(f"URL {url_num}) Unable to decipher m3u encryption.")
         return nones
-
-    elif not (index_mtch := index_ptrn.findall(iframe_src_data.text)):
-        log.warning(f"URL {url_num}) Unable to decipher m3u encryption.")
-        return nones
-
-    num_list = (int(n.strip()) for n in num_list_mtch[-1][-1].split(","))
-
-    if len(index_mtch) > 2:
-        del index_mtch[-1]
-
-    x, y = (int(i[-1].strip()) for i in index_mtch)
 
     # z = int(z_mtch[1])
 
-    js = "".join(chr(((i ^ x) - y + 256) & 255) for i in num_list)
+    nums, x, y = num_list_mtch[1], int(num_list_mtch[2]), int(num_list_mtch[3])
+
+    js = "".join(
+        chr(((int(n) ^ x) - y + 256) % 256) for n in nums.split(",") if n.strip()
+    )
 
     if not (m3u_mtch := m3u_ptrn.search(js)):
         log.warning(f"URL {url_num}) No M3U8 source found.")
@@ -94,7 +87,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return json.loads(f'"{m3u_mtch[2]}"'), iframe_src
+    return m3u_mtch[1], iframe_src
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[Event]:
