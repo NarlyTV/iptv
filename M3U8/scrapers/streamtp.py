@@ -1,9 +1,10 @@
 import ast
 import base64
+import json
 import re
 from collections import defaultdict
 from functools import partial
-from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -15,7 +16,7 @@ TAG = "STP"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://streamx305.sbs"
+BASE_URL = "https://streamx723.sbs"
 
 
 async def process_event(url: str, url_num: int) -> str | None:
@@ -75,19 +76,20 @@ async def get_events() -> list[Event]:
 
     events: list[Event] = []
 
-    if not (
-        api_req := await network.request(
-            urljoin(BASE_URL, "json/agenda550.json"),
-            log=log,
-        )
-    ):
+    if not (html_data := await network.request(BASE_URL, log=log)):
         return events
+
+    ptrn = re.compile(r"EVENTOS_DATA\s*=\s*(\[.*?^\])", re.S | re.M | re.I)
+
+    if not (match := ptrn.search(html_data.text)):
+        log.warning('Unable to find "EVENTOS_DATA" var')
+        return events
+
+    event_data: list[dict[str, str]] = json.loads(match[1])
 
     counter: dict[str, int] = defaultdict(int)
 
-    api_data: list[dict[str, str]] = api_req.json()
-
-    for event_info in api_data:
+    for event_info in event_data:
         if not all(
             values := [
                 event_info.get(x)
