@@ -6,6 +6,7 @@ from urllib.parse import quote
 
 from playwright.async_api import async_playwright
 from scrapers import (
+    aurasports,
     dami,
     fawa,
     flyembed,
@@ -121,6 +122,7 @@ async def main() -> None:
             ]
 
             httpx_tasks = [
+                asyncio.create_task(aurasports.scrape()),
                 asyncio.create_task(dami.scrape()),
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
@@ -148,7 +150,8 @@ async def main() -> None:
             await network.client.aclose()
 
     additions = (
-        dami.urls
+        aurasports.urls
+        | dami.urls
         | fawa.urls
         | flyembed.urls
         | futbolx.urls
