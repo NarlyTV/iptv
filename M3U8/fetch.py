@@ -118,7 +118,7 @@ async def main() -> None:
                 asyncio.create_task(flyembed.scrape(hdl_brwsr)),
                 asyncio.create_task(gsports.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
-                asyncio.create_task(timstreams.scrape(hdl_brwsr)),
+                # asyncio.create_task(timstreams.scrape(hdl_brwsr)),
             ]
 
             httpx_tasks = [
