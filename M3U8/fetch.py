@@ -123,7 +123,7 @@ async def main() -> None:
 
             httpx_tasks = [
                 # asyncio.create_task(aurasports.scrape()),
-                # asyncio.create_task(dami.scrape()),
+                asyncio.create_task(dami.scrape()),
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),

@@ -50,6 +50,8 @@ class Network:
 
         self.client = httpx.AsyncClient(**client_params)
 
+        self.client_unv = httpx.AsyncClient(**client_params, verify=False)
+
     async def setup_adblock(self) -> None:
         easylist_file = Path(__file__).parent / "easylist.txt"
 

@@ -82,11 +82,9 @@ async def process_event(url: str, url_num: int) -> str | None:
         return
 
     elif not (
-        api_data := await network.request(
+        api_data := await network.client_unv.get(
             urljoin(server, "api/token"),
-            url_num,
             headers={"Referer": url},
-            log=log,
         )
     ):
         return
@@ -181,7 +179,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[XYZEvent]:
 
         HTML_FILE.write(events)
 
-    start_ts = now.delta(minutes=-30).timestamp()
+    start_ts = now.delta(minutes=-120).timestamp()
     end_ts = now.delta(minutes=30).timestamp()
 
     return [
