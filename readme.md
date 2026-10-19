@@ -6,18 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-19 08:02 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-19 15:49 UTC
 
-<h3>✅ Working Streams: 182<br>❌ Dead Streams: 6</h3>
-<table>
-<tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8'>Animal Planet</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8'>BBC America</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8'>Boomerang</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_WGN/index.m3u8'>CW</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_MTV/index.m3u8'>MTV</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://cache0.wonvt.st/live/1p9okc609o1gm607y3qdf/master.m3u8'>NewsNation</a></td><td>HTTP Error (502)</td></tr>
-</table>
+<h3>✅ Working Streams: 188<br>❌ Dead Streams: 0</h3>
 </div>
 
 ---
