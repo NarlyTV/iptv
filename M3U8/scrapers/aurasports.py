@@ -78,9 +78,13 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         log.warning(f"URL {url_num}) No Clappr source found.")
         return nones
 
+    elif not (source := base64.b64decode(match[1]).decode("utf-8")):
+        log.warning(f"URL {url_num}) No Clappr source found.")
+        return nones
+
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return base64.b64decode(match[1]).decode("utf-8"), f"{ifr_src_data.url}"
+    return source, f"{ifr_src_data.url}"
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[AURAEvent]:
