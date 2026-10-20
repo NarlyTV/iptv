@@ -5,29 +5,10 @@ from pathlib import Path
 from urllib.parse import quote
 
 from playwright.async_api import async_playwright
-from scrapers import (
-    aurasports,
-    dami,
-    fawa,
-    flyembed,
-    futbolx,
-    gsports,
-    istreameast,
-    mainportal,
-    ovostream,
-    pelotalibre,
-    reedstreams,
-    sportspass,
-    streamcenter,
-    streamfree,
-    streamgate,
-    streamtp,
-    streamxhd,
-    timstreams,
-    tvf90,
-    webcast,
-    xyzstreams,
-)
+from scrapers import (dami, fawa, flyembed, futbolx, gsports, istreameast,
+                      mainportal, pelotalibre, reedstreams, sportspass,
+                      streamcenter, streamfree, streamgate, streamtp,
+                      streamxhd, timstreams, tvf90, webcast, xyzstreams)
 from scrapers.utils import get_logger, network
 
 log = get_logger(Path(__file__).stem)
@@ -122,12 +103,10 @@ async def main() -> None:
             ]
 
             httpx_tasks = [
-                asyncio.create_task(aurasports.scrape()),
                 asyncio.create_task(dami.scrape()),
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
-                # asyncio.create_task(ovostream.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
                 asyncio.create_task(reedstreams.scrape()),
                 asyncio.create_task(streamcenter.scrape()),
@@ -150,15 +129,13 @@ async def main() -> None:
             await network.client.aclose()
 
     additions = (
-        aurasports.urls
-        | dami.urls
+        dami.urls
         | fawa.urls
         | flyembed.urls
         | futbolx.urls
         | gsports.urls
         | istreameast.urls
         | mainportal.urls
-        | ovostream.urls
         | pelotalibre.urls
         | reedstreams.urls
         | sportspass.urls
