@@ -643,7 +643,9 @@ https://cache0.wonvt.st/live/1nqruu61oi66bo0fj0go3/master.m3u8
 https://cache0.wonvt.st/live/165ku6e0bww1fs0ol7svn/master.m3u8
 
 #EXTINF:-1 tvg-chno="176" tvg-id="TSN.4.ca2" tvg-name="TSN 4" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90122_dark_360w_270h.png" group-title="TV",TSN 4
-http://109.104.153.220:80/TSN-4/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://cache0.wonvt.st/live/0db5oui05zn8xx16swui5/master.m3u8
 
 #EXTINF:-1 tvg-chno="177" tvg-id="TSN.5.ca2" tvg-name="TSN 5" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90124_dark_360w_270h.png" group-title="TV",TSN 5
 #EXTVLCOPT:http-referrer=https://tvnow.st/

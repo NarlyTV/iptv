@@ -5,10 +5,27 @@ from pathlib import Path
 from urllib.parse import quote
 
 from playwright.async_api import async_playwright
-from scrapers import (dami, fawa, flyembed, futbolx, gsports, istreameast,
-                      mainportal, pelotalibre, reedstreams, sportspass,
-                      streamcenter, streamfree, streamgate, streamtp,
-                      streamxhd, timstreams, tvf90, webcast, xyzstreams)
+from scrapers import (
+    dami,
+    fawa,
+    flyembed,
+    futbolx,
+    gsports,
+    istreameast,
+    mainportal,
+    pelotalibre,
+    reedstreams,
+    sportspass,
+    streamcenter,
+    streamfree,
+    streamgate,
+    streamtp,
+    streamxhd,
+    timstreams,
+    tvf90,
+    webcast,
+    xyzstreams,
+)
 from scrapers.utils import get_logger, network
 
 log = get_logger(Path(__file__).stem)
