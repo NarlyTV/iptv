@@ -6,12 +6,14 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-19 23:54 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-20 07:53 UTC
 
-<h3>✅ Working Streams: 188<br>❌ Dead Streams: 1</h3>
+<h3>✅ Working Streams: 186<br>❌ Dead Streams: 3</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='http://186.33.0.101:4430/play/espnhd/index.m3u8'>ESPN Deportes</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='http://41.205.93.154/NICKTOONS/index.m3u8'>Nicktoons</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://41.205.93.154/TLC/index.m3u8'>TLC</a></td><td>cURL Error (28)</td></tr>
 </table>
 </div>
 
