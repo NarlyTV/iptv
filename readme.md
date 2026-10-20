@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-20 13:45 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-20 18:36 UTC
 
-<h3>✅ Working Streams: 161<br>❌ Dead Streams: 58</h3>
+<h3>✅ Working Streams: 160<br>❌ Dead Streams: 59</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='http://41.205.93.154/BBCONE/tracks-v1a1/mono.m3u8'>BBC One</a></td><td>HTTP Error (404)</td></tr>
@@ -19,6 +19,7 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca0/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EwOjE3OTIyNzA4MDQxMjU6Y2RubGl2ZXR2LnR2OmIzYTY0MGU2N2VhMGM0N2EuNTcwMDAzMWJmYzA3YzU4MzdhOTM4NWY0MWRkYmQ0NTUxYjhjOWQyNjk5MDg0YjlhZWEyY2ViZDlhOTEyMWRmNw'>DAZN 1 Germany</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca2/playlist.m3u8?token=NmEyODhkMmI4MWQ4MTkyYmI3NmNjY2EyOjE3OTIyNzA4MDQyODQ6Y2RubGl2ZXR2LnR2OjQ4ZDU1NDM2YTRmNTJhNDYuMzIwYjM2NjgyY2M4MDAzOTczMTYwMjAzMWI3MzhjN2NlMTNlNjY0ZjZjODQzYzAxY2Q0OThjNzM4MDg0OTI4Nw'>DAZN 2 Germany</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb704/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNzA0OjE3OTIyNzA4MDQ0ODk6Y2RubGl2ZXR2LnR2OjhkOGQ5MTg0MTFmN2ExMzAuYzNhOWFlMGExZGY3NjFkMTZmMDA1Nzg2MTk4NGIzZjRhOWMzOGNjYzM5YWMxNjczNjEwNGJmOGMyZTJhYTcwMA'>Discovery Life</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='http://186.33.0.101:4430/play/espnhd/index.m3u8'>ESPN Deportes</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb38b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzhiOjE3OTIyNzA4MDQ3MDQ6Y2RubGl2ZXR2LnR2OmU3MmQ3YjkxMGU2ZWY1MGIuMmRkNTg3YTkwMDg1MzYyMGQ5NzYyODc4ZDg1ZGZjZTRjM2QzNDI5MjliMTEwMDhlM2E2MmM4ZDRkNDdiMmMyYg'>FETV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8'>Fox Deportes</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c2/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMyOjE3OTIyNzA4MDUxMDk6Y2RubGl2ZXR2LnR2OjEwMjM1NTczNmVmYzM2M2IuMmQwN2ExZTkzYjA4MjFhMDQ1MTljNmY3OWIxNjZiNGQ3ODAxNzk5ZDg2NjZlMzI3NDA3ODQyMGJmMjMxNzljNA'>Fox Soccer Plus</a></td><td>HTTP Error (403)</td></tr>
