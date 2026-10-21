@@ -10,7 +10,6 @@ from scrapers import (
     fawa,
     flyembed,
     futbolx,
-    gsports,
     istreameast,
     mainportal,
     pelotalibre,
@@ -114,7 +113,6 @@ async def main() -> None:
             pw_tasks = [
                 asyncio.create_task(fawa.scrape(hdl_brwsr)),
                 asyncio.create_task(flyembed.scrape(hdl_brwsr)),
-                # asyncio.create_task(gsports.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
                 # asyncio.create_task(timstreams.scrape(hdl_brwsr)),
             ]
@@ -150,7 +148,6 @@ async def main() -> None:
         | fawa.urls
         | flyembed.urls
         | futbolx.urls
-        | gsports.urls
         | istreameast.urls
         | mainportal.urls
         | pelotalibre.urls
