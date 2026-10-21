@@ -21,7 +21,6 @@ from scrapers import (
     streamgate,
     streamtp,
     streamxhd,
-    timstreams,
     tvf90,
     webcast,
     xyzstreams,
@@ -115,7 +114,6 @@ async def main() -> None:
                 asyncio.create_task(fawa.scrape(hdl_brwsr)),
                 asyncio.create_task(flyembed.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
-                # asyncio.create_task(timstreams.scrape(hdl_brwsr)),
             ]
 
             httpx_tasks = [
@@ -161,7 +159,6 @@ async def main() -> None:
         | streamgate.urls
         | streamtp.urls
         | streamxhd.urls
-        | timstreams.urls
         | tvf90.urls
         | webcast.urls
         | xyzstreams.urls
