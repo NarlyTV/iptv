@@ -62,7 +62,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return f"https://edgestream{random.choice((1,3,4,6))}.pro/hls/{stream_id}.m3u8"
+    return f"https://edgestream{random.randint(1, 7)}.pro/hls/{stream_id}.m3u8"
 
 
 async def get_events() -> list[Event]:
