@@ -522,8 +522,9 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3OTI3MjQ0MTMxMTY6Y2RubGl2ZXR2LnR2Ojc5NmQ2OTU1ZGZmZTllMjYuZjE5ZGZhOGI5MmZlYzBhMzFhMTFmN2RmNjkyZmU3ZDhhZWE0ZDZkYTVkNDg2MWI1ZmFiZmZmZWQ5ZmQzYjBkOA
 
-#EXTINF:-1 tvg-chno="164" tvg-id="Smithsonian.HD.Network.us2" tvg-name="Smithsonian" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53121_dark_360w_270h.png" group-title="TV",Smithsonian
-https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53121_dark_360w_270h.png
+#EXTINF:-1 tvg-chno="164" tvg-id="Smithsonian.HD.Network.us2" tvg-name="Smithsonian" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53121_dark_360w_270h.png" group-title="TV",Smithsonian Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb27d/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjdkOjE3OTI3MjQ0MTMzMjI6Y2RubGl2ZXR2LnR2OjZmZDA1YzQwODJhNGRjYTIuNGM1MmQyZjE0ZDk2NGRkZDlkNmQ1YTYyMGYzMjJiZjgyMjQ1NWY2NjI2MjFjMTViMjdjZTEzNzc0ZTA4OTMyNQ
 
 #EXTINF:-1 tvg-chno="165" tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="TV",Space City Home Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
