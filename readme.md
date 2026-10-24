@@ -6,11 +6,13 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-24 17:32 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-24 22:41 UTC
 
-<h3>✅ Working Streams: 133<br>❌ Dead Streams: 1</h3>
+<h3>✅ Working Streams: 131<br>❌ Dead Streams: 3</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
+<tr><td><a href='http://tvsen7.aynascope.net/hbo/index.m3u8'>HBO</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://tvsen7.aynascope.net/hgtv/index.m3u8'>HGTV</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='http://41.205.93.154/TLC/index.m3u8'>TLC</a></td><td>HTTP Error (404)</td></tr>
 </table>
 </div>
