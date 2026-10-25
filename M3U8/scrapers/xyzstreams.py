@@ -35,7 +35,8 @@ SERVERS = [
     # "https://us2-hlss2.b-cdn.net/",
     # "https://hls.fancy-shark151.workers.dev/",
     "https://eu-4605069466.duckdns.org",
-    "https://ierewaw2.b-cdn.net",
+    # "https://ierewaw2.b-cdn.net",
+    "https://hls.kozow.com",
     "https://xyzstream.duckdns.org",
 ]
 
@@ -97,13 +98,17 @@ async def process_event(url: str, url_num: int) -> str | None:
         log.warning(f"URL {url_num}) Unable to get token information")
         return
 
-    soup = HTMLParser(html_data.content)
+    if "stream.html" in url:
+        ifr_src = url.replace("stream.html", "embed")
 
-    iframe = soup.css_first("iframe#stream-player")
+    else:
+        soup = HTMLParser(html_data.content)
 
-    if not iframe or not (ifr_src := iframe.attributes.get("src")):
-        log.warning(f"URL {url_num}) No iframe source found.")
-        return
+        iframe = soup.css_first("iframe#stream-player")
+
+        if not iframe or not (ifr_src := iframe.attributes.get("src")):
+            log.warning(f"URL {url_num}) No iframe source found.")
+            return
 
     strm_path = urlsplit(ifr_src).query
 
