@@ -1,6 +1,6 @@
 import random
 from functools import partial
-from urllib.parse import parse_qsl, urljoin, urlsplit
+from urllib.parse import parse_qsl, urljoin, urlsplit, urlunsplit
 
 import httpx
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
@@ -17,7 +17,7 @@ CACHE_FILE = Cache(TAG, exp=28_800)
 
 BASE_URL = "https://streamecenter.live"
 
-ALT_BASE = "https://streame.center"
+ALT_BASE = "https://embedcenter.st"
 
 
 def cleanup(s: str) -> str:
@@ -44,12 +44,28 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    soup = HTMLParser(html_data.content)
+    splits = urlsplit(f"{html_data.url}")
 
-    iframe = soup.css_first("iframe")
+    embed_src = urlunsplit(
+        urlsplit(f"{html_data.url}")._replace(netloc="embedcenter.st")
+    )
 
-    if not iframe or not (src := iframe.attributes.get("src")):
-        log.warning(f"URL {url_num}) No iframe element found.")
+    if not (
+        ifr_src_data := await network.request(
+            embed_src,
+            url_num,
+            headers={"Referer": f"{html_data.url}"},
+            log=log,
+        )
+    ):
+        return
+
+    soup = HTMLParser(ifr_src_data.content)
+
+    ifr = soup.css_first("iframe")
+
+    if not ifr or not (src := ifr.attributes.get("src")):
+        log.warning(f"URL {url_num} No iframe element found.")
         return
 
     splits = urlsplit(src)
@@ -62,7 +78,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return f"https://edgestream{random.randint(1, 7)}.pro/hls/{stream_id}.m3u8"
+    return f"https://edgestream{random.randint(1,7)}.pro/hls/{stream_id}.m3u8"
 
 
 async def get_events() -> list[Event]:
