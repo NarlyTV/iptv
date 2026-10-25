@@ -16,7 +16,7 @@ TAG = "SPRTSPASS"
 
 CACHE_FILE = Cache(TAG, exp=10_800)
 
-BASE_URL = "https://mystreamseast.cx"
+BASE_URL = "https://streamseast.dad"
 
 SPORT_URLS = {
     sport: urljoin(BASE_URL, sport.lower())
