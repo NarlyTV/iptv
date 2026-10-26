@@ -6,13 +6,17 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-26 08:03 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-26 15:24 UTC
 
-<h3>✅ Working Streams: 160<br>❌ Dead Streams: 2</h3>
+<h3>✅ Working Streams: 156<br>❌ Dead Streams: 6</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf40/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQwOjE3OTMwMTQyMDU1MDA6Y2RubGl2ZXR2LnR2OmJjMGY1NjI1YWFlNTZjZTYuZGM4MWQ5MTFiOWU3MzJjYTI2NDEyOTFmZGE5ZmUxZmI2NDMwNjhiYmZmYmZlNTI3ZTViZjExZDU3YTIzZTI5Mg'>NFL Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTMwMTQyMDU3MDk6Y2RubGl2ZXR2LnR2OmJkMjY4YzJmZDIxZjQyYTAuNjg4MWVjYjE2ZDBiOGU4ODRiZDRlMjk4NWQ5ZDdkNmZkYzc1NzRlYzAwMTE2ZjYzNTFmNzFiZWM5MTQ2ZjM4OQ'>NHL Network</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTMwNDEyMDMxMDY6Y2RubGl2ZXR2LnR2OjFjODQ1YjA0ZjIwMTlmZGUuYzNhZjRmZTIxY2NhNzZhZTIxNWUxOTdlMTE5MjY2YmE1NTQ1YTQ3NTRhOTFjNTkyYjU0MjdhOGViOTI5MTllOA'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTMwNDEyMDU0NTI6Y2RubGl2ZXR2LnR2OjVlYjE0ZmM2YThmNGZkOGEuOTBmMDlhNDI5N2UxYmVkZDk0NGMzZWExNWRmOTljZjQ3N2M0NzQzNmQ3ZGU3ZmQ4NTE5NTNhMzQyMzNhMzI5ZA'>MSG</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf40/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQwOjE3OTMwNDEyMDU4ODE6Y2RubGl2ZXR2LnR2OjlkMzFmOTk2YzRkMTg3NDYuNmZhYmY0ZmZiNzU0NmNiMDhjYjQ4NGJhZDU5NDAxNzY4NDgzYWQzN2NiOTJhNTFhOTA2MGU4NjcxNjI0NjhkZg'>NFL Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTMwNDEyMDYwNzM6Y2RubGl2ZXR2LnR2OjFiZmNjNjc3OTBjMDJjZGEuZTEwYTk5NGFjMWUzMzhhNjk3MWI1MzBjZGY2ZDFiZGJhYWYwNTJhMjYzYjFhMDAzM2M2MTEzYjM4YTU4YzQxOA'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c873/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODczOjE3OTMwNDEyMDcyOTM6Y2RubGl2ZXR2LnR2OjU2ZjYxZjc4NDk3Y2RiMDEuMmZhYzI5YjdlNjhlOWUzNGJlN2Y1MDZiNzc2MTI3YjlhNWMwNzRiNDZjNTQ2NTkxYzIxZDM3MGUwZDBkNmVhMQ'>Sky Sports Mix</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTMwNDEyMDc5MTY6Y2RubGl2ZXR2LnR2OmYwMTQ1N2EyYzAyYjMxZTguMTdlZjEzMGVmZjg1OWJkODc3OTA5MmVmZDBlOTVhZGI4M2YwM2FhZGNhZmE5ZGE5ZWM5M2MxYmUwODIwOGUyOQ'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
 </table>
 </div>
 
