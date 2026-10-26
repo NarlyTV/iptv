@@ -1,6 +1,8 @@
-import random
+import json
+import re
+from collections.abc import KeysView
 from functools import partial
-from urllib.parse import parse_qsl, urljoin, urlsplit, urlunsplit
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 import httpx
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
@@ -13,7 +15,9 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "STRMCNTR"
 
-CACHE_FILE = Cache(TAG, exp=28_800)
+CACHE_FILE = Cache(TAG, exp=10_800)
+
+HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
 
 BASE_URL = "https://streamecenter.live"
 
@@ -44,14 +48,12 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    splits = urlsplit(f"{html_data.url}")
-
     embed_src = urlunsplit(
         urlsplit(f"{html_data.url}")._replace(netloc="embedcenter.st")
     )
 
     if not (
-        ifr_src_data := await network.request(
+        embed_src_data := await network.request(
             embed_src,
             url_num,
             headers={"Referer": f"{html_data.url}"},
@@ -60,7 +62,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    soup = HTMLParser(ifr_src_data.content)
+    soup = HTMLParser(embed_src_data.content)
 
     ifr = soup.css_first("iframe")
 
@@ -68,21 +70,31 @@ async def process_event(url: str, url_num: int) -> str | None:
         log.warning(f"URL {url_num} No iframe element found.")
         return
 
-    splits = urlsplit(src)
+    src = network.ensure_https(src)
 
-    params = dict(parse_qsl(splits.query))
+    if not (
+        ifr_src_data := await network.request(
+            src,
+            url_num,
+            headers={"Referer": embed_src},
+            log=log,
+        )
+    ):
+        return
 
-    if not (stream_id := params.get("stream")):
-        log.warning(f"URL {url_num}) No stream ID found.")
+    pattern = re.compile(r'streamUrl\s+=\s+"([^"]*)"', re.I)
+
+    if not (match := pattern.search(ifr_src_data.text)):
+        log.warning(f"URL {url_num}) No M3U8 found")
         return
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return f"https://edgestream{random.randint(1,7)}.pro/hls/{stream_id}.m3u8"
+    return json.loads(f'"{match[1]}"')
 
 
-async def get_events() -> list[Event]:
-    events: list[Event] = []
+async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
+    events = {}
 
     if not (
         html_data := await network.request(
@@ -93,8 +105,6 @@ async def get_events() -> list[Event]:
         return events
 
     soup = HTMLParser(html_data.content)
-
-    now = Time.rn()
 
     for card in soup.css(".game-card-group"):
         if not (sport_elem := card.css_first("h2")):
@@ -126,29 +136,53 @@ async def get_events() -> list[Event]:
 
                 name = f"{event_name} | {source.text(strip=True)}"
 
-                events.append(
-                    Event(
-                        sport=fix_sport(sport),
-                        name=name,
-                        link=urljoin(BASE_URL, href),
-                        timestamp=now.timestamp(),
-                    )
-                )
+                key = f"[{sport}] {name} ({TAG})"
+
+                events[key] = {
+                    "sport": fix_sport(sport),
+                    "name": name,
+                    "link": urljoin(BASE_URL, href),
+                    "event_ts": event_dt.timestamp(),
+                    "timestamp": now.timestamp(),
+                }
 
     return events
 
 
+async def get_events(cached_keys: KeysView[str]) -> list[Event]:
+    now = Time.rn()
+
+    if not (events := HTML_FILE.load()):
+        log.info("Refreshing HTML cache")
+
+        events = await refresh_html_cache(now)
+
+        HTML_FILE.write(events)
+
+    start_ts = now.delta(minutes=-30).timestamp()
+    end_ts = now.delta(minutes=30).timestamp()
+
+    return [
+        Event(**v)
+        for k, v in events.items()
+        if k not in cached_keys and start_ts <= v["event_ts"] <= end_ts
+    ]
+
+
 async def scrape() -> None:
-    if cached_sources := CACHE_FILE.load():
-        urls.update({k: v for k, v in cached_sources.items() if v["source"]})
+    cached_sources = CACHE_FILE.load()
 
-        log.info(f"Loaded {len(urls)} event(s) from cache")
+    valid_sources = {k: v for k, v in cached_sources.items() if v["source"]}
 
-        return
+    valid_count = cached_count = len(valid_sources)
+
+    urls.update(valid_sources)
+
+    log.info(f"Loaded {cached_count} event(s) from cache")
 
     log.info(f'Scraping from "{BASE_URL}"')
 
-    if events := await get_events():
+    if events := await get_events(cached_sources.keys()):
         log.info(f"Processing {len(events)} URL(s)")
 
         for i, ev in enumerate(events, start=1):
@@ -173,7 +207,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": ALT_BASE,
-                "timestamp": ev.timestamp,
+                "timestamp": ev.event_ts,
                 "tvg-id": tvg_id or "Live.Event.us",
                 "link": ev.link,
             }
@@ -181,9 +215,11 @@ async def scrape() -> None:
             cached_sources[key] = entry
 
             if source:
+                valid_count += 1
+
                 urls[key] = entry
 
-        log.info(f"Collected and cached {len(urls)} event(s)")
+        log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
 
     else:
         log.info("No events found")
