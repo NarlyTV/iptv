@@ -66,15 +66,13 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     ifr = soup.css_first("iframe")
 
-    if not ifr or not (src := ifr.attributes.get("src")):
+    if not ifr or not (ifr_src := ifr.attributes.get("src")):
         log.warning(f"URL {url_num} No iframe element found.")
         return
 
-    src = network.ensure_https(src)
-
     if not (
         ifr_src_data := await network.request(
-            src,
+            network.ensure_https(ifr_src),
             url_num,
             headers={"Referer": embed_src},
             log=log,
@@ -82,7 +80,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    pattern = re.compile(r'streamUrl\s+=\s+"([^"]*)"', re.I)
+    pattern = re.compile(r'streamUrl\s?=\s?"([^"]*)"', re.I)
 
     if not (match := pattern.search(ifr_src_data.text)):
         log.warning(f"URL {url_num}) No M3U8 found")
@@ -139,7 +137,7 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
                 key = f"[{sport}] {name} ({TAG})"
 
                 events[key] = {
-                    "sport": fix_sport(sport),
+                    "sport": sport,
                     "name": name,
                     "link": urljoin(BASE_URL, href),
                     "event_ts": event_dt.timestamp(),
