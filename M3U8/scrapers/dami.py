@@ -2,7 +2,7 @@ from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -16,7 +16,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
-BASE_URL = "https://ondemand.st"
+BASE_URL = "https://damitv.st"
 
 
 @dataclass(kw_only=True, slots=True)
@@ -31,17 +31,15 @@ async def process_event(stream_id: str, url_num: int) -> str | None:
         event_data := await network.request(
             urljoin(BASE_URL, f"papi/extract-url/{stream_id}"),
             url_num,
-            headers={"Referer": urljoin(BASE_URL, f"embed/?id={stream_id}")},
+            headers={"Referer": urljoin(BASE_URL, f"embed/?id={quote(stream_id)}")},
             log=log,
         )
     ):
         return
 
-    elif not (api_data := event_data.json()).get("success"):
-        log.warning(f"URL {url_num}) Unsuccessful Request: {api_data.get("error")}")
-        return
+    api_data = event_data.json() or {}
 
-    if not (m3u8 := api_data.get("sdUrl")):
+    if not (m3u8 := api_data.get("sdUrl") or api_data.get("hlsUrl")):
         log.warning(f"URL {url_num}) No source found.")
         return
 
@@ -70,7 +68,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
 
         API_FILE.write(api_data)
 
-    start_dt = now.delta(minutes=-30)
+    start_dt = now.delta(minutes=-120)
     end_dt = now.delta(minutes=30)
 
     for event in api_data:
