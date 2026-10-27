@@ -1,9 +1,10 @@
+import base64
 import re
 from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
 from typing import Any
-from urllib.parse import parse_qsl, unquote, urljoin, urlsplit
+from urllib.parse import parse_qsl, urljoin, urlsplit
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -49,7 +50,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     splits = urlsplit(stream_url)
 
-    if not (m3u := dict(parse_qsl(splits.query)).get("src")):
+    if not (m3u := dict(parse_qsl(splits.query)).get("b64")):
         m3u = dict(parse_qsl(splits.query)).get("url")
 
     if not m3u:
@@ -58,7 +59,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return unquote(m3u)
+    return base64.b64decode(m3u).decode("utf-8")
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
