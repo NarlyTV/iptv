@@ -555,7 +555,8 @@
             "ACL ELITE",
             "AFC CHAMPIONS",
             "AFC CHAMPIONS LEAGUE ELITE",
-            "ASIAN CHAMPIONS LEAGUE"
+            "ASIAN CHAMPIONS LEAGUE",
+            "CHAMPIONS LEAGUE ELITE"
           ]
         }
       },
@@ -1093,6 +1094,12 @@
         "COPA ECUADOR": {
           "logo": "https://r2.thesportsdb.com/images/media/league/badge/86kk7j1753772273.png",
           "aliases": ["COPA FEF ECUADOR", "ECUADOR COPA"]
+        }
+      },
+      {
+        "COPA KNVB": {
+          "logo": "https://upload.wikimedia.org/wikipedia/en/f/f1/KNVB_Cup_logo.png",
+          "aliases": ["EUROJACKPOT KNVB BEKER", "KNVB BEKER", "KNVB CUP"]
         }
       },
       {
@@ -2100,6 +2107,12 @@
         }
       },
       {
+        "MESSI CUP": {
+          "logo": "https://files.catbox.moe/2ipl11.png",
+          "aliases": []
+        }
+      },
+      {
         "MLS": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/19.png",
           "aliases": [
@@ -2804,6 +2817,12 @@
             "UEFA WOMENS CHAMPIONS LEAGUE",
             "WOMEN'S CHAMPIONS LEAGUE"
           ]
+        }
+      },
+      {
+        "UKRAINE CUP": {
+          "logo": "https://files.catbox.moe/lor6qk.png",
+          "aliases": ["UKRAINIAN CUP"]
         }
       },
       {
