@@ -17,7 +17,7 @@ TAG = "STRMCNTR"
 
 CACHE_FILE = Cache(TAG, exp=10_800)
 
-HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
+HTML_FILE = Cache(f"{TAG}-html", exp=86_400)
 
 BASE_URL = "https://streamecenter.live"
 
