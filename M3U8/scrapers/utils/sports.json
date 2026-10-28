@@ -1083,6 +1083,7 @@
         "COPA DEL REY": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/80.png",
           "aliases": [
+            "ESP COPA DEL REY",
             "LA COPA",
             "SPAIN COPA DEL REY",
             "SPANISH COPA DEL REY",
@@ -1099,7 +1100,13 @@
       {
         "COPA KNVB": {
           "logo": "https://upload.wikimedia.org/wikipedia/en/f/f1/KNVB_Cup_logo.png",
-          "aliases": ["EUROJACKPOT KNVB BEKER", "KNVB BEKER", "KNVB CUP"]
+          "aliases": [
+            "DUTCH KNVB BEKER",
+            "EUROJACKPOT KNVB BEKER",
+            "KNVB BEKER",
+            "KNVB CUP",
+            "NED CUP"
+          ]
         }
       },
       {
@@ -1535,6 +1542,7 @@
           "aliases": [
             "DFB POKAL",
             "DFB-POKAL",
+            "GER DFB POKAL",
             "GERMAN DFB POKAL",
             "GERMANY - DFB POKAL",
             "GERMANY DFB POKAL"
@@ -2085,6 +2093,12 @@
         }
       },
       {
+        "LITHUANIA TOPLYGA": {
+          "logo": "https://assets.football-logos.cc/logos/lithuania/1500x1500/toplyga.636c1f41.png",
+          "aliases": ["A LYGA", "TOPLYGA"]
+        }
+      },
+      {
         "MACEDONIAN FIRST FOOTBALL LEAGUE": {
           "logo": "https://macedonianfootball.com/wp-content/uploads/2017/06/fudbal-novo-logo-ffm_7-254x300.png",
           "aliases": [
@@ -2196,6 +2210,7 @@
           "logo": "https://static.wikia.nocookie.net/logopedia/images/7/7b/Portugal_Cup_logo.svg/revision/latest/scale-to-width-down/500",
           "aliases": [
             "COPA DE PORTUGAL",
+            "PORTUGAL LEAGUE CUP",
             "TACA DE PORTUGAL",
             "TAÇA DE PORTUGAL"
           ]
