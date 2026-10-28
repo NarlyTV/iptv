@@ -206,7 +206,9 @@
             "MAJOR BASEBALL LEAGUE",
             "MAJOR LEAGUE BASEBALL",
             "MLB BASEBALL",
-            "MLB PLAYOFFS"
+            "MLB PLAYOFFS",
+            "MLB WORLD SERIES",
+            "WORLD SERIES"
           ]
         }
       }
@@ -658,6 +660,7 @@
         "AUSTRIA ÖFB-CUP": {
           "logo": "https://fanat-prod.b-cdn.net/images/566fbf8e-e8b3-4dde-9a27-f139bc7f3e86_640x640.png",
           "aliases": [
+            "AUSTRIA CUP",
             "AUSTRIA OFB CUP",
             "AUSTRIAN CUP",
             "AUSTRIAN OFB CUP",
@@ -1579,6 +1582,12 @@
         }
       },
       {
+        "HUNGARY CUP": {
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/9/98/MAGYAR_KUPA_LOGO.png",
+          "aliases": ["HUNGARIAN CUP", "MAGYAR KUPA", "MOL MAGYAR KUPA"]
+        }
+      },
+      {
         "HUNGARY NB 1 LIGA": {
           "logo": "https://assets.football-logos.cc/logos/hungary/1500x1500/nemzeti-bajnoksag.bd684103.png",
           "aliases": [
@@ -1603,6 +1612,7 @@
         "INDIA SUPER LEAGUE": {
           "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3a/Indian_Super_League_white_logo_sponsorless.png/revision/latest",
           "aliases": [
+            "INDIA ISL LEAGUE",
             "INDIAN SUPER LEAGUE",
             "ISL",
             "MG INDIAN SUPER LEAGUE",
@@ -1843,6 +1853,7 @@
             "COPA DE LA LIGA",
             "LIGA 1 DE FUTBOL PROFESIONAL",
             "LIGA 1 DE FÚTBOL PROFESIONAL",
+            "LIGA 1 PERU",
             "LIGA 1 TE APUESTO",
             "PERU - PRIMERA DIVISION",
             "PERU - PRIMERA DIVISIÓN",
@@ -1863,6 +1874,7 @@
           "aliases": [
             "LIGA 2 DE FUTBOL PROFESIONAL",
             "LIGA 2 DE FÚTBOL PROFESIONAL",
+            "LIGA 2 PERU",
             "LIGA 2 TE APUESTO",
             "PERU - SEGUNDA DIVISION",
             "PERU - SEGUNDA DIVISIÓN",
@@ -2510,6 +2522,7 @@
             "CONCACAF U20 CHAMPIONSHIP",
             "COPA INTERCONTINENTAL SUB-20",
             "COPA MUNDIAL FEMENINA",
+            "COPA MUNDIAL FEMENINA SUB",
             "COPA MUNDIAL FEMENINA SUB-17",
             "COPA MUNDIAL FEMENINA SUB-20",
             "COPA MUNDIAL SUB-20 (F)",
@@ -2536,6 +2549,7 @@
             "U18 EUROPEAN CHAMPIONSHIP",
             "UEFA YOUTH LEAGUE",
             "UEFA YOUTH LEAGUE SUB-19",
+            "WOMEN U17 WORLD CUP",
             "WORLD CLUB FRIENDLY",
             "WORLD CUP QUALIFIERS",
             "WORLD CUP WOMEN U20"
@@ -2550,6 +2564,12 @@
             "SOUTH AFRICAN PREMIER DIVISION",
             "SOUTH AFRICAN PREMIERSHIP"
           ]
+        }
+      },
+      {
+        "SOUTH AFRICA CARLING KNOCKOUT": {
+          "logo": "https://media.sundayworld.co.za/wp-content/uploads/2025/10/Knockout-Cup-Logo-300x166.png",
+          "aliases": ["CARLING KNOCKOUT CUP"]
         }
       },
       {
@@ -2817,7 +2837,11 @@
       {
         "UEFA WOMEN EUROPA CUP": {
           "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/UEFA_Women%27s_Europa_Cup.svg/960px-UEFA_Women%27s_Europa_Cup.svg.png",
-          "aliases": ["UEFA EUROPA CUP WOMEN"]
+          "aliases": [
+            "UEFA EUROPA CUP WOMEN",
+            "UEFA W EUROPA",
+            "UEFA W EUROPA CUP"
+          ]
         }
       },
       {

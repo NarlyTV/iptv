@@ -28,7 +28,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    elif f"{html_data.url}" in (BASE_URL, BASE_URL.strip("/")):
+    elif f"{html_data.url}" in (BASE_URL, BASE_URL.rstrip("/")):
         log.info(f"URL {url_num}) No event found.")
         return
 
