@@ -18,7 +18,7 @@ BASE_URL = "https://la18hd.su"
 
 async def process_event(url: str, url_num: int) -> str | None:
     if not (
-        html_data := await network.request(
+        event_data := await network.request(
             url,
             url_num,
             headers={
@@ -34,7 +34,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     valid_m3u8 = re.compile(r'"src"\s?:"([^"]*)"', re.I)
 
-    if not (match := valid_m3u8.search(html_data.text)):
+    if not (match := valid_m3u8.search(event_data.text)):
         log.warning(f"URL {url_num}) No M3U8 found")
         return
 
