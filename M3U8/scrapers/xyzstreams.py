@@ -37,7 +37,8 @@ SERVERS = [
     "https://eu-4605069466.duckdns.org",
     # "https://ierewaw2.b-cdn.net",
     "https://hls.kozow.com",
-    "https://xyzstream.duckdns.org",
+    # "https://xyzstream.duckdns.org",
+    "https://us-xyz.work.gd",
 ]
 
 KEY = "TXlTdXBlclNlY3JldEtleTEyMyE="

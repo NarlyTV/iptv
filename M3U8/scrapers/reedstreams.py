@@ -39,7 +39,7 @@ async def process_event(url: str, url_num: int) -> str | None:
         return
 
     stream_urls: list[str] = [
-        stream.get("embedUrl") for stream in streams if stream.get("source") == "tnasty"
+        stream.get("embedUrl") for stream in streams if stream.get("source") == "eixor"
     ]
 
     if not stream_urls:
