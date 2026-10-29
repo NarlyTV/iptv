@@ -29,7 +29,7 @@ EPG_URLS = [
         "UK1",
         "US2",
         "US_LOCALS1",
-        # "UY1",
+        "UY1",
     ]
 ]
 
