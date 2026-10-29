@@ -2,7 +2,7 @@ from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
 from typing import Any
-from urllib.parse import quote, urljoin
+from urllib.parse import urljoin
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -22,16 +22,22 @@ BASE_URL = "https://damitv.st"
 @dataclass(kw_only=True, slots=True)
 class DAMIEvent(Event):
     stream_id: str
+    ppv_id: str
     link: str | None = None
     logo: str | None = None
 
 
-async def process_event(stream_id: str, url_num: int) -> str | None:
+async def process_event(
+    ppv_id: str,
+    stream_id: str,
+    url_num: int,
+) -> str | None:
+
     if not (
         event_data := await network.request(
-            urljoin(BASE_URL, f"papi/extract-url/{stream_id}"),
+            urljoin(BASE_URL, f"papi/extract-url/{ppv_id}"),
             url_num,
-            headers={"Referer": urljoin(BASE_URL, f"embed/?id={quote(stream_id)}")},
+            headers={"Referer": urljoin(BASE_URL, f"embed/?id={stream_id}")},
             log=log,
         )
     ):
@@ -80,12 +86,13 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
                     "league",
                     "date",
                     "id",
+                    "ppvId",
                 )
             ]
         ):
             continue
 
-        name, sport, start_ts, stream_id = values
+        name, sport, start_ts, stream_id, ppv_id = values
 
         if stream_id.lower().startswith(("dl-", "247")):
             continue
@@ -116,6 +123,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[DAMIEvent]:
                 name=name,
                 logo=poster,
                 stream_id=stream_id,
+                ppv_id=ppv_id,
                 timestamp=event_ts,
             )
         )
@@ -142,6 +150,7 @@ async def scrape() -> None:
         for i, ev in enumerate(events, start=1):
             handler = partial(
                 process_event,
+                ppv_id=ev.ppv_id,
                 stream_id=ev.stream_id,
                 url_num=i,
             )
