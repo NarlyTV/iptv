@@ -104,7 +104,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
 
         if category not in {
             "american-football",
-            "baseball",
+            # "baseball",
             "basketball",
             "hockey",
         }:

@@ -1330,6 +1330,7 @@
           "aliases": [
             "CARABAO CUP",
             "EFL CUP",
+            "ENG LEAGUE CUP",
             "ENGLAND - LEAGUE CUP",
             "ENGLAND LEAGUE CUP",
             "ENGLISH - LEAGUE CUP",
@@ -2222,7 +2223,6 @@
           "logo": "https://static.wikia.nocookie.net/logopedia/images/7/7b/Portugal_Cup_logo.svg/revision/latest/scale-to-width-down/500",
           "aliases": [
             "COPA DE PORTUGAL",
-            "PORTUGAL LEAGUE CUP",
             "TACA DE PORTUGAL",
             "TAÇA DE PORTUGAL"
           ]
@@ -2380,7 +2380,8 @@
             "SAUDI ARABIA - PRO LEAGUE",
             "SAUDI ARABIA PRO LEAGUE",
             "SAUDI LEAGUE",
-            "SAUDI PREMIER LEAGUE"
+            "SAUDI PREMIER LEAGUE",
+            "SPL"
           ]
         }
       },
@@ -2681,6 +2682,21 @@
         }
       },
       {
+        "TAÇA DA LIGA": {
+          "logo": "https://r2.thesportsdb.com/images/media/league/badge/crq7hz1593012623.png",
+          "aliases": [
+            "COPA DE PORTUGAL",
+            "COPA DE PORTUGAL CUPA",
+            "PORTUGUESE LEAGUE CUP",
+            "TACA DA LIGA",
+            "TACA DE LIGA PORTUGAL",
+            "TACA DE PORTUGAL LIGA",
+            "TAÇA DE LIGA PORTUGAL",
+            "TAÇA DE PORTUGAL LIGA"
+          ]
+        }
+      },
+      {
         "THAI LEAGUE 1": {
           "logo": "https://assets.football-logos.cc/logos/thailand/1500x1500/thai-league-1.3069b0a9.png",
           "aliases": [
@@ -2850,6 +2866,8 @@
           "aliases": [
             "UCL WOMEN",
             "UEFA CHAMPIONS LEAGUE FEMENINA",
+            "UEFA CHAMPIONS LEAGUE WOMEN",
+            "UEFA WCHAMPIONS",
             "UEFA WOMEN",
             "UEFA WOMEN CHAMPIONS LEAGUE",
             "UEFA WOMEN'S CHAMPIONS LEAGUE QUALIFYING",

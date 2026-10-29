@@ -20,7 +20,7 @@ SPORT_URLS = [
     urljoin(BASE_URL, f"api/{sport}.json")
     for sport in [
         "americanfootball",
-        "baseball",
+        # "baseball",
         "basketball",
         "darts",
         "fights",

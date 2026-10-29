@@ -26,7 +26,7 @@ BASE_URL = "https://embedme.st"
 
 SPORT_ENDPOINTS = {
     # "cfb",
-    "mlb",
+    # "mlb",
     "nba",
     "nfl",
     "nhl",
