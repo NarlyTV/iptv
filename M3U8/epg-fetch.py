@@ -17,7 +17,7 @@ EPG_URLS = [
     f"https://epgshare01.online/epgshare01/epg_ripper_{EPG_ID}.xml.gz"
     for EPG_ID in [
         "CA2",
-        # "CO1",
+        "CO1",
         # "DE1",
         "DUMMY_CHANNELS",
         # "ES1",
@@ -29,7 +29,7 @@ EPG_URLS = [
         "UK1",
         "US2",
         "US_LOCALS1",
-        "UY1",
+        # "UY1",
     ]
 ]
 
