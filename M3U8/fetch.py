@@ -111,7 +111,7 @@ async def main() -> None:
 
             pw_tasks = [
                 asyncio.create_task(flyembed.scrape(hdl_brwsr)),
-                asyncio.create_task(sportspass.scrape(hdl_brwsr)),
+                # asyncio.create_task(sportspass.scrape(hdl_brwsr)),
             ]
 
             httpx_tasks = [
@@ -121,7 +121,7 @@ async def main() -> None:
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
-                asyncio.create_task(reedstreams.scrape()),
+                # asyncio.create_task(reedstreams.scrape()),
                 asyncio.create_task(streamcenter.scrape()),
                 asyncio.create_task(streamfree.scrape()),
                 asyncio.create_task(streamgate.scrape()),
