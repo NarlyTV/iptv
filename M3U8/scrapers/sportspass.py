@@ -39,8 +39,6 @@ async def process_event(
     page: Page,
 ) -> tuple[str | None, str | None, str | None]:
 
-    nones = None, None
-
     captured: list[str] = []
 
     got_one = asyncio.Event()
@@ -64,7 +62,7 @@ async def process_event(
 
         if not resp or not resp.ok:
             log.error(f"URL {url_num}) Status Code: {resp.status if resp else 'None'}")
-            return (event_name, *nones)
+            return event_name, None
 
         event_name_elem = page.locator("h1.match-head")
 
@@ -78,7 +76,7 @@ async def process_event(
             ifr_src = await ifr.get_attribute("src")
         except TimeoutError:
             log.warning(f"URL {url_num}) No iframe found.")
-            return (event_name, *nones)
+            return event_name, None
 
         await page.goto(
             ifr_src,
@@ -86,13 +84,22 @@ async def process_event(
             timeout=2_250,
         )
 
+        try:
+            btn = page.locator(".vjs-big-play-button").first
+
+            await btn.dblclick(force=True, timeout=3_000)
+
+        except TimeoutError:
+            log.warning(f"URL {url_num}) Failed to play source")
+            return event_name, None
+
         wait_task = asyncio.create_task(got_one.wait())
 
         try:
             await asyncio.wait_for(wait_task, timeout=5)
         except TimeoutError:
             log.warning(f"URL {url_num}) Timed out waiting for M3U8.")
-            return (event_name, *nones)
+            return event_name, None
 
         finally:
             if not wait_task.done():
@@ -106,14 +113,14 @@ async def process_event(
         if captured:
             if "indianservers" in captured[0].lower():
                 log.warning(f"URL {url_num}) Unsuitable M3U8 link captured.")
-                return (event_name, *nones)
+                return event_name, None
 
             log.info(f"URL {url_num}) Captured M3U8")
 
-            return event_name, ifr_src, captured[0]
+            return event_name, captured[0]
     except Exception as e:
         log.warning(f"URL {url_num}) {e}")
-        return (event_name, *nones)
+        return event_name, None
 
     finally:
         page.remove_listener("request", handler)
@@ -201,10 +208,10 @@ async def scrape(browser: Browser) -> None:
                         page=page,
                     )
 
-                    name, ifr_src, source = await network.safe_process(
+                    name, source = await network.safe_process(
                         handler,
                         url_num=i,
-                        timeout_return=(None, None, None),
+                        timeout_return=(None, None),
                         semaphore=network.PW_S,
                         log=log,
                     )
@@ -216,7 +223,7 @@ async def scrape(browser: Browser) -> None:
                     entry = {
                         "source": source,
                         "logo": logo,
-                        "refer": ifr_src,
+                        "refer": BASE_URL,
                         "timestamp": ev.timestamp,
                         "tvg-id": tvg_id or "Live.Event.us",
                         "link": ev.link,
