@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-30 23:57 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-31 08:40 UTC
 
-<h3>✅ Working Streams: 131<br>❌ Dead Streams: 37</h3>
+<h3>✅ Working Streams: 135<br>❌ Dead Streams: 33</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTMzMzQ2MDI1NTE6Y2RubGl2ZXR2LnR2OmE0NTg4N2EzODgwYzc5ZjUuZjNiZmYyNjQxYjUyMDRhMTllYTI5MWEzMDRkYmVjYzQxYzcyMmEyOTZjYTY4NGE3Mjk3YzdjZjZmYTNhZmI1Yg'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -16,13 +16,10 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cdd7/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZGQ3OjE3OTMzMzQ2MDI5NTQ6Y2RubGl2ZXR2LnR2OmU2ZDA3OGQ0Yzg1NDU4NTQuYzg0NTE5ZDJlMTFkNTg5MmNlMGU3MDExMTAwZTBjYjU0MWMyMDIxNjE5YWQ4Mzg5MmE1NmRjYzgxMTdkZWViOQ'>BET</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf91/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjkxOjE3OTMzMzQ2MDMwODI6Y2RubGl2ZXR2LnR2OjI5NDllMjA0MWJjNzNjNzguYzk1NzMxMWY1OTA3NTk4NmY2ZjY3YWM2NmE0Y2VlMDk4MmE0ODBiMzU0MmFkNTg5ZTllZTE1Njg5ZDNjNWY0NQ'>CBS</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTMzMzQ2MDMyMTc6Y2RubGl2ZXR2LnR2OjFiNjI3OTQxMjQ0MzA1YWYuZDZkODAzZWVmMjZhNTIwZjNmNWFiYTU3MmQyMTE0OTUxZjEwN2Q4NThiMmU0Yjk4YjBlOGY4NTIzOGNhNWU1Ng'>Chicago Sports Network</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/discovery/index.m3u8'>Discovery Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/disney/index.m3u8'>Disney Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cefd/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWZkOjE3OTMzMzQ2MDMzNjA6Y2RubGl2ZXR2LnR2OjFmYjY4NGZkYTlkN2I4NmUuYzdkNWJkNGMxNjc2NmFjMjc5ZDlhMTY3YjEwOTBmMzI0MmI2OWE2ZDU5MmU2Y2JkYmZlYTZiMjUwYTNhOGM4OA'>ESPNEWS</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://tvsen6.aynaott.com/fox5/index.m3u8'>Fox</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf26/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjI2OjE3OTMzMzQ2MDM0OTc6Y2RubGl2ZXR2LnR2OjdkZmVkMmU1YWQ1YmNjOGEuYWVhZjgyZTI2MGRiNDg2MGE1Zjc0ZmEwMGJmMTg2YWRjODA3YjQwMjEwYWEwYWJkZjVkY2EyZjAzNzRjZGZiOA'>Fox Sports 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTMzMzQ2MDM2Mjg6Y2RubGl2ZXR2LnR2OmFiOGNlYjkzMmE1YzIzYzEuZTg5ZjM4Y2MwNDcxNTdiNGVkODNjOWMwODUxZmE1NGRlOTI4MmEyNjY3ODI0YTFlOGYwZDhmYjU1MzBmMDRmNw'>Hallmark Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/history/index.m3u8'>History Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/id/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ceae/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWFlOjE3OTMzMzQ2MDM3Njk6Y2RubGl2ZXR2LnR2OjFhNTgwZmY4YzZiYzdjMjguOTU0YTE2OTVkNGZkNGUyMjE1N2I3M2MyYzY3YzBmNmQ1YzIzMmZiODkxZjNhNjgwYzAzMGM5ZTljNzAxYWM5NQ'>Lifetime</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf30/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMwOjE3OTMzMzQ2MDQwNDQ6Y2RubGl2ZXR2LnR2OmVmMjU3N2ZlNGYxZGMyMWIuNjAwNDE0NDMxZjlkNmZkZjAzODhlMmFjNmU4OTUyYTcwYjQzZTNiMzFhNWJhNTBmNDdjYjUwYmY0YTkxZTgxYw'>MLB Network</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTMzMzQ2MDQxOTQ6Y2RubGl2ZXR2LnR2OjA1ZWRhZGRiYmZmN2Q0YzkuMDIxNjk1NTBhMDkwMzI3YTM3NjU0MzQzZGNhNmIyMWIwN2M5MGJhY2I1NzBjNTFmYjk4NTY1ZGI2NmZkYzc0ZQ'>MSG</a></td><td>HTTP Error (403)</td></tr>
@@ -30,7 +27,6 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf33/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMzOjE3OTMzMzQ2MDQ1Mjc6Y2RubGl2ZXR2LnR2OjVmYTBhZTc5YjE4YjRkMzguOTg3ZDMyZTUwYjQzYTIxNjQ1MGQ2NTk5ZTNlZTA3Y2JhYzE2M2QwZTZlYTFmNzQ0NWJmZjEzNWJkYWQ2ZTVlNg'>NBA TV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cff6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmY2OjE3OTMzMzQ2MDQzOTU6Y2RubGl2ZXR2LnR2OjgwMzU2YTU4NDAxZWNkNmIuNDZkODNkZGNkYmNjZjIwNDNhMzJjMzNlZDU4Y2EyZjJhY2U4ODI1ZjExZDM5ZmU5MWRiZDk3YjI1MTkwOTlkMw'>NBC</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTMzMzQ2MDQ2Njg6Y2RubGl2ZXR2LnR2OmJhMzNjYTYzNGRmZWNlYjIuYmMxM2E5ZjE1MTFiMzJiNTI4ZGQ0MTRlMzg0ZmE3NzQ4YzRhMjQ4YzgwOTE2ZGIzNmE5OWYwYWU2MWE3Y2U5Ng'>NHL Network</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/nickjr/index.m3u8'>Nick Jr</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d28c/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjhjOjE3OTMzMzQ2MDQ4MDI6Y2RubGl2ZXR2LnR2OmRhMTFkOGY2ODA1NTM3ZGUuNWJhZmFkZjQxZDY0YjE4ZWI3NmZlMDk1ODIyNTY5ODhmNjU2Y2ExYmI2OTk0NTRhOTJkMGMwNmIyOWNjZDk3Mg'>Showtime Extreme</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c860/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODYwOjE3OTMzMzQ2MDQ5MzQ6Y2RubGl2ZXR2LnR2OjE3ODViMTI5ZGZmOTAyZTQuMDdmODViN2M4NWFiMTViNGEyNjAzZTFkZjY1Y2FkYjQyMWI5YmQ0ZDBiMDVlOTNhNDRlMWMyMjU2NjFhYjFhNg'>Sky Sports Cricket</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88c/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhjOjE3OTMzMzQ2MDUwNjg6Y2RubGl2ZXR2LnR2OmM5NDc5NmU2NjNkNjIyMDcuZmE3YzQxMjQ4ODJhMzVhNzY1OWIzNDVlOTgzODYzY2VhOTkxMzBlY2MxY2U5NTM3NzY3ZGM3YjNjMzEzZWYzNA'>Sky Sports Football</a></td><td>HTTP Error (403)</td></tr>
