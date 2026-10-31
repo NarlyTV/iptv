@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-10-31 08:40 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-10-31 18:41 UTC
 
 <h3>✅ Working Streams: 135<br>❌ Dead Streams: 33</h3>
 <table>
@@ -17,7 +17,6 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf91/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjkxOjE3OTMzMzQ2MDMwODI6Y2RubGl2ZXR2LnR2OjI5NDllMjA0MWJjNzNjNzguYzk1NzMxMWY1OTA3NTk4NmY2ZjY3YWM2NmE0Y2VlMDk4MmE0ODBiMzU0MmFkNTg5ZTllZTE1Njg5ZDNjNWY0NQ'>CBS</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTMzMzQ2MDMyMTc6Y2RubGl2ZXR2LnR2OjFiNjI3OTQxMjQ0MzA1YWYuZDZkODAzZWVmMjZhNTIwZjNmNWFiYTU3MmQyMTE0OTUxZjEwN2Q4NThiMmU0Yjk4YjBlOGY4NTIzOGNhNWU1Ng'>Chicago Sports Network</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cefd/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWZkOjE3OTMzMzQ2MDMzNjA6Y2RubGl2ZXR2LnR2OjFmYjY4NGZkYTlkN2I4NmUuYzdkNWJkNGMxNjc2NmFjMjc5ZDlhMTY3YjEwOTBmMzI0MmI2OWE2ZDU5MmU2Y2JkYmZlYTZiMjUwYTNhOGM4OA'>ESPNEWS</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen6.aynaott.com/fox5/index.m3u8'>Fox</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf26/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjI2OjE3OTMzMzQ2MDM0OTc6Y2RubGl2ZXR2LnR2OjdkZmVkMmU1YWQ1YmNjOGEuYWVhZjgyZTI2MGRiNDg2MGE1Zjc0ZmEwMGJmMTg2YWRjODA3YjQwMjEwYWEwYWJkZjVkY2EyZjAzNzRjZGZiOA'>Fox Sports 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTMzMzQ2MDM2Mjg6Y2RubGl2ZXR2LnR2OmFiOGNlYjkzMmE1YzIzYzEuZTg5ZjM4Y2MwNDcxNTdiNGVkODNjOWMwODUxZmE1NGRlOTI4MmEyNjY3ODI0YTFlOGYwZDhmYjU1MzBmMDRmNw'>Hallmark Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ceae/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWFlOjE3OTMzMzQ2MDM3Njk6Y2RubGl2ZXR2LnR2OjFhNTgwZmY4YzZiYzdjMjguOTU0YTE2OTVkNGZkNGUyMjE1N2I3M2MyYzY3YzBmNmQ1YzIzMmZiODkxZjNhNjgwYzAzMGM5ZTljNzAxYWM5NQ'>Lifetime</a></td><td>HTTP Error (403)</td></tr>
@@ -44,6 +43,7 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3f/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNmOjE3OTMzMzQ2MDY4MDY6Y2RubGl2ZXR2LnR2OjUzNmZmZDljY2UxNmRhZTYuYWYwZWM0MzAwNGNjZjNhMDZiZTM3OGRkMWJjOWYxMjg0ODFhMmIxYTliZGE3MGNjMWFiNzAwNmIyMjViNzU4Yg'>TSN 4</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTMzMzQ2MDY5NjA6Y2RubGl2ZXR2LnR2OjkwOWIwNGVhOTJiYTllOGEuMmY1MzQzZmQ3Y2EyZDVhNDkzOWNjZDZlMWYwNzZkZmExZGNkODVjMWYzYTU4YzY4NjNmYjJlNmMyMjMyMTAxNw'>TSN 5</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d032/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMDMyOjE3OTMzMzQ2MDcxNTE6Y2RubGl2ZXR2LnR2OmI4ZDc5ZDQxMjdkNDg4ZTkuNjQ3YjY3OWFhZGIzYmQzYmYwYTdiY2Q2ZmE5YTI0ZjljMWQ2MjMzOGI3NDM0MDlmMzgzNDZmYzhhMGU4MDY4OQ'>TV One</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='http://45.70.168.162:80/play/a01k/index.m3u8'>Telemundo Internacional</a></td><td>HTTP Error (404)</td></tr>
 </table>
 </div>
 
