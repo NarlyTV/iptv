@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-06 20:29 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-07 00:15 UTC
 
-<h3>✅ Working Streams: 128<br>❌ Dead Streams: 40</h3>
+<h3>✅ Working Streams: 129<br>❌ Dead Streams: 39</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTMzMzQ2MDI1NTE6Y2RubGl2ZXR2LnR2OmE0NTg4N2EzODgwYzc5ZjUuZjNiZmYyNjQxYjUyMDRhMTllYTI5MWEzMDRkYmVjYzQxYzcyMmEyOTZjYTY4NGE3Mjk3YzdjZjZmYTNhZmI1Yg'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -27,7 +27,6 @@
 <tr><td><a href='https://cdn-unified-hls.streamspot.com/ingest1/0b5c0f18e9/chunklist.m3u8?origin=1'>Living Faith TV</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf30/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMwOjE3OTMzMzQ2MDQwNDQ6Y2RubGl2ZXR2LnR2OmVmMjU3N2ZlNGYxZGMyMWIuNjAwNDE0NDMxZjlkNmZkZjAzODhlMmFjNmU4OTUyYTcwYjQzZTNiMzFhNWJhNTBmNDdjYjUwYmY0YTkxZTgxYw'>MLB Network</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTMzMzQ2MDQxOTQ6Y2RubGl2ZXR2LnR2OjA1ZWRhZGRiYmZmN2Q0YzkuMDIxNjk1NTBhMDkwMzI3YTM3NjU0MzQzZGNhNmIyMWIwN2M5MGJhY2I1NzBjNTFmYjk4NTY1ZGI2NmZkYzc0ZQ'>MSG</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8'>MTV Live</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf2f/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjJmOjE3OTMzMzQ2MDM5MTM6Y2RubGl2ZXR2LnR2OjU5NzI5YTg2NzVkMTgxOTYuYmYyMzU3NmFlNjRmN2RhM2M5NWFlZDQ0ZWVmMGI2ZjllOTIzMjM2NWJhNTVjYWYyZDY4OGQ0MzZjNDUyYjM0Yw'>Marquee Sports Network</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf33/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMzOjE3OTMzMzQ2MDQ1Mjc6Y2RubGl2ZXR2LnR2OjVmYTBhZTc5YjE4YjRkMzguOTg3ZDMyZTUwYjQzYTIxNjQ1MGQ2NTk5ZTNlZTA3Y2JhYzE2M2QwZTZlYTFmNzQ0NWJmZjEzNWJkYWQ2ZTVlNg'>NBA TV</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cff6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmY2OjE3OTMzMzQ2MDQzOTU6Y2RubGl2ZXR2LnR2OjgwMzU2YTU4NDAxZWNkNmIuNDZkODNkZGNkYmNjZjIwNDNhMzJjMzNlZDU4Y2EyZjJhY2U4ODI1ZjExZDM5ZmU5MWRiZDk3YjI1MTkwOTlkMw'>NBC</a></td><td>HTTP Error (403)</td></tr>
