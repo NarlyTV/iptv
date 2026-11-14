@@ -6,14 +6,16 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-13 20:57 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-14 09:15 UTC
 
-<h3>✅ Working Streams: 172<br>❌ Dead Streams: 3</h3>
+<h3>✅ Working Streams: 184<br>❌ Dead Streams: 5</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ2MDkwMDYwMjg6Y2RubGl2ZXR2LnR2OmVjNGZjYTk5OTE2ODMyZjEuMjFjMGIwMGNiN2M3ZDA1ZGY3YTU2YmNjNDkxZGZjYTc0ZTVmNzlkODU3ZDM0OWRlZWMyMWFlOTUyMDcyYzM1MA'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTQ2MDkwMDgxNjc6Y2RubGl2ZXR2LnR2OmQzN2RmMTQ1OWNlNzFmODMuYWNmNTRlZjkxNmIxMGU4ZTYyOGMzMGI3MmJiMWUxMTEwM2U1ZWZlMjYwNmMyZDcxNjIwNDU2N2UxZjUwOGU2YQ'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ2MDkwMDg4ODA6Y2RubGl2ZXR2LnR2OjM2OWE3Nzg0OTY3ZWExNzguMzVmN2YzNWZiZTFhZDcwMmYzMzFlY2QxNmE3YjNmY2RiYmUzMWZjODJkMTViOTkwMjk3NDdhYmJkZmM5ODlkYw'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ2MzYwMDQ0NDU6Y2RubGl2ZXR2LnR2Ojk0YTcxNTE5MjQwZjRhZWUuZDVjNjNlMGM5YTcyODM1Zjc4ZGQ4MDQ5MzUzYWYzOTdmMmNjZTdlNDQ4OTdlMGJhZmNhMzNlZjM2ZTVlNDU1Yg'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8'>NBC</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTQ2MzYwMDY2OTk6Y2RubGl2ZXR2LnR2OjYyZjJmNmNkZGMxOWU5ZTYuOWRmMTkxMDE4ZTA0MTdmNGM1Mjg1MDdkMjZiZjJlYjE5MmE5MDUyNDczMjRlMzE3YTljNjQzNTE5NWYxYjRmNQ'>Sky Sports Racing</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/16fgsju1pnic1t0n4pa9a/master.m3u8'>Starz</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://tvsen5.aynaott.com/tsn2/index.m3u8'>TSN 2</a></td><td>HTTP Error (404)</td></tr>
 </table>
 </div>
 
