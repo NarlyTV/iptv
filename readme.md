@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-21 10:03 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-21 20:38 UTC
 
 <h3>✅ Working Streams: 109<br>❌ Dead Streams: 70</h3>
 <table>
@@ -33,7 +33,6 @@
 <tr><td><a href='http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8'>Food Network</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf26/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjI2OjE3OTQ5Nzk4MDU5OTc6Y2RubGl2ZXR2LnR2OmZmZGY1MTg5NmMyNzczODAuOWZhMWFjNmJiNDc5NjJiMDNjMzIxY2EwOTQxYzJmYmY0ZTcxNjA1N2Y2NTIyNzQ3MDUxMWI3YzIyZTUzNDdiNw'>Fox Sports 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_FUSE/index.m3u8'>Fuse</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://tvsen6.aynaott.com/golfchannel/index.m3u8'>Golf Channel</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='http://23.237.104.106:8080/USA_HLN/index.m3u8'>HLN</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTQ5Nzk4MDYxOTg6Y2RubGl2ZXR2LnR2OmUyNzhkNjc0Njg2N2RiNmMuMDM4MWYxMGE3NzMyMzM2NGIyZGIyYmMxMDUwMTFiNTdlOWNmZWQzODQwNzUyZjljYmQ5ZmE3ZDQzOGVlMjVhMA'>Hallmark Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cfc6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmM2OjE3OTQ5Nzk4MDY0MDM6Y2RubGl2ZXR2LnR2OjA4MDUwNmM1ZjUwYmY1NDUuOGQwYzE0MGY3OWFiOGRhY2NmZTg5MDcwNTAwNmU4OTU2MjU4MmJjZDE4OTU5MmJhMWIzOGE3MTk0M2VmMTNhMQ'>History Channel (Alt)</a></td><td>HTTP Error (403)</td></tr>
@@ -71,6 +70,7 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c892/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODkyOjE3OTQ5Nzk4MDk4ODg6Y2RubGl2ZXR2LnR2OjA3ZjY0ZmQzNDc2YTMyNWQuYmZmZWRiZTFlMDY3YTcxZDRjZmU3MGE4MWU1NTY3NTRmOTMwNmVmNzM4OTZjYWYzNzAyYTcxOTIxZDBmNjgyZA'>TNT Sports 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ5Nzk4MTAwOTM6Y2RubGl2ZXR2LnR2OmY2ODJjOTY4ZDdlNTExZjEuNDNiMzM2YjA4NzNkZDJkMzgwNzUwY2UyZTM0ZTFhYzgxY2E2NjcyMzdhNmY5MDgwZmU0Zjg0OTY1MDE0MTIwNA'>TNT Sports 3</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ5Nzk4MTAyMjU6Y2RubGl2ZXR2LnR2OjBjYThmOTFkN2RiNGNkNTkuMTZiZTNhZjMyMTFkNDNlOWFhYjhmNWUxODYxOGQ2NDNlYjc5MTM5N2RlZjc3NDgxZWFhN2FiYzliNjc2MmQwNw'>TNT Sports 4</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://tvsen5.aynaott.com/tsn2/index.m3u8'>TSN 2</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3f/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNmOjE3OTQ5Nzk4MTA2MjE6Y2RubGl2ZXR2LnR2OjRkMWNmOGZkZjgyNjhlMTcuMTk3NTNiMjU2ZWFmMzZkMGFiYmM2YmQxMjg5MGRmYWRiYzg4NzNhNmQyMGE0ZWU2YzNlYjcxZjFjNTkxNmRiZQ'>TSN 4</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTQ5Nzk4MTA4MTg6Y2RubGl2ZXR2LnR2OmYzOWM2MzljNjYwNjgzMzUuMjQ3YzkzZjUxNTAxOWM3ZWEwNzI1YzIwMzg2ZTM5M2NjMTIwMzgxNzg1MDBkODhjYTg4Mjk2MTljMjExMWI2OA'>TSN 5</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d032/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMDMyOjE3OTQ5Nzk4MTEwMTM6Y2RubGl2ZXR2LnR2Ojg4MjI1MjVlNGY1NWIxZDEuNDA0ZWQ0NTg5OTU3MjQ4M2JiZWY5ZDZhZjEzZDQ3ZTA2MTcwMWRlZGIwZmYzODRiZmRjZDdiMjg1OWM3ODE4Ng'>TV ONE</a></td><td>HTTP Error (403)</td></tr>
