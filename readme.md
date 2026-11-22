@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-21 20:38 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-22 10:05 UTC
 
-<h3>✅ Working Streams: 109<br>❌ Dead Streams: 70</h3>
+<h3>✅ Working Streams: 110<br>❌ Dead Streams: 69</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTQ5Nzk4MDQ5NjY6Y2RubGl2ZXR2LnR2OmYyZmRmODYzNWUyZWY1MjguNTVlYzUyMDZiNTYwOWE2NWRlNzc0NTI4N2NmMGNmMGRkN2FlYjhjMzFlMjBmZTc2MDNhYmU5ZjcwYmIxOWQyZg'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -70,7 +70,6 @@
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c892/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODkyOjE3OTQ5Nzk4MDk4ODg6Y2RubGl2ZXR2LnR2OjA3ZjY0ZmQzNDc2YTMyNWQuYmZmZWRiZTFlMDY3YTcxZDRjZmU3MGE4MWU1NTY3NTRmOTMwNmVmNzM4OTZjYWYzNzAyYTcxOTIxZDBmNjgyZA'>TNT Sports 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ5Nzk4MTAwOTM6Y2RubGl2ZXR2LnR2OmY2ODJjOTY4ZDdlNTExZjEuNDNiMzM2YjA4NzNkZDJkMzgwNzUwY2UyZTM0ZTFhYzgxY2E2NjcyMzdhNmY5MDgwZmU0Zjg0OTY1MDE0MTIwNA'>TNT Sports 3</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ5Nzk4MTAyMjU6Y2RubGl2ZXR2LnR2OjBjYThmOTFkN2RiNGNkNTkuMTZiZTNhZjMyMTFkNDNlOWFhYjhmNWUxODYxOGQ2NDNlYjc5MTM5N2RlZjc3NDgxZWFhN2FiYzliNjc2MmQwNw'>TNT Sports 4</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen5.aynaott.com/tsn2/index.m3u8'>TSN 2</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3f/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNmOjE3OTQ5Nzk4MTA2MjE6Y2RubGl2ZXR2LnR2OjRkMWNmOGZkZjgyNjhlMTcuMTk3NTNiMjU2ZWFmMzZkMGFiYmM2YmQxMjg5MGRmYWRiYzg4NzNhNmQyMGE0ZWU2YzNlYjcxZjFjNTkxNmRiZQ'>TSN 4</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTQ5Nzk4MTA4MTg6Y2RubGl2ZXR2LnR2OmYzOWM2MzljNjYwNjgzMzUuMjQ3YzkzZjUxNTAxOWM3ZWEwNzI1YzIwMzg2ZTM5M2NjMTIwMzgxNzg1MDBkODhjYTg4Mjk2MTljMjExMWI2OA'>TSN 5</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d032/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMDMyOjE3OTQ5Nzk4MTEwMTM6Y2RubGl2ZXR2LnR2Ojg4MjI1MjVlNGY1NWIxZDEuNDA0ZWQ0NTg5OTU3MjQ4M2JiZWY5ZDZhZjEzZDQ3ZTA2MTcwMWRlZGIwZmYzODRiZmRjZDdiMjg1OWM3ODE4Ng'>TV ONE</a></td><td>HTTP Error (403)</td></tr>
