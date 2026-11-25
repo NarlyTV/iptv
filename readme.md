@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-24 23:35 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-25 11:34 UTC
 
-<h3>✅ Working Streams: 141<br>❌ Dead Streams: 38</h3>
+<h3>✅ Working Streams: 140<br>❌ Dead Streams: 39</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTQ5Nzk4MDQ5NjY6Y2RubGl2ZXR2LnR2OmYyZmRmODYzNWUyZWY1MjguNTVlYzUyMDZiNTYwOWE2NWRlNzc0NTI4N2NmMGNmMGRkN2FlYjhjMzFlMjBmZTc2MDNhYmU5ZjcwYmIxOWQyZg'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -20,6 +20,7 @@
 <tr><td><a href='http://212.5.144.156:8080/disney/index.m3u8'>Disney Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf26/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjI2OjE3OTQ5Nzk4MDU5OTc6Y2RubGl2ZXR2LnR2OmZmZGY1MTg5NmMyNzczODAuOWZhMWFjNmJiNDc5NjJiMDNjMzIxY2EwOTQxYzJmYmY0ZTcxNjA1N2Y2NTIyNzQ3MDUxMWI3YzIyZTUzNDdiNw'>Fox Sports 2</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTQ5Nzk4MDYxOTg6Y2RubGl2ZXR2LnR2OmUyNzhkNjc0Njg2N2RiNmMuMDM4MWYxMGE3NzMyMzM2NGIyZGIyYmMxMDUwMTFiNTdlOWNmZWQzODQwNzUyZjljYmQ5ZmE3ZDQzOGVlMjVhMA'>Hallmark Channel</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://2-fss-2.streamhoster.com/pl_120/201950-2724904-1/playlist.m3u8'>Heartland</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/history/index.m3u8'>History Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cfc6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmM2OjE3OTQ5Nzk4MDY0MDM6Y2RubGl2ZXR2LnR2OjA4MDUwNmM1ZjUwYmY1NDUuOGQwYzE0MGY3OWFiOGRhY2NmZTg5MDcwNTAwNmU4OTU2MjU4MmJjZDE4OTU5MmJhMWIzOGE3MTk0M2VmMTNhMQ'>History Channel (Alt)</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/id/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (403)</td></tr>
