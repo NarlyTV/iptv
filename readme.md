@@ -6,9 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-26 23:11 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-27 11:11 UTC
 
-<h3>✅ Working Streams: 132<br>❌ Dead Streams: 47</h3>
+<h3>✅ Working Streams: 131<br>❌ Dead Streams: 48</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTQ5Nzk4MDQ5NjY6Y2RubGl2ZXR2LnR2OmYyZmRmODYzNWUyZWY1MjguNTVlYzUyMDZiNTYwOWE2NWRlNzc0NTI4N2NmMGNmMGRkN2FlYjhjMzFlMjBmZTc2MDNhYmU5ZjcwYmIxOWQyZg'>ABC</a></td><td>HTTP Error (403)</td></tr>
@@ -33,6 +33,7 @@
 <tr><td><a href='https://tvsen6.aynaott.com/nfl/index.m3u8'>NFL Network</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ5Nzk4MDcyNTY6Y2RubGl2ZXR2LnR2Ojg0NjBmNjgwNTI1YTgxODUuOTgwYWE0NDJmMmQzYmYzMjBmYjcyNWI4M2ZlMDQ1NDNkYjVlMDQyMjNiNmJjYWI3OTVhNWQ5MTlmYmJkZDRiOQ'>NHL Network</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d040/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMDQwOjE3OTQ5Nzk4MDc0MzA6Y2RubGl2ZXR2LnR2OmNjMTFjMDY2NWY3YWM0MGQuYmQ5YWZjNGNlYWIzOTcyZGVhMTk5MTFmYzI3MDM3Y2M0MDdjZjBjOWUwZWVmYmU3N2FjOTRkYmVlZGRiNzMyMg'>Nickelodeon</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://a-cdn.klowdtv.com/live1/oan_720p/chunks.m3u8'>One America News</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='http://176.65.153.4:4007/play/a073/index.m3u8'>STV</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d28c/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjhjOjE3OTQ5Nzk4MDc2NDQ6Y2RubGl2ZXR2LnR2OjQ5OWU3N2Q3MTViZDBiNGQuOTBkOWYwNDYxNGQ2MWI2NjdmOTE3N2EwNzkxZmZjMzQ3NzA2ODk2ZDU2MjAxODkwYmZmMGRiYjdhYzNjZmJhNA'>Showtime Extreme</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c860/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODYwOjE3OTQ5Nzk4MDc4Mzk6Y2RubGl2ZXR2LnR2OmRmY2E3OGUxOTJhODIzNzcuZjdiYmU4N2U5YjIwNzAxZGExNjUyYjA3OGVmMjQxM2RjZTg4YmIxYjM0YzlkMDYzYWEyNjkzOTA2YjNiZGQ5Ng'>Sky Sports Cricket</a></td><td>HTTP Error (403)</td></tr>
